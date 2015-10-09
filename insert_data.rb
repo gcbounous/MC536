@@ -6,7 +6,6 @@ require 'open-uri'
 companies = Set.new
 
 companies_ids = {}
-offers_ids = {}
 skills_ids = {}
 
 doc = Nokogiri::XML(File.open('so.rss'))
