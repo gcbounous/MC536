@@ -48,24 +48,31 @@ doc.css('item').each do |i|
   id += 1
 end
 
-# companies.each do |c|
-#   j = JSON.parse open("http://api.glassdoor.com/api/api.htm?t.p=42773&t.k=jd0Cb9TfM3M&format=json&v=1&action=employers&q=#{c}").read
-#   e = j['response']['employers'].first
-#   if e
-#     puts e['name']
-#     puts e['website']
-#     puts e['industry']
-#     puts e['numberOfRatings']
-#     puts e['squareLogo']
-#     puts e['overallRating']
-#     puts e['cultureAndValuesRating']
-#     puts e['seniorLeadershipRating']
-#     puts e['compensationAndBenefitsRating']
-#     puts e['workLifeBalanceRating']
-#     puts e['recommendToFriendRating']
-#     puts e['ceo']['pctApprove'] if e['ceo']
-#   else
-#     puts "Company #{c} not found."
-#   end
-#   puts
-# end
+companies_ids.keys.each do |c|
+  begin
+    j = JSON.parse open("http://api.glassdoor.com/api/api.htm?t.p=42773&t.k=jd0Cb9TfM3M&format=json&v=1&action=employers&q=#{c}").read
+    e = j['response']['employers'].first
+    if e
+      website = e['website']
+      industry = e['industry']
+      number_ratings = e['numberOfRatings']
+      logo = e['squareLogo']
+      overall = e['overallRating']
+      culture = e['cultureAndValuesRating']
+      leadership = e['seniorLeadershipRating']
+      compensation = e['compensationAndBenefitsRating']
+      work_life = e['workLifeBalanceRating']
+      friends = e['recommendToFriendRating']
+      puts "UPDATE COMPANY SET Website = '#{website}', Industry = '#{industry}', NumberOfRatings = #{number_ratings}, Logo = '#{logo}', OverallRating = #{overall}, CultureAndValuesRating = #{culture}, SeniorLeadershipRating = #{leadership}, CompensationAndBenefitsRating = #{compensation}, WorkLifeBalanceRating = #{work_life}, RecomendToFriend = #{friends} WHERE CName = '#{c}';"
+      if e['ceo'] && e['ceo']['numberOfRatings'] > 0
+        pct = e['ceo']['pctApprove']
+        puts "UPDATE COMPANY SET CEOAproval = '#{pct}' WHERE CName = '#{c}';"
+      end
+    else
+      STDERR.puts "Company #{c} not found"
+    end
+  rescue
+    STDERR.puts "ERROR -- #{c}"
+  end
+  puts
+end
