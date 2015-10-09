@@ -1,0 +1,63 @@
+// Gerar o CSV a partir das tabelas ja criadas no modelo relacional
+
+COPY (SELECT * FROM COMPANY) TO '/COMPANY.csv' WITH CSV header;
+
+COPY (SELECT * FROM OFFER) TO '/OFFER.csv' WITH CSV header;
+
+COPY (SELECT * FROM SKILL)  TO '/SKILL.csv' WITH CSV header;
+
+COPY (SELECT * FROM DEMANDS) TO '/DEMANDS.csv' WITH CSV header;
+
+COPY (SELECT * FROM PROPOSES) TO '/PROPOSES.csv' WITH CSV header;
+
+
+// Gerar o BD de Grafos a partir dos arquivos CSV
+
+// Create COMPANY
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "file:COMPANY.csv" AS row
+CREATE (c:COMPANY {Id: row.Id, CName: row.CName, Website: row.Website, Industry: row.Industry,
+NumberOfRatings: row.NumberOfRatings, Logo: row.Logo, OverallRating: row.OverallRating,
+CultureAndValues: row.CultureAndValues, SeniorLeadership: row.SeniorLeadership, 
+CompensationAndBenefits: row.CompensationAndBenefits, CareerOpportunities: row.CareerOpportunities, 
+WorkLifeBalance: row.WorkLifeBalance, RecomendToFriend: row.RecomendToFriend, 
+CEOAproval: row.CEOAproval})
+
+CREATE CONSTRAINT ON (c:COMPANY) ASSERT c.Id IS UNIQUE
+
+
+// Create SKILL
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "file:SKILL.csv" AS row
+CREATE (s:SKILL {Id: row.Id, SName: row.SName})
+
+CREATE CONSTRAINT ON (s:SKILL) ASSERRT s.Id IS UNIQUE
+
+
+// Create OFFER
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "file:OFFER.csv" AS row
+CREATE (o:OFFER {Id: row.Id, CompanyId: row.CompanyId, Title: row.Title, Description: row.Description, 
+Location: row.Location, Url: row.Url, PubDate: row.PubDate, Updated: row.Updates})
+
+CREATE CONSTRAINT ON (o:OFFER) ASSERRT o.Id IS UNIQUE
+
+
+// Create DEMANDS Relationship
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "file:DEMANDS.csv" AS row
+MATCH (o:OFFER {Id: row.OfferId})
+MATCH (s:SKILL {SName: row.SkillId})
+CREATE (o)<-[:Demands]->(s)
+
+
+// Create PROPOSES Relationship
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "file:PROPOSES.csv" AS row
+MATCH (o:OFFER {Id: row.OfferId})
+MATCH (c:COMPANY {Id: row.CompanyId})
+CREATE (o)<-[:Proposes]->(c)
