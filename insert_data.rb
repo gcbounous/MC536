@@ -60,9 +60,10 @@ companies_ids.keys.each do |c|
       culture = e['cultureAndValuesRating']
       leadership = e['seniorLeadershipRating']
       compensation = e['compensationAndBenefitsRating']
+      career = e['careerOpportunitiesRating']
       work_life = e['workLifeBalanceRating']
       friends = e['recommendToFriendRating']
-      puts "UPDATE COMPANY SET Website = '#{website}', Industry = '#{industry}', NumberOfRatings = #{number_ratings}, Logo = '#{logo}', OverallRating = #{overall}, CultureAndValuesRating = #{culture}, SeniorLeadershipRating = #{leadership}, CompensationAndBenefitsRating = #{compensation}, WorkLifeBalanceRating = #{work_life}, RecomendToFriend = #{friends} WHERE CName = '#{c}';"
+      puts "UPDATE COMPANY SET Website = '#{website}', Industry = '#{industry}', NumberOfRatings = #{number_ratings}, Logo = '#{logo}', OverallRating = #{overall}, CultureAndValuesRating = #{culture}, SeniorLeadershipRating = #{leadership}, CompensationAndBenefitsRating = #{compensation}, CareerOpportunitiesRating = #{career}, WorkLifeBalanceRating = #{work_life}, RecomendToFriend = #{friends} WHERE CName = '#{c}';"
       if e['ceo'] && e['ceo']['numberOfRatings'] > 0
         pct = e['ceo']['pctApprove']
         puts "UPDATE COMPANY SET CEOAproval = '#{pct}' WHERE CName = '#{c}';"

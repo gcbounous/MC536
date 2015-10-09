@@ -8474,305 +8474,305 @@ INSERT INTO DEMANDS(OfferId, SkillId) VALUES (2289, 61);
 INSERT INTO DEMANDS(OfferId, SkillId) VALUES (2289, 13);
 INSERT INTO DEMANDS(OfferId, SkillId) VALUES (2289, 2029);
 
-UPDATE COMPANY SET Website = 'www.telesign.com', Industry = 'Telecommunications Services', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/418072/telesign-squarelogo-1436562248389.png', OverallRating = 4.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'TeleSign';
+UPDATE COMPANY SET Website = 'www.telesign.com', Industry = 'Telecommunications Services', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/418072/telesign-squarelogo-1436562248389.png', OverallRating = 4.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'TeleSign';
 UPDATE COMPANY SET CEOAproval = '88' WHERE CName = 'TeleSign';
 
-UPDATE COMPANY SET Website = 'www.pledgeling.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/747345/pledgeling-squarelogo-1429712873925.png', OverallRating = 2.7, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 2.5, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.3 WHERE CName = 'Pledgeling';
+UPDATE COMPANY SET Website = 'www.pledgeling.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/747345/pledgeling-squarelogo-1429712873925.png', OverallRating = 2.7, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 2.5, CareerOpportunitiesRating = 2.1, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.3 WHERE CName = 'Pledgeling';
 UPDATE COMPANY SET CEOAproval = '26' WHERE CName = 'Pledgeling';
 
-UPDATE COMPANY SET Website = 'www.animallogic.com', Industry = 'Motion Picture Production & Distribution', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/18490/animal-logic-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Animal Logic';
+UPDATE COMPANY SET Website = 'www.animallogic.com', Industry = 'Motion Picture Production & Distribution', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/18490/animal-logic-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Animal Logic';
 UPDATE COMPANY SET CEOAproval = '63' WHERE CName = 'Animal Logic';
 
-UPDATE COMPANY SET Website = 'www.amresprop.com', Industry = 'Real Estate', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/942079/american-residential-properties-squarelogo-1427156347565.png', OverallRating = 1.7, CultureAndValuesRating = 1.5, SeniorLeadershipRating = 1.5, CompensationAndBenefitsRating = 2.1, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.0 WHERE CName = 'American Residential Properties';
+UPDATE COMPANY SET Website = 'www.amresprop.com', Industry = 'Real Estate', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/942079/american-residential-properties-squarelogo-1427156347565.png', OverallRating = 1.7, CultureAndValuesRating = 1.5, SeniorLeadershipRating = 1.5, CompensationAndBenefitsRating = 2.1, CareerOpportunitiesRating = 1.5, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.0 WHERE CName = 'American Residential Properties';
 
-UPDATE COMPANY SET Website = 'www.geckoboard.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Geckoboard';
+UPDATE COMPANY SET Website = 'www.geckoboard.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Geckoboard';
 
-UPDATE COMPANY SET Website = 'www.nikeinc.com', Industry = 'Consumer Products Manufacturing', NumberOfRatings = 1474, Logo = 'https://media.glassdoor.com/sqll/1699/nike-squarelogo.png', OverallRating = 4, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.8 WHERE CName = 'Grove';
+UPDATE COMPANY SET Website = 'www.nikeinc.com', Industry = 'Consumer Products Manufacturing', NumberOfRatings = 1474, Logo = 'https://media.glassdoor.com/sqll/1699/nike-squarelogo.png', OverallRating = 4, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.8 WHERE CName = 'Grove';
 UPDATE COMPANY SET CEOAproval = '96' WHERE CName = 'Grove';
 
 
-UPDATE COMPANY SET Website = 'www.netsuite.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 290, Logo = 'https://media.glassdoor.com/sqll/11153/netsuite-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.8 WHERE CName = 'NetSuite';
+UPDATE COMPANY SET Website = 'www.netsuite.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 290, Logo = 'https://media.glassdoor.com/sqll/11153/netsuite-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.8 WHERE CName = 'NetSuite';
 UPDATE COMPANY SET CEOAproval = '91' WHERE CName = 'NetSuite';
 
-UPDATE COMPANY SET Website = 'www.arria.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Arria NLG';
+UPDATE COMPANY SET Website = 'www.arria.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Arria NLG';
 
 
-UPDATE COMPANY SET Website = 'www.atlantiscasino.com', Industry = 'Gambling', NumberOfRatings = 21, Logo = 'https://media.glassdoor.com/sqll/348105/atlantis-casino-resort-spa-squarelogo-1423833011328.png', OverallRating = 2.4, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 2.0, WorkLifeBalanceRating = 2.2, RecomendToFriend = 0.4 WHERE CName = 'Atlantis Casino Resort Spa';
+UPDATE COMPANY SET Website = 'www.atlantiscasino.com', Industry = 'Gambling', NumberOfRatings = 21, Logo = 'https://media.glassdoor.com/sqll/348105/atlantis-casino-resort-spa-squarelogo-1423833011328.png', OverallRating = 2.4, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 2.0, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 2.2, RecomendToFriend = 0.4 WHERE CName = 'Atlantis Casino Resort Spa';
 UPDATE COMPANY SET CEOAproval = '39' WHERE CName = 'Atlantis Casino Resort Spa';
 
-UPDATE COMPANY SET Website = 'www.fastly.com', Industry = 'IT Services', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/814479/fastly-squarelogo-1443016109835.png', OverallRating = 2.5, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.7, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.3 WHERE CName = 'Fastly';
+UPDATE COMPANY SET Website = 'www.fastly.com', Industry = 'IT Services', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/814479/fastly-squarelogo-1443016109835.png', OverallRating = 2.5, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.7, CareerOpportunitiesRating = 2.5, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.3 WHERE CName = 'Fastly';
 
 
-UPDATE COMPANY SET Website = 'www.onbase.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 150, Logo = 'https://media.glassdoor.com/sqll/9432/hyland-squarelogo-1417800568458.png', OverallRating = 3.8, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.8 WHERE CName = 'Hyland Software';
+UPDATE COMPANY SET Website = 'www.onbase.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 150, Logo = 'https://media.glassdoor.com/sqll/9432/hyland-squarelogo-1417800568458.png', OverallRating = 3.8, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.8 WHERE CName = 'Hyland Software';
 UPDATE COMPANY SET CEOAproval = '91' WHERE CName = 'Hyland Software';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.usnews.com', Industry = 'News Outlet', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/5475/u-s-news-and-world-report-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.5 WHERE CName = 'U.S. News &amp; World Report';
+UPDATE COMPANY SET Website = 'www.usnews.com', Industry = 'News Outlet', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/5475/u-s-news-and-world-report-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.5 WHERE CName = 'U.S. News &amp; World Report';
 UPDATE COMPANY SET CEOAproval = '77' WHERE CName = 'U.S. News &amp; World Report';
 
-UPDATE COMPANY SET Website = 'www.simplyhired.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 53, Logo = 'https://media.glassdoor.com/sqll/263549/simply-hired-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'Simply Hired';
+UPDATE COMPANY SET Website = 'www.simplyhired.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 53, Logo = 'https://media.glassdoor.com/sqll/263549/simply-hired-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'Simply Hired';
 UPDATE COMPANY SET CEOAproval = '69' WHERE CName = 'Simply Hired';
 
-UPDATE COMPANY SET Website = 'www.altamiracorp.com', Industry = 'Accounting', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/695901/altamira-technologies-squarelogo-1425641819799.png', OverallRating = 3.9, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.6 WHERE CName = 'Altamira';
+UPDATE COMPANY SET Website = 'www.altamiracorp.com', Industry = 'Accounting', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/695901/altamira-technologies-squarelogo-1425641819799.png', OverallRating = 3.9, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.6 WHERE CName = 'Altamira';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Altamira';
 
-UPDATE COMPANY SET Website = 'www.altamiracorp.com', Industry = 'Accounting', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/695901/altamira-technologies-squarelogo-1425641819799.png', OverallRating = 3.9, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.6 WHERE CName = 'Altamira Technologies';
+UPDATE COMPANY SET Website = 'www.altamiracorp.com', Industry = 'Accounting', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/695901/altamira-technologies-squarelogo-1425641819799.png', OverallRating = 3.9, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.6 WHERE CName = 'Altamira Technologies';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Altamira Technologies';
 
-UPDATE COMPANY SET Website = 'www.rapidadvance.com', Industry = 'Advertising & Marketing', NumberOfRatings = 4, Logo = '', OverallRating = 4.5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.2, RecomendToFriend = 1.0 WHERE CName = 'RapidAdvance';
+UPDATE COMPANY SET Website = 'www.rapidadvance.com', Industry = 'Advertising & Marketing', NumberOfRatings = 4, Logo = '', OverallRating = 4.5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 3.2, RecomendToFriend = 1.0 WHERE CName = 'RapidAdvance';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'RapidAdvance';
 
-UPDATE COMPANY SET Website = 'www.clockworkhomeservices.com', Industry = 'Building & Personnel Services', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/134462/clockwork-home-services-squarelogo-1426055156091.png', OverallRating = 3.5, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 2.2, RecomendToFriend = 0.2 WHERE CName = 'Clockwork';
+UPDATE COMPANY SET Website = 'www.clockworkhomeservices.com', Industry = 'Building & Personnel Services', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/134462/clockwork-home-services-squarelogo-1426055156091.png', OverallRating = 3.5, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 2.5, WorkLifeBalanceRating = 2.2, RecomendToFriend = 0.2 WHERE CName = 'Clockwork';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'Clockwork';
 
-UPDATE COMPANY SET Website = 'www.globalpersonals.co.uk', Industry = 'Health, Beauty, & Fitness', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/447658/global-personals-squarelogo-1395245904066.png', OverallRating = 1.5, CultureAndValuesRating = 1.3, SeniorLeadershipRating = 1.7, CompensationAndBenefitsRating = 2.7, WorkLifeBalanceRating = 1.4, RecomendToFriend = 0.3 WHERE CName = 'Global Personals, LLC';
+UPDATE COMPANY SET Website = 'www.globalpersonals.co.uk', Industry = 'Health, Beauty, & Fitness', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/447658/global-personals-squarelogo-1395245904066.png', OverallRating = 1.5, CultureAndValuesRating = 1.3, SeniorLeadershipRating = 1.7, CompensationAndBenefitsRating = 2.7, CareerOpportunitiesRating = 1.6, WorkLifeBalanceRating = 1.4, RecomendToFriend = 0.3 WHERE CName = 'Global Personals, LLC';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'Global Personals, LLC';
 
-UPDATE COMPANY SET Website = 'www.amazon.com', Industry = 'General Merchandise & Superstores', NumberOfRatings = 6432, Logo = 'https://media.glassdoor.com/sqll/6036/amazon-com-squarelogo-1432805660196.png', OverallRating = 3.4, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.6 WHERE CName = 'Amazon';
+UPDATE COMPANY SET Website = 'www.amazon.com', Industry = 'General Merchandise & Superstores', NumberOfRatings = 6432, Logo = 'https://media.glassdoor.com/sqll/6036/amazon-com-squarelogo-1432805660196.png', OverallRating = 3.4, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.6 WHERE CName = 'Amazon';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'Amazon';
 
-UPDATE COMPANY SET Website = 'www.ultraedit.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'IDM Computer Solutions, Inc.';
+UPDATE COMPANY SET Website = 'www.ultraedit.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'IDM Computer Solutions, Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.tillster.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 34, Logo = 'https://media.glassdoor.com/sqll/135426/emn8-squarelogo.png', OverallRating = 2.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.9, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'Tillster, Inc.';
+UPDATE COMPANY SET Website = 'www.tillster.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 34, Logo = 'https://media.glassdoor.com/sqll/135426/emn8-squarelogo.png', OverallRating = 2.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.9, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.5, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'Tillster, Inc.';
 UPDATE COMPANY SET CEOAproval = '14' WHERE CName = 'Tillster, Inc.';
 
-UPDATE COMPANY SET Website = 'www.learningobjects.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/639142/learning-objects-squarelogo-1390922401956.png', OverallRating = 4.2, CultureAndValuesRating = 4.9, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Learning Objects';
+UPDATE COMPANY SET Website = 'www.learningobjects.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/639142/learning-objects-squarelogo-1390922401956.png', OverallRating = 4.2, CultureAndValuesRating = 4.9, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Learning Objects';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Learning Objects';
 
 
 
-UPDATE COMPANY SET Website = 'www.bittorrent.com', Industry = 'Internet', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/42413/bittorrent-squarelogo-1400025575005.png', OverallRating = 2.9, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.2 WHERE CName = 'BitTorrent, Inc.';
+UPDATE COMPANY SET Website = 'www.bittorrent.com', Industry = 'Internet', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/42413/bittorrent-squarelogo-1400025575005.png', OverallRating = 2.9, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.2 WHERE CName = 'BitTorrent, Inc.';
 UPDATE COMPANY SET CEOAproval = '25' WHERE CName = 'BitTorrent, Inc.';
 
-UPDATE COMPANY SET Website = 'www.healthx.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = '', OverallRating = 3.6, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.5 WHERE CName = 'Healthx, Inc.';
+UPDATE COMPANY SET Website = 'www.healthx.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = '', OverallRating = 3.6, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.5 WHERE CName = 'Healthx, Inc.';
 UPDATE COMPANY SET CEOAproval = '53' WHERE CName = 'Healthx, Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.axxess.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 37, Logo = 'https://media.glassdoor.com/sqll/838888/axxess-squarelogo-1410548517139.png', OverallRating = 4.8, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Axxess';
+UPDATE COMPANY SET Website = 'www.axxess.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 37, Logo = 'https://media.glassdoor.com/sqll/838888/axxess-squarelogo-1410548517139.png', OverallRating = 4.8, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Axxess';
 UPDATE COMPANY SET CEOAproval = '97' WHERE CName = 'Axxess';
 
-UPDATE COMPANY SET Website = 'www.sas.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 560, Logo = 'https://media.glassdoor.com/sqll/3807/sas-institute-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'SAS';
+UPDATE COMPANY SET Website = 'www.sas.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 560, Logo = 'https://media.glassdoor.com/sqll/3807/sas-institute-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'SAS';
 UPDATE COMPANY SET CEOAproval = '91' WHERE CName = 'SAS';
 
 
-UPDATE COMPANY SET Website = 'www.gorillalogic.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/484381/gorilla-logic-squarelogo-1423507207305.png', OverallRating = 4.7, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Gorilla Logic';
+UPDATE COMPANY SET Website = 'www.gorillalogic.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/484381/gorilla-logic-squarelogo-1423507207305.png', OverallRating = 4.7, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Gorilla Logic';
 
-UPDATE COMPANY SET Website = 'www.gorillalogic.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/484381/gorilla-logic-squarelogo-1423507207305.png', OverallRating = 4.7, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Gorilla Logic, Inc.';
+UPDATE COMPANY SET Website = 'www.gorillalogic.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/484381/gorilla-logic-squarelogo-1423507207305.png', OverallRating = 4.7, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Gorilla Logic, Inc.';
 
-UPDATE COMPANY SET Website = 'www.bitxbit.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Computer Bits, Inc.';
+UPDATE COMPANY SET Website = 'www.bitxbit.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Computer Bits, Inc.';
 
-UPDATE COMPANY SET Website = 'www.skyscanner.com', Industry = 'Travel Agencies', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/437400/skyscanner-squarelogo-1378740811843.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'Skyscanner';
+UPDATE COMPANY SET Website = 'www.skyscanner.com', Industry = 'Travel Agencies', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/437400/skyscanner-squarelogo-1378740811843.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'Skyscanner';
 UPDATE COMPANY SET CEOAproval = '98' WHERE CName = 'Skyscanner';
 
-UPDATE COMPANY SET Website = 'www.paylocity.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 183, Logo = 'https://media.glassdoor.com/sqll/29987/paylocity-squarelogo.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Paylocity';
+UPDATE COMPANY SET Website = 'www.paylocity.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 183, Logo = 'https://media.glassdoor.com/sqll/29987/paylocity-squarelogo.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.6, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Paylocity';
 UPDATE COMPANY SET CEOAproval = '99' WHERE CName = 'Paylocity';
 
 
-UPDATE COMPANY SET Website = 'www.market-bridge.com', Industry = 'Consulting', NumberOfRatings = 29, Logo = 'https://media.glassdoor.com/sqll/13588/marketbridge-squarelogo-1441307059871.png', OverallRating = 3.8, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'MarketBridge';
+UPDATE COMPANY SET Website = 'www.market-bridge.com', Industry = 'Consulting', NumberOfRatings = 29, Logo = 'https://media.glassdoor.com/sqll/13588/marketbridge-squarelogo-1441307059871.png', OverallRating = 3.8, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'MarketBridge';
 UPDATE COMPANY SET CEOAproval = '66' WHERE CName = 'MarketBridge';
 
-UPDATE COMPANY SET Website = 'www.razorfish.com', Industry = 'Accounting', NumberOfRatings = 469, Logo = 'https://media.glassdoor.com/sqll/32953/razorfish-squarelogo-1420222028147.png', OverallRating = 3.4, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Razorfish';
+UPDATE COMPANY SET Website = 'www.razorfish.com', Industry = 'Accounting', NumberOfRatings = 469, Logo = 'https://media.glassdoor.com/sqll/32953/razorfish-squarelogo-1420222028147.png', OverallRating = 3.4, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Razorfish';
 UPDATE COMPANY SET CEOAproval = '68' WHERE CName = 'Razorfish';
 
-UPDATE COMPANY SET Website = 'www.netapp.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 1642, Logo = 'https://media.glassdoor.com/sqll/5406/netapp-squarelogo-1432762938629.png', OverallRating = 3.5, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.7 WHERE CName = 'NetApp';
+UPDATE COMPANY SET Website = 'www.netapp.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 1642, Logo = 'https://media.glassdoor.com/sqll/5406/netapp-squarelogo-1432762938629.png', OverallRating = 3.5, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.7 WHERE CName = 'NetApp';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'NetApp';
 
-UPDATE COMPANY SET Website = 'www.weblinc.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/30424/weblinc-squarelogo-1394141044478.png', OverallRating = 3.6, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.6 WHERE CName = 'WebLinc';
+UPDATE COMPANY SET Website = 'www.weblinc.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/30424/weblinc-squarelogo-1394141044478.png', OverallRating = 3.6, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.6 WHERE CName = 'WebLinc';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'WebLinc';
 
-UPDATE COMPANY SET Website = 'www.ziba.com', Industry = 'Consulting', NumberOfRatings = 26, Logo = 'https://media.glassdoor.com/sqll/116565/ziba-design-squarelogo-1416588323171.png', OverallRating = 2.7, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.5 WHERE CName = 'Ziba Design, Inc.';
+UPDATE COMPANY SET Website = 'www.ziba.com', Industry = 'Consulting', NumberOfRatings = 26, Logo = 'https://media.glassdoor.com/sqll/116565/ziba-design-squarelogo-1416588323171.png', OverallRating = 2.7, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.5 WHERE CName = 'Ziba Design, Inc.';
 UPDATE COMPANY SET CEOAproval = '43' WHERE CName = 'Ziba Design, Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.uship.com', Industry = 'Shipping', NumberOfRatings = 37, Logo = 'https://media.glassdoor.com/sqll/200164/uship-com-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.7 WHERE CName = 'uShip';
+UPDATE COMPANY SET Website = 'www.uship.com', Industry = 'Shipping', NumberOfRatings = 37, Logo = 'https://media.glassdoor.com/sqll/200164/uship-com-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.7 WHERE CName = 'uShip';
 UPDATE COMPANY SET CEOAproval = '66' WHERE CName = 'uShip';
 
-UPDATE COMPANY SET Website = 'www.avi.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/416834/applied-visions-squarelogo-1426842567715.png', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Applied Visions, Inc.';
+UPDATE COMPANY SET Website = 'www.avi.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/416834/applied-visions-squarelogo-1426842567715.png', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Applied Visions, Inc.';
 UPDATE COMPANY SET CEOAproval = '75' WHERE CName = 'Applied Visions, Inc.';
 
-UPDATE COMPANY SET Website = 'www.fidelity.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 2648, Logo = 'https://media.glassdoor.com/sqll/2786/fidelity-investments-squarelogo.png', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Fidelity';
+UPDATE COMPANY SET Website = 'www.fidelity.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 2648, Logo = 'https://media.glassdoor.com/sqll/2786/fidelity-investments-squarelogo.png', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Fidelity';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'Fidelity';
 
-UPDATE COMPANY SET Website = 'www.americanexpress.com', Industry = 'Financial Transaction Processing', NumberOfRatings = 2923, Logo = 'https://media.glassdoor.com/sqll/35/american-express-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.8 WHERE CName = 'American Express';
+UPDATE COMPANY SET Website = 'www.americanexpress.com', Industry = 'Financial Transaction Processing', NumberOfRatings = 2923, Logo = 'https://media.glassdoor.com/sqll/35/american-express-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.8 WHERE CName = 'American Express';
 UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'American Express';
 
 
-UPDATE COMPANY SET Website = 'www.braintreepayments.com', Industry = 'Financial Transaction Processing', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/424728/braintree-squarelogo-1412096260436.png', OverallRating = 4.2, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'Braintree';
+UPDATE COMPANY SET Website = 'www.braintreepayments.com', Industry = 'Financial Transaction Processing', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/424728/braintree-squarelogo-1412096260436.png', OverallRating = 4.2, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'Braintree';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Braintree';
 
-UPDATE COMPANY SET Website = 'www.daybreakgames.com', Industry = 'Video Games', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/973097/daybreak-game-company-squarelogo-1438204048120.png', OverallRating = 2, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 0.0 WHERE CName = 'Daybreak Game Company, LLC';
+UPDATE COMPANY SET Website = 'www.daybreakgames.com', Industry = 'Video Games', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/973097/daybreak-game-company-squarelogo-1438204048120.png', OverallRating = 2, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 1.5, WorkLifeBalanceRating = 2.0, RecomendToFriend = 0.0 WHERE CName = 'Daybreak Game Company, LLC';
 
-UPDATE COMPANY SET Website = 'www.razerzone.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 34, Logo = 'https://media.glassdoor.com/sqll/431801/razer-squarelogo.png', OverallRating = 2.5, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.4 WHERE CName = 'Razer Inc.';
+UPDATE COMPANY SET Website = 'www.razerzone.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 34, Logo = 'https://media.glassdoor.com/sqll/431801/razer-squarelogo.png', OverallRating = 2.5, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.4 WHERE CName = 'Razer Inc.';
 UPDATE COMPANY SET CEOAproval = '44' WHERE CName = 'Razer Inc.';
 
-UPDATE COMPANY SET Website = 'www.autoalert.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'AutoAlert';
+UPDATE COMPANY SET Website = 'www.autoalert.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'AutoAlert';
 
-UPDATE COMPANY SET Website = 'www.hopitaldugier.fr', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/846751/hôpital-du-gier-squarelogo-1408997299362.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Grier Forensics';
+UPDATE COMPANY SET Website = 'www.hopitaldugier.fr', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/846751/hôpital-du-gier-squarelogo-1408997299362.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Grier Forensics';
 
-UPDATE COMPANY SET Website = 'www.gohealthinsurance.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 167, Logo = 'https://media.glassdoor.com/sqll/437531/gohealth-squarelogo-1376489148420.png', OverallRating = 2.7, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 2.2, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.4 WHERE CName = 'GoHealth';
+UPDATE COMPANY SET Website = 'www.gohealthinsurance.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 167, Logo = 'https://media.glassdoor.com/sqll/437531/gohealth-squarelogo-1376489148420.png', OverallRating = 2.7, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 2.2, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.4 WHERE CName = 'GoHealth';
 
-UPDATE COMPANY SET Website = 'www.jayway.com', Industry = 'Consulting', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Jayway';
+UPDATE COMPANY SET Website = 'www.jayway.com', Industry = 'Consulting', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Jayway';
 
-UPDATE COMPANY SET Website = 'www.oicr.on.ca', Industry = 'Research & Development', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/369840/oicr-squarelogo-1424260928219.png', OverallRating = 3.4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.9 WHERE CName = 'Ontario Institute for Cancer Research';
+UPDATE COMPANY SET Website = 'www.oicr.on.ca', Industry = 'Research & Development', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/369840/oicr-squarelogo-1424260928219.png', OverallRating = 3.4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.9 WHERE CName = 'Ontario Institute for Cancer Research';
 
-UPDATE COMPANY SET Website = 'www.creativelive.com', Industry = 'Colleges & Universities', NumberOfRatings = 27, Logo = 'https://media.glassdoor.com/sqll/663433/creativelive-squarelogo-1414622703042.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.5 WHERE CName = 'CreativeLive';
+UPDATE COMPANY SET Website = 'www.creativelive.com', Industry = 'Colleges & Universities', NumberOfRatings = 27, Logo = 'https://media.glassdoor.com/sqll/663433/creativelive-squarelogo-1414622703042.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.5 WHERE CName = 'CreativeLive';
 UPDATE COMPANY SET CEOAproval = '16' WHERE CName = 'CreativeLive';
 
-UPDATE COMPANY SET Website = 'www.innatesolutions.net', Industry = 'IT Services', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 1.0 WHERE CName = 'Innate, Inc.';
+UPDATE COMPANY SET Website = 'www.innatesolutions.net', Industry = 'IT Services', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 1.0 WHERE CName = 'Innate, Inc.';
 
-UPDATE COMPANY SET Website = 'www.scorm.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Rustici Software';
+UPDATE COMPANY SET Website = 'www.scorm.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Rustici Software';
 
-UPDATE COMPANY SET Website = 'www.appboy.com', Industry = 'Internet', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/772628/appboy-squarelogo-1429618278279.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.9 WHERE CName = 'Appboy';
+UPDATE COMPANY SET Website = 'www.appboy.com', Industry = 'Internet', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/772628/appboy-squarelogo-1429618278279.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.4, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.9 WHERE CName = 'Appboy';
 UPDATE COMPANY SET CEOAproval = '75' WHERE CName = 'Appboy';
 
 
-UPDATE COMPANY SET Website = 'www.okta.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 73, Logo = 'https://media.glassdoor.com/sqll/444756/okta-squarelogo-1439401924669.png', OverallRating = 4.1, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.9 WHERE CName = 'Okta';
+UPDATE COMPANY SET Website = 'www.okta.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 73, Logo = 'https://media.glassdoor.com/sqll/444756/okta-squarelogo-1439401924669.png', OverallRating = 4.1, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.9 WHERE CName = 'Okta';
 UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'Okta';
 
-UPDATE COMPANY SET Website = 'www.cornerstoneondemand.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 506, Logo = 'https://media.glassdoor.com/sqll/35131/cornerstone-ondemand-squarelogo-1444336302037.png', OverallRating = 4.4, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Cornerstone OnDemand';
+UPDATE COMPANY SET Website = 'www.cornerstoneondemand.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 506, Logo = 'https://media.glassdoor.com/sqll/35131/cornerstone-ondemand-squarelogo-1444336302037.png', OverallRating = 4.4, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Cornerstone OnDemand';
 UPDATE COMPANY SET CEOAproval = '96' WHERE CName = 'Cornerstone OnDemand';
 
-UPDATE COMPANY SET Website = 'www.travelzoo.com', Industry = 'Advertising & Marketing', NumberOfRatings = 94, Logo = 'https://media.glassdoor.com/sqll/14422/travelzoo-squarelogo-1409935604174.png', OverallRating = 3.9, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'Travelzoo';
+UPDATE COMPANY SET Website = 'www.travelzoo.com', Industry = 'Advertising & Marketing', NumberOfRatings = 94, Logo = 'https://media.glassdoor.com/sqll/14422/travelzoo-squarelogo-1409935604174.png', OverallRating = 3.9, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'Travelzoo';
 UPDATE COMPANY SET CEOAproval = '94' WHERE CName = 'Travelzoo';
 
 
-UPDATE COMPANY SET Website = 'www.ensigngroup.net', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 61, Logo = 'https://media.glassdoor.com/sqll/42610/ensign-group-squarelogo-1389353460326.png', OverallRating = 2.9, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.4 WHERE CName = 'Ensign Group, Inc';
+UPDATE COMPANY SET Website = 'www.ensigngroup.net', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 61, Logo = 'https://media.glassdoor.com/sqll/42610/ensign-group-squarelogo-1389353460326.png', OverallRating = 2.9, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.4 WHERE CName = 'Ensign Group, Inc';
 UPDATE COMPANY SET CEOAproval = '82' WHERE CName = 'Ensign Group, Inc';
 
-UPDATE COMPANY SET Website = 'www.thisistheplace.org', Industry = 'Sports & Recreation', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 1.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 0.0 WHERE CName = 'This Place Ltd';
+UPDATE COMPANY SET Website = 'www.thisistheplace.org', Industry = 'Sports & Recreation', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 1.0, CareerOpportunitiesRating = 1.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 0.0 WHERE CName = 'This Place Ltd';
 
-UPDATE COMPANY SET Website = 'www.myriadgroup.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 29, Logo = 'https://media.glassdoor.com/sqll/334719/myriad-group-squarelogo-1435210159735.png', OverallRating = 2.4, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.4 WHERE CName = 'Myriad Group';
+UPDATE COMPANY SET Website = 'www.myriadgroup.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 29, Logo = 'https://media.glassdoor.com/sqll/334719/myriad-group-squarelogo-1435210159735.png', OverallRating = 2.4, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.4 WHERE CName = 'Myriad Group';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Myriad Group';
 
-UPDATE COMPANY SET Website = 'www.agilitycis.com', Industry = 'Energy', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Agility CIS';
+UPDATE COMPANY SET Website = 'www.agilitycis.com', Industry = 'Energy', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Agility CIS';
 
-UPDATE COMPANY SET Website = 'www.getameta.com', Industry = 'IT Services', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/866917/meta-company-squarelogo-1409941280078.png', OverallRating = 3.2, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 1.4, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.4 WHERE CName = 'Meta';
+UPDATE COMPANY SET Website = 'www.getameta.com', Industry = 'IT Services', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/866917/meta-company-squarelogo-1409941280078.png', OverallRating = 3.2, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 1.4, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.4 WHERE CName = 'Meta';
 
-UPDATE COMPANY SET Website = 'www.tune.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/884156/tune-squarelogo-1425017759253.png', OverallRating = 4.6, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Tune';
+UPDATE COMPANY SET Website = 'www.tune.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/884156/tune-squarelogo-1425017759253.png', OverallRating = 4.6, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Tune';
 UPDATE COMPANY SET CEOAproval = '97' WHERE CName = 'Tune';
 
-UPDATE COMPANY SET Website = 'www.just-eat.com', Industry = 'Internet', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/490124/just-eat-squarelogo-1392945263680.png', OverallRating = 3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 2.5, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.4 WHERE CName = 'JUST EAT';
+UPDATE COMPANY SET Website = 'www.just-eat.com', Industry = 'Internet', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/490124/just-eat-squarelogo-1392945263680.png', OverallRating = 3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 2.5, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.4 WHERE CName = 'JUST EAT';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'JUST EAT';
 
-UPDATE COMPANY SET Website = 'www.venasolutions.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/823096/vena-solutions-squarelogo-1402593161249.png', OverallRating = 4.5, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.9 WHERE CName = 'Vena Solutions Inc.';
+UPDATE COMPANY SET Website = 'www.venasolutions.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/823096/vena-solutions-squarelogo-1402593161249.png', OverallRating = 4.5, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.4, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.9 WHERE CName = 'Vena Solutions Inc.';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'Vena Solutions Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.target.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 14091, Logo = 'https://media.glassdoor.com/sqll/194/target-squarelogo-1441400586391.png', OverallRating = 3.2, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.6 WHERE CName = 'Target';
+UPDATE COMPANY SET Website = 'www.target.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 14091, Logo = 'https://media.glassdoor.com/sqll/194/target-squarelogo-1441400586391.png', OverallRating = 3.2, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.6 WHERE CName = 'Target';
 UPDATE COMPANY SET CEOAproval = '70' WHERE CName = 'Target';
 
-UPDATE COMPANY SET Website = 'www.ali.org', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 1, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.0 WHERE CName = 'The American Law Institute';
+UPDATE COMPANY SET Website = 'www.ali.org', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 1, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 1.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.0 WHERE CName = 'The American Law Institute';
 
 
-UPDATE COMPANY SET Website = 'www.coraltechnologies.co.in', Industry = 'Transportation Equipment Manufacturing', NumberOfRatings = 2, Logo = '', OverallRating = 2.6, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.1, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.0 WHERE CName = 'Radiant Digital';
+UPDATE COMPANY SET Website = 'www.coraltechnologies.co.in', Industry = 'Transportation Equipment Manufacturing', NumberOfRatings = 2, Logo = '', OverallRating = 2.6, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.1, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.0 WHERE CName = 'Radiant Digital';
 
-UPDATE COMPANY SET Website = 'www.dawanda.com', Industry = 'Other Retail Stores', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/809458/dawanda-squarelogo-1436942974603.png', OverallRating = 3.8, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'DaWanda GmbH';
+UPDATE COMPANY SET Website = 'www.dawanda.com', Industry = 'Other Retail Stores', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/809458/dawanda-squarelogo-1436942974603.png', OverallRating = 3.8, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'DaWanda GmbH';
 
 
-UPDATE COMPANY SET Website = 'www.shareroot.co', Industry = 'Publishing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Shareroot';
+UPDATE COMPANY SET Website = 'www.shareroot.co', Industry = 'Publishing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Shareroot';
 
-UPDATE COMPANY SET Website = 'www.lumeris.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 60, Logo = 'https://media.glassdoor.com/sqll/713012/lumeris-squarelogo-1392399242005.png', OverallRating = 2.1, CultureAndValuesRating = 2.2, SeniorLeadershipRating = 2.2, CompensationAndBenefitsRating = 2.7, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.2 WHERE CName = 'Lumeris';
+UPDATE COMPANY SET Website = 'www.lumeris.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 60, Logo = 'https://media.glassdoor.com/sqll/713012/lumeris-squarelogo-1392399242005.png', OverallRating = 2.1, CultureAndValuesRating = 2.2, SeniorLeadershipRating = 2.2, CompensationAndBenefitsRating = 2.7, CareerOpportunitiesRating = 2.2, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.2 WHERE CName = 'Lumeris';
 UPDATE COMPANY SET CEOAproval = '31' WHERE CName = 'Lumeris';
 
-UPDATE COMPANY SET Website = 'www.morgancorp.com', Industry = 'Trucking', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/333778/morgan-squarelogo.png', OverallRating = 2.3, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.7, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.3 WHERE CName = 'Morgan &amp; Morgan';
+UPDATE COMPANY SET Website = 'www.morgancorp.com', Industry = 'Trucking', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/333778/morgan-squarelogo.png', OverallRating = 2.3, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.7, CareerOpportunitiesRating = 2.2, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.3 WHERE CName = 'Morgan &amp; Morgan';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'Morgan &amp; Morgan';
 
-UPDATE COMPANY SET Website = 'www.dataminr.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/749857/dataminr-squarelogo-1404919278604.png', OverallRating = 4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'Dataminr';
+UPDATE COMPANY SET Website = 'www.dataminr.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/749857/dataminr-squarelogo-1404919278604.png', OverallRating = 4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'Dataminr';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Dataminr';
 
 
-UPDATE COMPANY SET Website = 'www.smartpakequine.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 38, Logo = 'https://media.glassdoor.com/sqll/605509/smartpak-equine-squarelogo-1441876695289.png', OverallRating = 3, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.3 WHERE CName = 'SmartPak';
+UPDATE COMPANY SET Website = 'www.smartpakequine.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 38, Logo = 'https://media.glassdoor.com/sqll/605509/smartpak-equine-squarelogo-1441876695289.png', OverallRating = 3, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.3 WHERE CName = 'SmartPak';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'SmartPak';
 
-UPDATE COMPANY SET Website = 'www.optiver.com', Industry = 'Stock Exchanges', NumberOfRatings = 69, Logo = 'https://media.glassdoor.com/sqll/243355/optiver-squarelogo.png', OverallRating = 4.5, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'Optiver';
+UPDATE COMPANY SET Website = 'www.optiver.com', Industry = 'Stock Exchanges', NumberOfRatings = 69, Logo = 'https://media.glassdoor.com/sqll/243355/optiver-squarelogo.png', OverallRating = 4.5, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'Optiver';
 UPDATE COMPANY SET CEOAproval = '96' WHERE CName = 'Optiver';
 
 
-UPDATE COMPANY SET Website = 'www.draftkings.com', Industry = 'Internet', NumberOfRatings = 34, Logo = 'https://media.glassdoor.com/sqll/902154/draftkings-squarelogo-1441133873786.png', OverallRating = 4.9, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.7, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.2, RecomendToFriend = 1.0 WHERE CName = 'DraftKings';
+UPDATE COMPANY SET Website = 'www.draftkings.com', Industry = 'Internet', NumberOfRatings = 34, Logo = 'https://media.glassdoor.com/sqll/902154/draftkings-squarelogo-1441133873786.png', OverallRating = 4.9, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.7, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.2, RecomendToFriend = 1.0 WHERE CName = 'DraftKings';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'DraftKings';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.web-arts.com', Industry = 'Consulting', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/828301/web-arts-ag-squarelogo-1436943913371.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'ART+COM AG';
+UPDATE COMPANY SET Website = 'www.web-arts.com', Industry = 'Consulting', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/828301/web-arts-ag-squarelogo-1436943913371.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'ART+COM AG';
 
 
-UPDATE COMPANY SET Website = 'www.textkernel.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/713998/textkernel-squarelogo-1426659687393.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.5, RecomendToFriend = 1.0 WHERE CName = 'Textkernel';
+UPDATE COMPANY SET Website = 'www.textkernel.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/713998/textkernel-squarelogo-1426659687393.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 4.5, RecomendToFriend = 1.0 WHERE CName = 'Textkernel';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Textkernel';
 
 
-UPDATE COMPANY SET Website = 'www.stackoverflow.com', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Stack Overflow';
+UPDATE COMPANY SET Website = 'www.stackoverflow.com', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Stack Overflow';
 
 
-UPDATE COMPANY SET Website = 'www.uberprints.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/778889/uberprints-squarelogo-1431683675913.png', OverallRating = 1.9, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.1, CompensationAndBenefitsRating = 2.0, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.2 WHERE CName = 'UberPrints';
+UPDATE COMPANY SET Website = 'www.uberprints.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/778889/uberprints-squarelogo-1431683675913.png', OverallRating = 1.9, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.1, CompensationAndBenefitsRating = 2.0, CareerOpportunitiesRating = 1.4, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.2 WHERE CName = 'UberPrints';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'UberPrints';
 
-UPDATE COMPANY SET Website = 'www.microsoft.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 11422, Logo = 'https://media.glassdoor.com/sqll/1651/microsoft-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Microsoft';
+UPDATE COMPANY SET Website = 'www.microsoft.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 11422, Logo = 'https://media.glassdoor.com/sqll/1651/microsoft-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Microsoft';
 UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'Microsoft';
 
-UPDATE COMPANY SET Website = 'www.bankofcanada.ca', Industry = 'Federal Agencies', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/42575/bank-of-canada-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.5 WHERE CName = 'Bank of Canada';
+UPDATE COMPANY SET Website = 'www.bankofcanada.ca', Industry = 'Federal Agencies', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/42575/bank-of-canada-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.5 WHERE CName = 'Bank of Canada';
 UPDATE COMPANY SET CEOAproval = '62' WHERE CName = 'Bank of Canada';
 
 
-UPDATE COMPANY SET Website = 'www.brunnerworks.com', Industry = 'Advertising & Marketing', NumberOfRatings = 36, Logo = 'https://media.glassdoor.com/sqll/30134/blattner-brunner-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Brunner';
+UPDATE COMPANY SET Website = 'www.brunnerworks.com', Industry = 'Advertising & Marketing', NumberOfRatings = 36, Logo = 'https://media.glassdoor.com/sqll/30134/blattner-brunner-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Brunner';
 UPDATE COMPANY SET CEOAproval = '99' WHERE CName = 'Brunner';
 
 
-UPDATE COMPANY SET Website = 'www.it-services.hu', Industry = 'IT Services', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/564015/it-services-hungary-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = 'IT Services Hungary';
+UPDATE COMPANY SET Website = 'www.it-services.hu', Industry = 'IT Services', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/564015/it-services-hungary-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = 'IT Services Hungary';
 UPDATE COMPANY SET CEOAproval = '48' WHERE CName = 'IT Services Hungary';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.adviqo.com', Industry = 'Consulting', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/947573/adviqo-squarelogo-1422477401447.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'adviqo AG';
+UPDATE COMPANY SET Website = 'www.adviqo.com', Industry = 'Consulting', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/947573/adviqo-squarelogo-1422477401447.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'adviqo AG';
 
 
-UPDATE COMPANY SET Website = 'www.unibet.com', Industry = 'Internet', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/368741/unibet-squarelogo-1421666973647.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.7, RecomendToFriend = 0.9 WHERE CName = 'Unibet';
+UPDATE COMPANY SET Website = 'www.unibet.com', Industry = 'Internet', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/368741/unibet-squarelogo-1421666973647.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.7, RecomendToFriend = 0.9 WHERE CName = 'Unibet';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Unibet';
 
 
-UPDATE COMPANY SET Website = 'www.smuhsd.k12.ca.us', Industry = 'Preschool & Child Care', NumberOfRatings = 4, Logo = '', OverallRating = 2.5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Workable';
+UPDATE COMPANY SET Website = 'www.smuhsd.k12.ca.us', Industry = 'Preschool & Child Care', NumberOfRatings = 4, Logo = '', OverallRating = 2.5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Workable';
 
 
-UPDATE COMPANY SET Website = 'www.deliveryhero.com', Industry = 'Internet', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/504556/delivery-hero-squarelogo-1429188980303.png', OverallRating = 3.6, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Delivery Hero';
+UPDATE COMPANY SET Website = 'www.deliveryhero.com', Industry = 'Internet', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/504556/delivery-hero-squarelogo-1429188980303.png', OverallRating = 3.6, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Delivery Hero';
 
-UPDATE COMPANY SET Website = 'www.wsmintl.com', Industry = 'IT Services', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/576859/wsm-international-squarelogo-1434566352802.png', OverallRating = 3.9, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'WSM International';
+UPDATE COMPANY SET Website = 'www.wsmintl.com', Industry = 'IT Services', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/576859/wsm-international-squarelogo-1434566352802.png', OverallRating = 3.9, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'WSM International';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'WSM International';
 
 
-UPDATE COMPANY SET Website = 'www.eset.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 42, Logo = 'https://media.glassdoor.com/sqll/152816/eset-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.8 WHERE CName = 'ESET';
+UPDATE COMPANY SET Website = 'www.eset.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 42, Logo = 'https://media.glassdoor.com/sqll/152816/eset-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.8 WHERE CName = 'ESET';
 
-UPDATE COMPANY SET Website = 'www.anritsu.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 53, Logo = 'https://media.glassdoor.com/sqll/12164/anritsu-squarelogo.png', OverallRating = 2.3, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.3 WHERE CName = 'Anritsu';
+UPDATE COMPANY SET Website = 'www.anritsu.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 53, Logo = 'https://media.glassdoor.com/sqll/12164/anritsu-squarelogo.png', OverallRating = 2.3, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.3, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.2 WHERE CName = 'Anritsu';
 UPDATE COMPANY SET CEOAproval = '24' WHERE CName = 'Anritsu';
 
 
 
-UPDATE COMPANY SET Website = 'www.tcpl.in', Industry = 'Commercial Printing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'tcpl';
+UPDATE COMPANY SET Website = 'www.tcpl.in', Industry = 'Commercial Printing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'tcpl';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.moonpig.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Moonpig.com';
+UPDATE COMPANY SET Website = 'www.moonpig.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Moonpig.com';
 
 
-UPDATE COMPANY SET Website = 'www.axiossystems.com/six/en/home.php', Industry = 'IT Services', NumberOfRatings = 29, Logo = 'https://media.glassdoor.com/sqll/296339/axios-systems-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.4 WHERE CName = 'Axios Systems';
+UPDATE COMPANY SET Website = 'www.axiossystems.com/six/en/home.php', Industry = 'IT Services', NumberOfRatings = 29, Logo = 'https://media.glassdoor.com/sqll/296339/axios-systems-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.3, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.4 WHERE CName = 'Axios Systems';
 UPDATE COMPANY SET CEOAproval = '39' WHERE CName = 'Axios Systems';
 
-UPDATE COMPANY SET Website = 'www.trivago.com', Industry = 'Internet', NumberOfRatings = 50, Logo = 'https://media.glassdoor.com/sqll/673041/trivago-squarelogo-1419358734304.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'trivago';
+UPDATE COMPANY SET Website = 'www.trivago.com', Industry = 'Internet', NumberOfRatings = 50, Logo = 'https://media.glassdoor.com/sqll/673041/trivago-squarelogo-1419358734304.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'trivago';
 UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'trivago';
 
 
-UPDATE COMPANY SET Website = 'www.sisense.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 9, Logo = '', OverallRating = 4.6, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Sisense';
+UPDATE COMPANY SET Website = 'www.sisense.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 9, Logo = '', OverallRating = 4.6, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.4, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Sisense';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Sisense';
 
 
-UPDATE COMPANY SET Website = 'www.flinceresearch.com', Industry = 'Research & Development', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 1.0 WHERE CName = 'flinc';
+UPDATE COMPANY SET Website = 'www.flinceresearch.com', Industry = 'Research & Development', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 1.0 WHERE CName = 'flinc';
 
 
-UPDATE COMPANY SET Website = 'www.westwing.de', Industry = 'Home Furniture & Housewares Stores', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/801546/westwing-home-and-living-squarelogo-1429685274893.png', OverallRating = 3.8, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Westwing Home &amp; Living';
+UPDATE COMPANY SET Website = 'www.westwing.de', Industry = 'Home Furniture & Housewares Stores', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/801546/westwing-home-and-living-squarelogo-1429685274893.png', OverallRating = 3.8, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Westwing Home &amp; Living';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Westwing Home &amp; Living';
 
 
@@ -8781,415 +8781,415 @@ UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Westwing Home &amp; Living'
 
 
 
-UPDATE COMPANY SET Website = 'www.babajob.com', Industry = 'Staffing & Outsourcing', NumberOfRatings = 2, Logo = '', OverallRating = 3, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.0, WorkLifeBalanceRating = 2.6, RecomendToFriend = 1.0 WHERE CName = 'Babajob Services Pvt Ltd';
+UPDATE COMPANY SET Website = 'www.babajob.com', Industry = 'Staffing & Outsourcing', NumberOfRatings = 2, Logo = '', OverallRating = 3, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.0, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 2.6, RecomendToFriend = 1.0 WHERE CName = 'Babajob Services Pvt Ltd';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Babajob Services Pvt Ltd';
 
-UPDATE COMPANY SET Website = 'www.uxceclipse.com', Industry = 'IT Services', NumberOfRatings = 21, Logo = 'https://media.glassdoor.com/sqll/697900/uxc-eclipse-squarelogo-1410333880153.png', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.6 WHERE CName = 'UXC Eclipse';
+UPDATE COMPANY SET Website = 'www.uxceclipse.com', Industry = 'IT Services', NumberOfRatings = 21, Logo = 'https://media.glassdoor.com/sqll/697900/uxc-eclipse-squarelogo-1410333880153.png', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.6 WHERE CName = 'UXC Eclipse';
 
-UPDATE COMPANY SET Website = 'www.rallyhealth.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/881152/rally-health-squarelogo-1427743116170.png', OverallRating = 4.8, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Rally Health, Inc.';
+UPDATE COMPANY SET Website = 'www.rallyhealth.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/881152/rally-health-squarelogo-1427743116170.png', OverallRating = 4.8, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Rally Health, Inc.';
 
-UPDATE COMPANY SET Website = 'www.milespartnership.com', Industry = 'Advertising & Marketing', NumberOfRatings = 18, Logo = 'https://media.glassdoor.com/sqll/218939/miles-media-squarelogo.png', OverallRating = 2.4, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.3 WHERE CName = 'Miles';
+UPDATE COMPANY SET Website = 'www.milespartnership.com', Industry = 'Advertising & Marketing', NumberOfRatings = 18, Logo = 'https://media.glassdoor.com/sqll/218939/miles-media-squarelogo.png', OverallRating = 2.4, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.3 WHERE CName = 'Miles';
 UPDATE COMPANY SET CEOAproval = '71' WHERE CName = 'Miles';
 
-UPDATE COMPANY SET Website = 'www.redmane.com', Industry = 'IT Services', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/290457/redmane-technology-squarelogo-1429189559646.png', OverallRating = 3, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.5 WHERE CName = 'Redman Technologies Inc';
+UPDATE COMPANY SET Website = 'www.redmane.com', Industry = 'IT Services', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/290457/redmane-technology-squarelogo-1429189559646.png', OverallRating = 3, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.5 WHERE CName = 'Redman Technologies Inc';
 UPDATE COMPANY SET CEOAproval = '57' WHERE CName = 'Redman Technologies Inc';
 
-UPDATE COMPANY SET Website = 'www.tenable.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 57, Logo = 'https://media.glassdoor.com/sqll/17494/tenable-network-security-squarelogo-1437763750759.png', OverallRating = 4.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Tenable Network Security';
+UPDATE COMPANY SET Website = 'www.tenable.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 57, Logo = 'https://media.glassdoor.com/sqll/17494/tenable-network-security-squarelogo-1437763750759.png', OverallRating = 4.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 3.9, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Tenable Network Security';
 UPDATE COMPANY SET CEOAproval = '96' WHERE CName = 'Tenable Network Security';
 
-UPDATE COMPANY SET Website = 'www.browsium.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Browsium';
+UPDATE COMPANY SET Website = 'www.browsium.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Browsium';
 
-UPDATE COMPANY SET Website = 'www.audiencescience.com', Industry = 'Advertising & Marketing', NumberOfRatings = 44, Logo = 'https://media.glassdoor.com/sqll/15047/audiencescience-squarelogo-1410192727432.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.5 WHERE CName = 'AudienceScience';
+UPDATE COMPANY SET Website = 'www.audiencescience.com', Industry = 'Advertising & Marketing', NumberOfRatings = 44, Logo = 'https://media.glassdoor.com/sqll/15047/audiencescience-squarelogo-1410192727432.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.5 WHERE CName = 'AudienceScience';
 UPDATE COMPANY SET CEOAproval = '64' WHERE CName = 'AudienceScience';
 
 
-UPDATE COMPANY SET Website = 'www.oracle.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 8488, Logo = 'https://media.glassdoor.com/sqll/1737/oracle-squarelogo-1434476900830.png', OverallRating = 3.3, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.7 WHERE CName = 'Oracle';
+UPDATE COMPANY SET Website = 'www.oracle.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 8488, Logo = 'https://media.glassdoor.com/sqll/1737/oracle-squarelogo-1434476900830.png', OverallRating = 3.3, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.7 WHERE CName = 'Oracle';
 UPDATE COMPANY SET CEOAproval = '72' WHERE CName = 'Oracle';
 
-UPDATE COMPANY SET Website = 'www.proxibid.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/671642/proxibid-squarelogo-1442381852121.png', OverallRating = 4.3, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.8 WHERE CName = 'Proxibid';
+UPDATE COMPANY SET Website = 'www.proxibid.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/671642/proxibid-squarelogo-1442381852121.png', OverallRating = 4.3, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.8 WHERE CName = 'Proxibid';
 
-UPDATE COMPANY SET Website = 'www.genesishcc.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 524, Logo = 'https://media.glassdoor.com/sqll/33727/genesis-healthcare-squarelogo-1377292017151.png', OverallRating = 2.7, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'Healthcare Systems &amp; Technologies, LLC';
+UPDATE COMPANY SET Website = 'www.genesishcc.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 524, Logo = 'https://media.glassdoor.com/sqll/33727/genesis-healthcare-squarelogo-1377292017151.png', OverallRating = 2.7, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.6, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'Healthcare Systems &amp; Technologies, LLC';
 UPDATE COMPANY SET CEOAproval = '39' WHERE CName = 'Healthcare Systems &amp; Technologies, LLC';
 
-UPDATE COMPANY SET Website = 'www.cignium.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 2, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 1.0, WorkLifeBalanceRating = 1.0, RecomendToFriend = 0.0 WHERE CName = 'Cignium';
+UPDATE COMPANY SET Website = 'www.cignium.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 2, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 1.0, CareerOpportunitiesRating = 1.0, WorkLifeBalanceRating = 1.0, RecomendToFriend = 0.0 WHERE CName = 'Cignium';
 
-UPDATE COMPANY SET Website = 'www.imo.im', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/390186/imo-im-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.6 WHERE CName = 'imo.im';
+UPDATE COMPANY SET Website = 'www.imo.im', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/390186/imo-im-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.6 WHERE CName = 'imo.im';
 UPDATE COMPANY SET CEOAproval = '54' WHERE CName = 'imo.im';
 
-UPDATE COMPANY SET Website = 'www.getinsured.com', Industry = 'Insurance Carriers', NumberOfRatings = 45, Logo = 'https://media.glassdoor.com/sqll/384976/getinsured-com-squarelogo-1390432745392.png', OverallRating = 2.8, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.4 WHERE CName = 'GetInsured';
+UPDATE COMPANY SET Website = 'www.getinsured.com', Industry = 'Insurance Carriers', NumberOfRatings = 45, Logo = 'https://media.glassdoor.com/sqll/384976/getinsured-com-squarelogo-1390432745392.png', OverallRating = 2.8, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.4 WHERE CName = 'GetInsured';
 UPDATE COMPANY SET CEOAproval = '65' WHERE CName = 'GetInsured';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.computrition.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 4, Logo = '', OverallRating = 2.3, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 1.6, WorkLifeBalanceRating = 2.3, RecomendToFriend = 0.3 WHERE CName = 'Computrition Inc.';
+UPDATE COMPANY SET Website = 'www.computrition.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 4, Logo = '', OverallRating = 2.3, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 1.6, CareerOpportunitiesRating = 2.1, WorkLifeBalanceRating = 2.3, RecomendToFriend = 0.3 WHERE CName = 'Computrition Inc.';
 
-UPDATE COMPANY SET Website = 'www.fameinc.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/410657/fame-squarelogo-1425468423600.png', OverallRating = 2.8, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.4 WHERE CName = 'FAME';
+UPDATE COMPANY SET Website = 'www.fameinc.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/410657/fame-squarelogo-1425468423600.png', OverallRating = 2.8, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.4 WHERE CName = 'FAME';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'FAME';
 
-UPDATE COMPANY SET Website = 'www.omnigon.com', Industry = 'Internet', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/361084/omnigon-communications-squarelogo-1403818278344.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 3.9, RecomendToFriend = 1.0 WHERE CName = 'Omnigon Communications';
+UPDATE COMPANY SET Website = 'www.omnigon.com', Industry = 'Internet', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/361084/omnigon-communications-squarelogo-1403818278344.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 3.9, RecomendToFriend = 1.0 WHERE CName = 'Omnigon Communications';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Omnigon Communications';
 
-UPDATE COMPANY SET Website = 'www.inrix.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/339741/inrix-squarelogo-1410545352813.png', OverallRating = 3.3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'INRIX';
+UPDATE COMPANY SET Website = 'www.inrix.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/339741/inrix-squarelogo-1410545352813.png', OverallRating = 3.3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'INRIX';
 UPDATE COMPANY SET CEOAproval = '67' WHERE CName = 'INRIX';
 
-UPDATE COMPANY SET Website = 'www.codewave.in', Industry = 'IT Services', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/850469/codewave-squarelogo-1434456525462.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'CodeWave';
+UPDATE COMPANY SET Website = 'www.codewave.in', Industry = 'IT Services', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/850469/codewave-squarelogo-1434456525462.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'CodeWave';
 
-UPDATE COMPANY SET Website = 'www.verge-solutions.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 3, Logo = '', OverallRating = 2, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 1.7, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.0 WHERE CName = 'Verge Solutions, LLC';
+UPDATE COMPANY SET Website = 'www.verge-solutions.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 3, Logo = '', OverallRating = 2, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 1.7, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 1.3, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.0 WHERE CName = 'Verge Solutions, LLC';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'Verge Solutions, LLC';
 
-UPDATE COMPANY SET Website = 'www.vtsgroup.com', Industry = 'Industrial Manufacturing', NumberOfRatings = 4, Logo = '', OverallRating = 4.1, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.5 WHERE CName = 'VTS';
+UPDATE COMPANY SET Website = 'www.vtsgroup.com', Industry = 'Industrial Manufacturing', NumberOfRatings = 4, Logo = '', OverallRating = 4.1, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.5 WHERE CName = 'VTS';
 
 
-UPDATE COMPANY SET Website = 'www.careerbuilder.com', Industry = 'Internet', NumberOfRatings = 600, Logo = 'https://media.glassdoor.com/sqll/9054/careerbuilder-squarelogo-1444313360371.png', OverallRating = 3.8, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'CareerBuilder';
+UPDATE COMPANY SET Website = 'www.careerbuilder.com', Industry = 'Internet', NumberOfRatings = 600, Logo = 'https://media.glassdoor.com/sqll/9054/careerbuilder-squarelogo-1444313360371.png', OverallRating = 3.8, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'CareerBuilder';
 UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'CareerBuilder';
 
-UPDATE COMPANY SET Website = 'www.paycor.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 109, Logo = 'https://media.glassdoor.com/sqll/145085/paycor-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Paycor';
+UPDATE COMPANY SET Website = 'www.paycor.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 109, Logo = 'https://media.glassdoor.com/sqll/145085/paycor-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Paycor';
 UPDATE COMPANY SET CEOAproval = '81' WHERE CName = 'Paycor';
 
 
-UPDATE COMPANY SET Website = 'www.biodiscovery.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/262524/biodiscovery-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'BioDiscovery';
+UPDATE COMPANY SET Website = 'www.biodiscovery.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/262524/biodiscovery-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'BioDiscovery';
 
-UPDATE COMPANY SET Website = 'www.prudential.com', Industry = 'Insurance Carriers', NumberOfRatings = 1014, Logo = 'https://media.glassdoor.com/sqll/2944/prudential-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Prudential';
+UPDATE COMPANY SET Website = 'www.prudential.com', Industry = 'Insurance Carriers', NumberOfRatings = 1014, Logo = 'https://media.glassdoor.com/sqll/2944/prudential-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Prudential';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'Prudential';
 
 
 
 
 
-UPDATE COMPANY SET Website = 'www.guidepointsystems.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 1.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Guidepoint';
+UPDATE COMPANY SET Website = 'www.guidepointsystems.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 1.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Guidepoint';
 
 
 
-UPDATE COMPANY SET Website = 'p.ota.to', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Potato';
+UPDATE COMPANY SET Website = 'p.ota.to', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Potato';
 
 
 
-UPDATE COMPANY SET Website = 'www.revolutionmessaging.com', Industry = 'Advertising & Marketing', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Revolution Messaging';
+UPDATE COMPANY SET Website = 'www.revolutionmessaging.com', Industry = 'Advertising & Marketing', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Revolution Messaging';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Revolution Messaging';
 
-UPDATE COMPANY SET Website = 'www.drugdev.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 8, Logo = '', OverallRating = 2.8, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.5 WHERE CName = 'DrugDev Ltd';
+UPDATE COMPANY SET Website = 'www.drugdev.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 8, Logo = '', OverallRating = 2.8, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.5 WHERE CName = 'DrugDev Ltd';
 UPDATE COMPANY SET CEOAproval = '75' WHERE CName = 'DrugDev Ltd';
 
-UPDATE COMPANY SET Website = 'www.gozengo.com', Industry = 'Travel Agencies', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/1020153/gozengo-squarelogo-1440513210906.png', OverallRating = 4.6, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.8, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Gozengo';
+UPDATE COMPANY SET Website = 'www.gozengo.com', Industry = 'Travel Agencies', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/1020153/gozengo-squarelogo-1440513210906.png', OverallRating = 4.6, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.8, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 4.6, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'Gozengo';
 
 
-UPDATE COMPANY SET Website = 'www.datarobot.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'DataRobot';
+UPDATE COMPANY SET Website = 'www.datarobot.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'DataRobot';
 
-UPDATE COMPANY SET Website = 'www.smartsheet.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 28, Logo = 'https://media.glassdoor.com/sqll/438753/smartsheet-squarelogo-1439410529977.png', OverallRating = 4.3, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.9 WHERE CName = 'Smartsheet';
+UPDATE COMPANY SET Website = 'www.smartsheet.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 28, Logo = 'https://media.glassdoor.com/sqll/438753/smartsheet-squarelogo-1439410529977.png', OverallRating = 4.3, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.9 WHERE CName = 'Smartsheet';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Smartsheet';
 
 
-UPDATE COMPANY SET Website = 'www.voyages-sncf.com', Industry = 'Travel Agencies', NumberOfRatings = 4, Logo = '', OverallRating = 3.5, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 4.3, RecomendToFriend = 1.0 WHERE CName = 'Voyages-sncf.com';
+UPDATE COMPANY SET Website = 'www.voyages-sncf.com', Industry = 'Travel Agencies', NumberOfRatings = 4, Logo = '', OverallRating = 3.5, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 4.3, RecomendToFriend = 1.0 WHERE CName = 'Voyages-sncf.com';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Voyages-sncf.com';
 
 
 
-UPDATE COMPANY SET Website = 'www.ikasystems.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 56, Logo = 'https://media.glassdoor.com/sqll/258772/ikasystems-squarelogo-1408392159872.png', OverallRating = 2.9, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.5 WHERE CName = 'ikaSystems';
+UPDATE COMPANY SET Website = 'www.ikasystems.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 56, Logo = 'https://media.glassdoor.com/sqll/258772/ikasystems-squarelogo-1408392159872.png', OverallRating = 2.9, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.5 WHERE CName = 'ikaSystems';
 UPDATE COMPANY SET CEOAproval = '62' WHERE CName = 'ikaSystems';
 
-UPDATE COMPANY SET Website = 'www.denplan.co.uk', Industry = 'Financial Transaction Processing', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/727767/denplan-squarelogo-1395332136537.png', OverallRating = 4.4, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'Denplan';
+UPDATE COMPANY SET Website = 'www.denplan.co.uk', Industry = 'Financial Transaction Processing', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/727767/denplan-squarelogo-1395332136537.png', OverallRating = 4.4, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'Denplan';
 
-UPDATE COMPANY SET Website = 'www.williamhill.com', Industry = 'Gambling', NumberOfRatings = 131, Logo = 'https://media.glassdoor.com/sqll/7802/william-hill-squarelogo-1386881957258.png', OverallRating = 2.4, CultureAndValuesRating = 2.2, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 2.4, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.4 WHERE CName = 'William Hill';
+UPDATE COMPANY SET Website = 'www.williamhill.com', Industry = 'Gambling', NumberOfRatings = 131, Logo = 'https://media.glassdoor.com/sqll/7802/william-hill-squarelogo-1386881957258.png', OverallRating = 2.4, CultureAndValuesRating = 2.2, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 2.4, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.4 WHERE CName = 'William Hill';
 UPDATE COMPANY SET CEOAproval = '27' WHERE CName = 'William Hill';
 
-UPDATE COMPANY SET Website = 'www.altalang.com', Industry = 'Research & Development', NumberOfRatings = 14, Logo = 'https://media.glassdoor.com/sqll/107456/alta-squarelogo-1398286679142.png', OverallRating = 4, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'ALTA Language Services';
+UPDATE COMPANY SET Website = 'www.altalang.com', Industry = 'Research & Development', NumberOfRatings = 14, Logo = 'https://media.glassdoor.com/sqll/107456/alta-squarelogo-1398286679142.png', OverallRating = 4, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 2.6, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'ALTA Language Services';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'ALTA Language Services';
 
-UPDATE COMPANY SET Website = 'www.naxosusa.com', Industry = 'Music Production & Distribution', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/267644/naxos-of-america-squarelogo-1421332727952.png', OverallRating = 4.6, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.9 WHERE CName = 'Naxos of America';
+UPDATE COMPANY SET Website = 'www.naxosusa.com', Industry = 'Music Production & Distribution', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/267644/naxos-of-america-squarelogo-1421332727952.png', OverallRating = 4.6, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.9 WHERE CName = 'Naxos of America';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Naxos of America';
 
 
-UPDATE COMPANY SET Website = 'www.ricoh-usa.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 761, Logo = 'https://media.glassdoor.com/sqll/21210/ricoh-americas-corporation-squarelogo.png', OverallRating = 2.8, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'On-Site';
+UPDATE COMPANY SET Website = 'www.ricoh-usa.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 761, Logo = 'https://media.glassdoor.com/sqll/21210/ricoh-americas-corporation-squarelogo.png', OverallRating = 2.8, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'On-Site';
 UPDATE COMPANY SET CEOAproval = '53' WHERE CName = 'On-Site';
 
 
-UPDATE COMPANY SET Website = 'www.partnership.co.uk', Industry = 'Insurance Carriers', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/139833/partnership-squarelogo-1426752823329.png', OverallRating = 4.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Big Data Partnership';
+UPDATE COMPANY SET Website = 'www.partnership.co.uk', Industry = 'Insurance Carriers', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/139833/partnership-squarelogo-1426752823329.png', OverallRating = 4.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Big Data Partnership';
 
-UPDATE COMPANY SET Website = 'www.fusionbposervices.com', Industry = 'Advertising & Marketing', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/476416/fusion-bpo-squarelogo-1429539550903.png', OverallRating = 3.2, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 2.3, WorkLifeBalanceRating = 2.6, RecomendToFriend = 0.5 WHERE CName = 'Service Fusion';
+UPDATE COMPANY SET Website = 'www.fusionbposervices.com', Industry = 'Advertising & Marketing', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/476416/fusion-bpo-squarelogo-1429539550903.png', OverallRating = 3.2, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 2.3, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 2.6, RecomendToFriend = 0.5 WHERE CName = 'Service Fusion';
 
-UPDATE COMPANY SET Website = 'www.schoolzilla.org', Industry = 'Education Training Services', NumberOfRatings = 11, Logo = 'https://media.glassdoor.com/sqll/823566/schoolzilla-squarelogo-1442318272745.png', OverallRating = 4.6, CultureAndValuesRating = 4.9, SeniorLeadershipRating = 4.7, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'Schoolzilla';
+UPDATE COMPANY SET Website = 'www.schoolzilla.org', Industry = 'Education Training Services', NumberOfRatings = 11, Logo = 'https://media.glassdoor.com/sqll/823566/schoolzilla-squarelogo-1442318272745.png', OverallRating = 4.6, CultureAndValuesRating = 4.9, SeniorLeadershipRating = 4.7, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'Schoolzilla';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Schoolzilla';
 
-UPDATE COMPANY SET Website = 'www.lawnlove.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Lawn Love';
+UPDATE COMPANY SET Website = 'www.lawnlove.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Lawn Love';
 
 
-UPDATE COMPANY SET Website = 'www.centralway.com', Industry = 'Banks & Credit Unions', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/688319/centralway-squarelogo-1440521423924.png', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.6 WHERE CName = 'Centralway';
+UPDATE COMPANY SET Website = 'www.centralway.com', Industry = 'Banks & Credit Unions', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/688319/centralway-squarelogo-1440521423924.png', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.6 WHERE CName = 'Centralway';
 UPDATE COMPANY SET CEOAproval = '50' WHERE CName = 'Centralway';
 
-UPDATE COMPANY SET Website = 'www.logicinfo.com', Industry = 'IT Services', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/262365/logic-information-systems-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.8 WHERE CName = 'Logic Information Systems';
+UPDATE COMPANY SET Website = 'www.logicinfo.com', Industry = 'IT Services', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/262365/logic-information-systems-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.8 WHERE CName = 'Logic Information Systems';
 UPDATE COMPANY SET CEOAproval = '86' WHERE CName = 'Logic Information Systems';
 
 
-UPDATE COMPANY SET Website = 'www.bsh-group.com', Industry = 'Consumer Products Manufacturing', NumberOfRatings = 38, Logo = 'https://media.glassdoor.com/sqll/13409/bsh-bosch-und-siemens-hausgerate-squarelogo.png', OverallRating = 4.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = 'BSH HOME APPLIANCES GROUP';
+UPDATE COMPANY SET Website = 'www.bsh-group.com', Industry = 'Consumer Products Manufacturing', NumberOfRatings = 38, Logo = 'https://media.glassdoor.com/sqll/13409/bsh-bosch-und-siemens-hausgerate-squarelogo.png', OverallRating = 4.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = 'BSH HOME APPLIANCES GROUP';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'BSH HOME APPLIANCES GROUP';
 
-UPDATE COMPANY SET Website = 'www.pluralsight.com', Industry = 'Education Training Services', NumberOfRatings = 74, Logo = 'https://media.glassdoor.com/sqll/672636/pluralsight-squarelogo-1436559609951.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.9, WorkLifeBalanceRating = 4.9, RecomendToFriend = 1.0 WHERE CName = 'Pluralsight';
+UPDATE COMPANY SET Website = 'www.pluralsight.com', Industry = 'Education Training Services', NumberOfRatings = 74, Logo = 'https://media.glassdoor.com/sqll/672636/pluralsight-squarelogo-1436559609951.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.9, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 4.9, RecomendToFriend = 1.0 WHERE CName = 'Pluralsight';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Pluralsight';
 
 
-UPDATE COMPANY SET Website = 'www.chronicle.com', Industry = 'Publishing', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/477050/chronicle-of-higher-education-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.3 WHERE CName = 'The Chronicle of Higher Education';
+UPDATE COMPANY SET Website = 'www.chronicle.com', Industry = 'Publishing', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/477050/chronicle-of-higher-education-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 2.4, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.3 WHERE CName = 'The Chronicle of Higher Education';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'The Chronicle of Higher Education';
 
-UPDATE COMPANY SET Website = 'www.zipcar.com', Industry = 'Car Rental', NumberOfRatings = 118, Logo = 'https://media.glassdoor.com/sqll/38123/zipcar-squarelogo-1430503247856.png', OverallRating = 2.4, CultureAndValuesRating = 2.8, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 2.1, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.4 WHERE CName = 'Zipcar';
+UPDATE COMPANY SET Website = 'www.zipcar.com', Industry = 'Car Rental', NumberOfRatings = 118, Logo = 'https://media.glassdoor.com/sqll/38123/zipcar-squarelogo-1430503247856.png', OverallRating = 2.4, CultureAndValuesRating = 2.8, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 2.1, CareerOpportunitiesRating = 2.3, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.4 WHERE CName = 'Zipcar';
 UPDATE COMPANY SET CEOAproval = '35' WHERE CName = 'Zipcar';
 
-UPDATE COMPANY SET Website = 'www.homedepot.com', Industry = 'Home Centers & Hardware Stores', NumberOfRatings = 8434, Logo = 'https://media.glassdoor.com/sqll/655/home-depot-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.6 WHERE CName = 'The Home Depot';
+UPDATE COMPANY SET Website = 'www.homedepot.com', Industry = 'Home Centers & Hardware Stores', NumberOfRatings = 8434, Logo = 'https://media.glassdoor.com/sqll/655/home-depot-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.6 WHERE CName = 'The Home Depot';
 UPDATE COMPANY SET CEOAproval = '76' WHERE CName = 'The Home Depot';
 
 
-UPDATE COMPANY SET Website = 'www.freshbooks.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/413709/freshbooks-squarelogo.png', OverallRating = 4.3, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'FreshBooks';
+UPDATE COMPANY SET Website = 'www.freshbooks.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/413709/freshbooks-squarelogo.png', OverallRating = 4.3, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'FreshBooks';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'FreshBooks';
 
-UPDATE COMPANY SET Website = 'www.bcgdv.com', Industry = '', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/967537/boston-consulting-group-digital-ventures-squarelogo-1437031185067.png', OverallRating = 4.7, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 3.9, RecomendToFriend = 1.0 WHERE CName = 'The Boston Consulting Group';
+UPDATE COMPANY SET Website = 'www.bcgdv.com', Industry = '', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/967537/boston-consulting-group-digital-ventures-squarelogo-1437031185067.png', OverallRating = 4.7, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 4.9, WorkLifeBalanceRating = 3.9, RecomendToFriend = 1.0 WHERE CName = 'The Boston Consulting Group';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'The Boston Consulting Group';
 
-UPDATE COMPANY SET Website = 'www.legitscript.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 3, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'LegitScript';
+UPDATE COMPANY SET Website = 'www.legitscript.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 3, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'LegitScript';
 
 
 
-UPDATE COMPANY SET Website = 'www.rocket-internet.com/', Industry = 'Internet', NumberOfRatings = 205, Logo = 'https://media.glassdoor.com/sqll/459865/rocket-internet-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.7 WHERE CName = 'Rocket Internet Company';
+UPDATE COMPANY SET Website = 'www.rocket-internet.com/', Industry = 'Internet', NumberOfRatings = 205, Logo = 'https://media.glassdoor.com/sqll/459865/rocket-internet-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 2.3, RecomendToFriend = 0.7 WHERE CName = 'Rocket Internet Company';
 UPDATE COMPANY SET CEOAproval = '45' WHERE CName = 'Rocket Internet Company';
 
 
 
 
 
-UPDATE COMPANY SET Website = 'www.iteratec.de', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/791266/iteratec-squarelogo-1436942538260.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'iteratec GmbH';
+UPDATE COMPANY SET Website = 'www.iteratec.de', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/791266/iteratec-squarelogo-1436942538260.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'iteratec GmbH';
 
-UPDATE COMPANY SET Website = 'www.city-holdings.co.uk', Industry = 'Federal Agencies', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/692423/city-refrigeration-holdings-squarelogo-1438859497805.png', OverallRating = 3.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.1, WorkLifeBalanceRating = 2.3, RecomendToFriend = 0.5 WHERE CName = 'City &amp; Guilds';
+UPDATE COMPANY SET Website = 'www.city-holdings.co.uk', Industry = 'Federal Agencies', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/692423/city-refrigeration-holdings-squarelogo-1438859497805.png', OverallRating = 3.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.1, CareerOpportunitiesRating = 2.3, WorkLifeBalanceRating = 2.3, RecomendToFriend = 0.5 WHERE CName = 'City &amp; Guilds';
 
 
-UPDATE COMPANY SET Website = 'www.planetpayment.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/261774/planet-payment-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 1.3, CompensationAndBenefitsRating = 2.4, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.0 WHERE CName = 'Planet Payment, Inc.';
+UPDATE COMPANY SET Website = 'www.planetpayment.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/261774/planet-payment-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 1.3, CompensationAndBenefitsRating = 2.4, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.0 WHERE CName = 'Planet Payment, Inc.';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'Planet Payment, Inc.';
 
-UPDATE COMPANY SET Website = 'www.kiewit.com', Industry = 'Construction', NumberOfRatings = 458, Logo = 'https://media.glassdoor.com/sqll/2935/kiewit-corporation-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 2.5, RecomendToFriend = 0.6 WHERE CName = 'Kiewit';
+UPDATE COMPANY SET Website = 'www.kiewit.com', Industry = 'Construction', NumberOfRatings = 458, Logo = 'https://media.glassdoor.com/sqll/2935/kiewit-corporation-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 2.5, RecomendToFriend = 0.6 WHERE CName = 'Kiewit';
 UPDATE COMPANY SET CEOAproval = '82' WHERE CName = 'Kiewit';
 
-UPDATE COMPANY SET Website = 'www.fyndiq.se', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Fyndiq';
+UPDATE COMPANY SET Website = 'www.fyndiq.se', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Fyndiq';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Fyndiq';
 
-UPDATE COMPANY SET Website = 'www.weareimpero.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Impero';
+UPDATE COMPANY SET Website = 'www.weareimpero.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Impero';
 
-UPDATE COMPANY SET Website = 'www.kayak.com', Industry = 'Travel Agencies', NumberOfRatings = 41, Logo = 'https://media.glassdoor.com/sqll/37851/kayak-com-squarelogo-1439318723342.png', OverallRating = 4.6, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'KAYAK';
+UPDATE COMPANY SET Website = 'www.kayak.com', Industry = 'Travel Agencies', NumberOfRatings = 41, Logo = 'https://media.glassdoor.com/sqll/37851/kayak-com-squarelogo-1439318723342.png', OverallRating = 4.6, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'KAYAK';
 UPDATE COMPANY SET CEOAproval = '93' WHERE CName = 'KAYAK';
 
 
 
-UPDATE COMPANY SET Website = 'www.codility.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/658258/codility-squarelogo-1400495529024.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Codility';
+UPDATE COMPANY SET Website = 'www.codility.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/658258/codility-squarelogo-1400495529024.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Codility';
 
 
-UPDATE COMPANY SET Website = 'www.atensolutions.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Clinical Graphics';
+UPDATE COMPANY SET Website = 'www.atensolutions.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Clinical Graphics';
 
 
-UPDATE COMPANY SET Website = 'www.esolutions.de', Industry = 'Transportation Equipment Manufacturing', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/918042/e-solutions-squarelogo-1416387452643.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'e.solutions GmbH';
-
-
-
+UPDATE COMPANY SET Website = 'www.esolutions.de', Industry = 'Transportation Equipment Manufacturing', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/918042/e-solutions-squarelogo-1416387452643.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'e.solutions GmbH';
 
 
 
-UPDATE COMPANY SET Website = 'www.fospha.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/1044581/fospha-squarelogo-1439542243383.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Fospha';
+
+
+
+UPDATE COMPANY SET Website = 'www.fospha.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/1044581/fospha-squarelogo-1439542243383.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Fospha';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Fospha';
 
-UPDATE COMPANY SET Website = 'www.gov.uk', Industry = 'Federal Agencies', NumberOfRatings = 72, Logo = 'https://media.glassdoor.com/sqll/142583/department-for-work-and-pensions-squarelogo-1437049442031.png', OverallRating = 2.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.9, CompensationAndBenefitsRating = 2.1, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.2 WHERE CName = 'Department for Work &amp; Pensions';
+UPDATE COMPANY SET Website = 'www.gov.uk', Industry = 'Federal Agencies', NumberOfRatings = 72, Logo = 'https://media.glassdoor.com/sqll/142583/department-for-work-and-pensions-squarelogo-1437049442031.png', OverallRating = 2.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.9, CompensationAndBenefitsRating = 2.2, CareerOpportunitiesRating = 2.2, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.3 WHERE CName = 'Department for Work &amp; Pensions';
 UPDATE COMPANY SET CEOAproval = '32' WHERE CName = 'Department for Work &amp; Pensions';
 
 
-UPDATE COMPANY SET Website = 'www.gov.uk', Industry = 'Federal Agencies', NumberOfRatings = 72, Logo = 'https://media.glassdoor.com/sqll/142583/department-for-work-and-pensions-squarelogo-1437049442031.png', OverallRating = 2.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.9, CompensationAndBenefitsRating = 2.1, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.2 WHERE CName = 'Department for Work and Pensions';
+UPDATE COMPANY SET Website = 'www.gov.uk', Industry = 'Federal Agencies', NumberOfRatings = 72, Logo = 'https://media.glassdoor.com/sqll/142583/department-for-work-and-pensions-squarelogo-1437049442031.png', OverallRating = 2.3, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 1.9, CompensationAndBenefitsRating = 2.2, CareerOpportunitiesRating = 2.2, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.3 WHERE CName = 'Department for Work and Pensions';
 UPDATE COMPANY SET CEOAproval = '32' WHERE CName = 'Department for Work and Pensions';
 
 
 
 
 
-UPDATE COMPANY SET Website = 'www.rallydev.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 106, Logo = 'https://media.glassdoor.com/sqll/229979/rally-software-squarelogo-1429228964735.png', OverallRating = 3.4, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.5 WHERE CName = 'Rally Software';
+UPDATE COMPANY SET Website = 'www.rallydev.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 106, Logo = 'https://media.glassdoor.com/sqll/229979/rally-software-squarelogo-1429228964735.png', OverallRating = 3.4, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.5 WHERE CName = 'Rally Software';
 UPDATE COMPANY SET CEOAproval = '84' WHERE CName = 'Rally Software';
 
-UPDATE COMPANY SET Website = 'www.sunbeltrentals.com', Industry = 'Commercial Equipment Rental', NumberOfRatings = 110, Logo = 'https://media.glassdoor.com/sqll/19665/sunbelt-rentals-squarelogo-1378818279743.png', OverallRating = 3.3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.6 WHERE CName = 'Portable';
+UPDATE COMPANY SET Website = 'www.sunbeltrentals.com', Industry = 'Commercial Equipment Rental', NumberOfRatings = 110, Logo = 'https://media.glassdoor.com/sqll/19665/sunbelt-rentals-squarelogo-1378818279743.png', OverallRating = 3.3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.6 WHERE CName = 'Portable';
 UPDATE COMPANY SET CEOAproval = '61' WHERE CName = 'Portable';
 
-UPDATE COMPANY SET Website = 'www.mandmdirect.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/343379/m-and-m-direct-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.5 WHERE CName = 'M&amp;C Saatchi';
+UPDATE COMPANY SET Website = 'www.mandmdirect.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/343379/m-and-m-direct-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.5 WHERE CName = 'M&amp;C Saatchi';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'M&amp;C Saatchi';
 
-UPDATE COMPANY SET Website = 'www.coupa.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 111, Logo = 'https://media.glassdoor.com/sqll/217718/coupa-software-squarelogo.png', OverallRating = 4, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.8 WHERE CName = 'Coupa Software';
+UPDATE COMPANY SET Website = 'www.coupa.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 111, Logo = 'https://media.glassdoor.com/sqll/217718/coupa-software-squarelogo.png', OverallRating = 4, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.8 WHERE CName = 'Coupa Software';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Coupa Software';
 
-UPDATE COMPANY SET Website = 'www.vevo.com', Industry = 'Internet', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/372952/vevo-squarelogo-1400167910751.png', OverallRating = 3.9, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Vevo';
+UPDATE COMPANY SET Website = 'www.vevo.com', Industry = 'Internet', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/372952/vevo-squarelogo-1400167910751.png', OverallRating = 3.9, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Vevo';
 UPDATE COMPANY SET CEOAproval = '-100' WHERE CName = 'Vevo';
 
-UPDATE COMPANY SET Website = 'www.unr.edu', Industry = 'Colleges & Universities', NumberOfRatings = 100, Logo = 'https://media.glassdoor.com/sqll/130505/university-of-nevada-reno-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.7 WHERE CName = 'University of Nevada, Reno';
+UPDATE COMPANY SET Website = 'www.unr.edu', Industry = 'Colleges & Universities', NumberOfRatings = 100, Logo = 'https://media.glassdoor.com/sqll/130505/university-of-nevada-reno-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.7 WHERE CName = 'University of Nevada, Reno';
 UPDATE COMPANY SET CEOAproval = '77' WHERE CName = 'University of Nevada, Reno';
 
-UPDATE COMPANY SET Website = 'www.literacybridge.org', Industry = 'Social Assistance', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 1.0 WHERE CName = 'Literacy Bridge';
+UPDATE COMPANY SET Website = 'www.literacybridge.org', Industry = 'Social Assistance', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 1.0 WHERE CName = 'Literacy Bridge';
 
-UPDATE COMPANY SET Website = 'www.efolder.net', Industry = 'IT Services', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/953342/efolder-squarelogo-1423674254294.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.3, RecomendToFriend = 1.0 WHERE CName = 'eFolder';
+UPDATE COMPANY SET Website = 'www.efolder.net', Industry = 'IT Services', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/953342/efolder-squarelogo-1423674254294.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 4.3, RecomendToFriend = 1.0 WHERE CName = 'eFolder';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'eFolder';
 
-UPDATE COMPANY SET Website = 'www.maplarge.com', Industry = 'IT Services', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'MapLarge';
+UPDATE COMPANY SET Website = 'www.maplarge.com', Industry = 'IT Services', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'MapLarge';
 
-UPDATE COMPANY SET Website = 'www.twilio.com', Industry = 'Internet', NumberOfRatings = 45, Logo = 'https://media.glassdoor.com/sqll/410790/twilio-squarelogo-1429071171061.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'Twilio';
+UPDATE COMPANY SET Website = 'www.twilio.com', Industry = 'Internet', NumberOfRatings = 45, Logo = 'https://media.glassdoor.com/sqll/410790/twilio-squarelogo-1429071171061.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'Twilio';
 UPDATE COMPANY SET CEOAproval = '97' WHERE CName = 'Twilio';
 
-UPDATE COMPANY SET Website = 'www.oblong.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/684102/oblong-industries-squarelogo-1432101161103.png', OverallRating = 4.1, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.8 WHERE CName = 'Oblong Industries';
+UPDATE COMPANY SET Website = 'www.oblong.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/684102/oblong-industries-squarelogo-1432101161103.png', OverallRating = 4.1, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.8 WHERE CName = 'Oblong Industries';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Oblong Industries';
 
-UPDATE COMPANY SET Website = 'www.esri.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 319, Logo = 'https://media.glassdoor.com/sqll/4043/esri-squarelogo-1424819396801.png', OverallRating = 3.4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Esri';
+UPDATE COMPANY SET Website = 'www.esri.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 319, Logo = 'https://media.glassdoor.com/sqll/4043/esri-squarelogo-1424819396801.png', OverallRating = 3.4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Esri';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'Esri';
 
 
-UPDATE COMPANY SET Website = 'www.adaramedia.com', Industry = 'Advertising & Marketing', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/636991/adara-media-squarelogo-1426581284051.png', OverallRating = 2.4, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 2.5, RecomendToFriend = 0.4 WHERE CName = 'ADARA, Inc';
+UPDATE COMPANY SET Website = 'www.adaramedia.com', Industry = 'Advertising & Marketing', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/636991/adara-media-squarelogo-1426581284051.png', OverallRating = 2.4, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 2.5, RecomendToFriend = 0.4 WHERE CName = 'ADARA, Inc';
 UPDATE COMPANY SET CEOAproval = '34' WHERE CName = 'ADARA, Inc';
 
 
 
-UPDATE COMPANY SET Website = 'www.nwea.org', Industry = 'K-12 Education', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/102655/nwea-squarelogo.png', OverallRating = 3.7, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.7 WHERE CName = 'NWEA';
+UPDATE COMPANY SET Website = 'www.nwea.org', Industry = 'K-12 Education', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/102655/nwea-squarelogo.png', OverallRating = 3.7, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.7 WHERE CName = 'NWEA';
 UPDATE COMPANY SET CEOAproval = '66' WHERE CName = 'NWEA';
 
-UPDATE COMPANY SET Website = 'www.ecosys.net', Industry = 'Computer Hardware & Software', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/235180/ecosys-squarelogo-1380287184566.png', OverallRating = 3.9, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.8 WHERE CName = 'EcoSys';
+UPDATE COMPANY SET Website = 'www.ecosys.net', Industry = 'Computer Hardware & Software', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/235180/ecosys-squarelogo-1380287184566.png', OverallRating = 3.9, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.8 WHERE CName = 'EcoSys';
 
-UPDATE COMPANY SET Website = 'www.kwi.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/191710/kwi-squarelogo-1424676005442.png', OverallRating = 3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.5 WHERE CName = 'Kliger-Weiss Infosystems, Inc.';
+UPDATE COMPANY SET Website = 'www.kwi.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/191710/kwi-squarelogo-1424676005442.png', OverallRating = 3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.5 WHERE CName = 'Kliger-Weiss Infosystems, Inc.';
 UPDATE COMPANY SET CEOAproval = '73' WHERE CName = 'Kliger-Weiss Infosystems, Inc.';
 
-UPDATE COMPANY SET Website = 'www.bauermedia.com', Industry = 'Publishing', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/864779/bauer-media-squarelogo-1426681704925.png', OverallRating = 2.7, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 1.9, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.5 WHERE CName = 'Bauer Xcel Media (Bauer Media Group)';
+UPDATE COMPANY SET Website = 'www.bauermedia.com', Industry = 'Publishing', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/864779/bauer-media-squarelogo-1426681704925.png', OverallRating = 2.7, CultureAndValuesRating = 2.3, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 1.9, CareerOpportunitiesRating = 2.5, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.5 WHERE CName = 'Bauer Xcel Media (Bauer Media Group)';
 UPDATE COMPANY SET CEOAproval = '53' WHERE CName = 'Bauer Xcel Media (Bauer Media Group)';
 
 
-UPDATE COMPANY SET Website = 'www.boozallen.com', Industry = 'Consulting', NumberOfRatings = 2768, Logo = 'https://media.glassdoor.com/sqll/2735/booz-allen-hamilton-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Booz Allen Hamilton';
+UPDATE COMPANY SET Website = 'www.boozallen.com', Industry = 'Consulting', NumberOfRatings = 2768, Logo = 'https://media.glassdoor.com/sqll/2735/booz-allen-hamilton-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Booz Allen Hamilton';
 UPDATE COMPANY SET CEOAproval = '84' WHERE CName = 'Booz Allen Hamilton';
 
-UPDATE COMPANY SET Website = 'www.vokalinteractive.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/338386/vokal-squarelogo-1430112339938.png', OverallRating = 4.7, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Vokal';
+UPDATE COMPANY SET Website = 'www.vokalinteractive.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/338386/vokal-squarelogo-1430112339938.png', OverallRating = 4.7, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.4, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Vokal';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Vokal';
 
-UPDATE COMPANY SET Website = 'www.arubanetworks.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 127, Logo = 'https://media.glassdoor.com/sqll/26809/aruba-networks-squarelogo-1436970316869.png', OverallRating = 3.6, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.8 WHERE CName = 'Aruba Networks';
+UPDATE COMPANY SET Website = 'www.arubanetworks.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 127, Logo = 'https://media.glassdoor.com/sqll/26809/aruba-networks-squarelogo-1436970316869.png', OverallRating = 3.6, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.8 WHERE CName = 'Aruba Networks';
 UPDATE COMPANY SET CEOAproval = '85' WHERE CName = 'Aruba Networks';
 
 
-UPDATE COMPANY SET Website = 'www.blackboard.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 241, Logo = 'https://media.glassdoor.com/sqll/11113/blackboard-squarelogo-1397741708233.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.5 WHERE CName = 'Blackboard';
+UPDATE COMPANY SET Website = 'www.blackboard.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 241, Logo = 'https://media.glassdoor.com/sqll/11113/blackboard-squarelogo-1397741708233.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.5 WHERE CName = 'Blackboard';
 UPDATE COMPANY SET CEOAproval = '58' WHERE CName = 'Blackboard';
 
-UPDATE COMPANY SET Website = 'www.remedypartners.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/851310/remedy-partners-squarelogo-1436800334224.png', OverallRating = 5, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Remedy Partners Inc.';
+UPDATE COMPANY SET Website = 'www.remedypartners.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/851310/remedy-partners-squarelogo-1436800334224.png', OverallRating = 5, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.6, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Remedy Partners Inc.';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Remedy Partners Inc.';
 
-UPDATE COMPANY SET Website = 'www.appfirst.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/307728/appfirst-squarelogo.png', OverallRating = 4.5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'AppFirst';
+UPDATE COMPANY SET Website = 'www.appfirst.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/307728/appfirst-squarelogo.png', OverallRating = 4.5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'AppFirst';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'AppFirst';
 
-UPDATE COMPANY SET Website = 'www.sbgenomics.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Seven Bridges Genomics';
+UPDATE COMPANY SET Website = 'www.sbgenomics.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Seven Bridges Genomics';
 
-UPDATE COMPANY SET Website = 'www.adello.com', Industry = 'Advertising & Marketing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Adello';
+UPDATE COMPANY SET Website = 'www.adello.com', Industry = 'Advertising & Marketing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Adello';
 
-UPDATE COMPANY SET Website = 'www.lytx.com', Industry = 'Research & Development', NumberOfRatings = 24, Logo = 'https://media.glassdoor.com/sqll/813859/lytx-squarelogo-1441889830313.png', OverallRating = 3.5, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.5 WHERE CName = 'Lytx';
+UPDATE COMPANY SET Website = 'www.lytx.com', Industry = 'Research & Development', NumberOfRatings = 24, Logo = 'https://media.glassdoor.com/sqll/813859/lytx-squarelogo-1441889830313.png', OverallRating = 3.5, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.5 WHERE CName = 'Lytx';
 UPDATE COMPANY SET CEOAproval = '75' WHERE CName = 'Lytx';
 
-UPDATE COMPANY SET Website = 'www.absorblms.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Blatant Media';
+UPDATE COMPANY SET Website = 'www.absorblms.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Blatant Media';
 
 
-UPDATE COMPANY SET Website = 'www.royalcaribbean.com', Industry = 'Cruise Ships', NumberOfRatings = 347, Logo = 'https://media.glassdoor.com/sqll/3579/royal-caribbean-cruises-squarelogo-1388785298356.png', OverallRating = 3.6, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.7 WHERE CName = 'Cruise';
+UPDATE COMPANY SET Website = 'www.royalcaribbean.com', Industry = 'Cruise Ships', NumberOfRatings = 347, Logo = 'https://media.glassdoor.com/sqll/3579/royal-caribbean-cruises-squarelogo-1388785298356.png', OverallRating = 3.6, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.7 WHERE CName = 'Cruise';
 UPDATE COMPANY SET CEOAproval = '73' WHERE CName = 'Cruise';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.team.co.in', Industry = 'Industrial Manufacturing', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/509909/team-squarelogo-1431671574293.png', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'TIME, Inc. (CTO Team)';
+UPDATE COMPANY SET Website = 'www.team.co.in', Industry = 'Industrial Manufacturing', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/509909/team-squarelogo-1431671574293.png', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'TIME, Inc. (CTO Team)';
 
-UPDATE COMPANY SET Website = 'www.exa.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/224377/exa-corporation-squarelogo.png', OverallRating = 3.2, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.6 WHERE CName = 'Exa Corporation';
+UPDATE COMPANY SET Website = 'www.exa.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/224377/exa-corporation-squarelogo.png', OverallRating = 3.2, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.6 WHERE CName = 'Exa Corporation';
 UPDATE COMPANY SET CEOAproval = '62' WHERE CName = 'Exa Corporation';
 
 
-UPDATE COMPANY SET Website = 'www.citrusbyte.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/960344/citrusbyte-squarelogo-1425930958733.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Citrusbyte';
+UPDATE COMPANY SET Website = 'www.citrusbyte.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/960344/citrusbyte-squarelogo-1425930958733.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Citrusbyte';
 
-UPDATE COMPANY SET Website = 'www.ing.com', Industry = 'Banks & Credit Unions', NumberOfRatings = 483, Logo = 'https://media.glassdoor.com/sqll/4264/ing-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'ING';
+UPDATE COMPANY SET Website = 'www.ing.com', Industry = 'Banks & Credit Unions', NumberOfRatings = 483, Logo = 'https://media.glassdoor.com/sqll/4264/ing-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = 'ING';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'ING';
 
-UPDATE COMPANY SET Website = 'www.chathamfinancial.com', Industry = 'Financial Analytics & Research', NumberOfRatings = 35, Logo = 'https://media.glassdoor.com/sqll/142906/chatham-financial-squarelogo-1424872787794.png', OverallRating = 3.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Chatham Financial';
+UPDATE COMPANY SET Website = 'www.chathamfinancial.com', Industry = 'Financial Analytics & Research', NumberOfRatings = 35, Logo = 'https://media.glassdoor.com/sqll/142906/chatham-financial-squarelogo-1424872787794.png', OverallRating = 3.3, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Chatham Financial';
 UPDATE COMPANY SET CEOAproval = '58' WHERE CName = 'Chatham Financial';
 
-UPDATE COMPANY SET Website = 'america.aljazeera.com', Industry = 'News Outlet', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/828352/al-jazeera-america-squarelogo-1426683199334.png', OverallRating = 1.8, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 1.8, CompensationAndBenefitsRating = 2.5, WorkLifeBalanceRating = 2.5, RecomendToFriend = 0.2 WHERE CName = 'Al Jazeera America';
+UPDATE COMPANY SET Website = 'america.aljazeera.com', Industry = 'News Outlet', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/828352/al-jazeera-america-squarelogo-1426683199334.png', OverallRating = 1.8, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 1.8, CompensationAndBenefitsRating = 2.5, CareerOpportunitiesRating = 1.8, WorkLifeBalanceRating = 2.5, RecomendToFriend = 0.2 WHERE CName = 'Al Jazeera America';
 
 
-UPDATE COMPANY SET Website = 'www.hotheadgames.com', Industry = 'Video Games', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/826642/hothead-games-squarelogo-1433457014713.png', OverallRating = 4.6, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Hothead Games';
+UPDATE COMPANY SET Website = 'www.hotheadgames.com', Industry = 'Video Games', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/826642/hothead-games-squarelogo-1433457014713.png', OverallRating = 4.6, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Hothead Games';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Hothead Games';
 
-UPDATE COMPANY SET Website = 'www.fluidigm.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/15379/fluidigm-squarelogo-1415639634403.png', OverallRating = 2.9, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.5 WHERE CName = 'Fluidigm';
+UPDATE COMPANY SET Website = 'www.fluidigm.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/15379/fluidigm-squarelogo-1415639634403.png', OverallRating = 2.9, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.5 WHERE CName = 'Fluidigm';
 UPDATE COMPANY SET CEOAproval = '72' WHERE CName = 'Fluidigm';
 
-UPDATE COMPANY SET Website = 'www.irobot.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 87, Logo = 'https://media.glassdoor.com/sqll/35096/irobot-squarelogo-1387224696616.png', OverallRating = 3.2, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'iRobot Corporation';
+UPDATE COMPANY SET Website = 'www.irobot.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 87, Logo = 'https://media.glassdoor.com/sqll/35096/irobot-squarelogo-1387224696616.png', OverallRating = 3.2, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'iRobot Corporation';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'iRobot Corporation';
 
-UPDATE COMPANY SET Website = 'www.optimorlabs.com', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Optimor Ltd';
+UPDATE COMPANY SET Website = 'www.optimorlabs.com', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Optimor Ltd';
 
-UPDATE COMPANY SET Website = 'www.econlit.org', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 2, Logo = '', OverallRating = 2.6, CultureAndValuesRating = 1.9, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.0 WHERE CName = 'American Economic Association';
+UPDATE COMPANY SET Website = 'www.econlit.org', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 2, Logo = '', OverallRating = 2.6, CultureAndValuesRating = 1.9, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.0 WHERE CName = 'American Economic Association';
 
-UPDATE COMPANY SET Website = 'www.lumiinsight.com', Industry = 'Internet', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/965430/lumi-technologies-squarelogo-1433769864924.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.2, RecomendToFriend = 1.0 WHERE CName = 'Lumi';
+UPDATE COMPANY SET Website = 'www.lumiinsight.com', Industry = 'Internet', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/965430/lumi-technologies-squarelogo-1433769864924.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.2, RecomendToFriend = 1.0 WHERE CName = 'Lumi';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Lumi';
 
-UPDATE COMPANY SET Website = 'www.improvonia.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/941770/improvonia-squarelogo-1426165746939.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.9, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Improvonia';
+UPDATE COMPANY SET Website = 'www.improvonia.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/941770/improvonia-squarelogo-1426165746939.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.9, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Improvonia';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Improvonia';
 
-UPDATE COMPANY SET Website = 'wap.rasatech.in', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Web Development Group';
+UPDATE COMPANY SET Website = 'wap.rasatech.in', Industry = 'IT Services', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Web Development Group';
 
 
-UPDATE COMPANY SET Website = 'www.wimdu.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 66, Logo = '', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.6 WHERE CName = 'Wimdu GmbH';
+UPDATE COMPANY SET Website = 'www.wimdu.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 66, Logo = '', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.6 WHERE CName = 'Wimdu GmbH';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Wimdu GmbH';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.iloan.com', Industry = 'Lending', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'iLoan, a Springleaf brand';
+UPDATE COMPANY SET Website = 'www.iloan.com', Industry = 'Lending', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'iLoan, a Springleaf brand';
 
-UPDATE COMPANY SET Website = 'www.lucideas.com', Industry = 'Advertising & Marketing', NumberOfRatings = 2, Logo = '', OverallRating = 2, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 1.4, CompensationAndBenefitsRating = 1.6, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.0 WHERE CName = 'Lucidea';
+UPDATE COMPANY SET Website = 'www.lucideas.com', Industry = 'Advertising & Marketing', NumberOfRatings = 2, Logo = '', OverallRating = 2, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 1.4, CompensationAndBenefitsRating = 1.6, CareerOpportunitiesRating = 1.9, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.0 WHERE CName = 'Lucidea';
 
 
-UPDATE COMPANY SET Website = 'www.fn-design.com', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 4.2, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'MassMutual Financial Group';
+UPDATE COMPANY SET Website = 'www.fn-design.com', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 4.2, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.4, RecomendToFriend = 1.0 WHERE CName = 'MassMutual Financial Group';
 
-UPDATE COMPANY SET Website = 'www.timeinc.com', Industry = 'Publishing', NumberOfRatings = 414, Logo = 'https://media.glassdoor.com/sqll/4192/time-squarelogo-1423168113584.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.5 WHERE CName = 'Time Inc.';
+UPDATE COMPANY SET Website = 'www.timeinc.com', Industry = 'Publishing', NumberOfRatings = 414, Logo = 'https://media.glassdoor.com/sqll/4192/time-squarelogo-1423168113584.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.5 WHERE CName = 'Time Inc.';
 UPDATE COMPANY SET CEOAproval = '54' WHERE CName = 'Time Inc.';
 
-UPDATE COMPANY SET Website = 'www.redbridge.gov.uk', Industry = 'Federal Agencies', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/143055/london-borough-of-redbridge-squarelogo-1393468339423.png', OverallRating = 3.5, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.0 WHERE CName = 'RedBridge Group';
+UPDATE COMPANY SET Website = 'www.redbridge.gov.uk', Industry = 'Federal Agencies', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/143055/london-borough-of-redbridge-squarelogo-1393468339423.png', OverallRating = 3.5, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.0 WHERE CName = 'RedBridge Group';
 
-UPDATE COMPANY SET Website = 'www.burberry.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 239, Logo = 'https://media.glassdoor.com/sqll/13011/burberry-squarelogo-1438183559232.png', OverallRating = 3.6, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.8 WHERE CName = 'Burberry';
+UPDATE COMPANY SET Website = 'www.burberry.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 239, Logo = 'https://media.glassdoor.com/sqll/13011/burberry-squarelogo-1438183559232.png', OverallRating = 3.6, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.8 WHERE CName = 'Burberry';
 UPDATE COMPANY SET CEOAproval = '99' WHERE CName = 'Burberry';
 
 
 
-UPDATE COMPANY SET Website = 'www.highfleet.com', Industry = 'Accounting', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'HIGHFLEET';
+UPDATE COMPANY SET Website = 'www.highfleet.com', Industry = 'Accounting', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'HIGHFLEET';
 
-UPDATE COMPANY SET Website = '', Industry = 'Casual Restaurants', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 1.0 WHERE CName = 'The Dodo';
+UPDATE COMPANY SET Website = '', Industry = 'Casual Restaurants', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 1.0 WHERE CName = 'The Dodo';
 
-UPDATE COMPANY SET Website = 'www.geneva-trading.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/288835/geneva-trading-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Geneva Trading';
+UPDATE COMPANY SET Website = 'www.geneva-trading.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 19, Logo = 'https://media.glassdoor.com/sqll/288835/geneva-trading-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.7 WHERE CName = 'Geneva Trading';
 UPDATE COMPANY SET CEOAproval = '68' WHERE CName = 'Geneva Trading';
 
 
-UPDATE COMPANY SET Website = 'www.comscore.com', Industry = 'Advertising & Marketing', NumberOfRatings = 169, Logo = 'https://media.glassdoor.com/sqll/20698/comscore-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.6 WHERE CName = 'comScore';
+UPDATE COMPANY SET Website = 'www.comscore.com', Industry = 'Advertising & Marketing', NumberOfRatings = 169, Logo = 'https://media.glassdoor.com/sqll/20698/comscore-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.6 WHERE CName = 'comScore';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'comScore';
 
-UPDATE COMPANY SET Website = 'www.medisolv.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/263722/medisolv-squarelogo-1442498382761.png', OverallRating = 3, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Medisolv Inc';
+UPDATE COMPANY SET Website = 'www.medisolv.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/263722/medisolv-squarelogo-1442498382761.png', OverallRating = 3, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Medisolv Inc';
 
 
-UPDATE COMPANY SET Website = 'www.g2tcg.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 2, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 1.0, RecomendToFriend = 0.0 WHERE CName = 'Tactical Communication Group, LLC';
+UPDATE COMPANY SET Website = 'www.g2tcg.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 2, CultureAndValuesRating = 2.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 1.0, RecomendToFriend = 0.0 WHERE CName = 'Tactical Communication Group, LLC';
 
 
 
-UPDATE COMPANY SET Website = 'www.junctionsolutions.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 46, Logo = 'https://media.glassdoor.com/sqll/236537/junction-solutions-inc-squarelogo-1390231583071.png', OverallRating = 4.5, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.9 WHERE CName = 'Junction';
+UPDATE COMPANY SET Website = 'www.junctionsolutions.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 46, Logo = 'https://media.glassdoor.com/sqll/236537/junction-solutions-inc-squarelogo-1390231583071.png', OverallRating = 4.5, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.9 WHERE CName = 'Junction';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Junction';
 
 
-UPDATE COMPANY SET Website = 'www.1010data.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 20, Logo = 'https://media.glassdoor.com/sqll/376456/1010data-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = '1010data';
+UPDATE COMPANY SET Website = 'www.1010data.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 20, Logo = 'https://media.glassdoor.com/sqll/376456/1010data-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 3.9, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.8 WHERE CName = '1010data';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = '1010data';
 
-UPDATE COMPANY SET Website = 'www.pingidentity.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 48, Logo = 'https://media.glassdoor.com/sqll/380907/ping-identity-squarelogo-1411412042201.png', OverallRating = 3.9, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'Ping Identity';
+UPDATE COMPANY SET Website = 'www.pingidentity.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 48, Logo = 'https://media.glassdoor.com/sqll/380907/ping-identity-squarelogo-1411412042201.png', OverallRating = 3.9, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'Ping Identity';
 UPDATE COMPANY SET CEOAproval = '85' WHERE CName = 'Ping Identity';
 
 
-UPDATE COMPANY SET Website = 'www.webtrekk.com', Industry = 'Internet', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/1036364/webtrekk-squarelogo-1438349651497.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Webtrekk GmbH';
+UPDATE COMPANY SET Website = 'www.webtrekk.com', Industry = 'Internet', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/1036364/webtrekk-squarelogo-1438349651497.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Webtrekk GmbH';
 
 
-UPDATE COMPANY SET Website = 'www.luccacoldstorage.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'LUCCA - Editeur de logiciels';
+UPDATE COMPANY SET Website = 'www.luccacoldstorage.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'LUCCA - Editeur de logiciels';
 
-UPDATE COMPANY SET Website = 'www.mybecker.com', Industry = 'Consumer Products Manufacturing', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/130610/harman-becker-automotive-systems-squarelogo-1437028115153.png', OverallRating = 3.2, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.5 WHERE CName = 'Harman Becker Automotive Systems GmbH';
+UPDATE COMPANY SET Website = 'www.mybecker.com', Industry = 'Consumer Products Manufacturing', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/130610/harman-becker-automotive-systems-squarelogo-1437028115153.png', OverallRating = 3.2, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.5 WHERE CName = 'Harman Becker Automotive Systems GmbH';
 UPDATE COMPANY SET CEOAproval = '34' WHERE CName = 'Harman Becker Automotive Systems GmbH';
 
-UPDATE COMPANY SET Website = 'www.criteo.com', Industry = 'Internet', NumberOfRatings = 115, Logo = 'https://media.glassdoor.com/sqll/426672/criteo-squarelogo-1405544888166.png', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.9 WHERE CName = 'Criteo';
+UPDATE COMPANY SET Website = 'www.criteo.com', Industry = 'Internet', NumberOfRatings = 115, Logo = 'https://media.glassdoor.com/sqll/426672/criteo-squarelogo-1405544888166.png', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.9 WHERE CName = 'Criteo';
 UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'Criteo';
 
 
@@ -9198,275 +9198,275 @@ UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'Criteo';
 
 
 
-UPDATE COMPANY SET Website = 'www.nuroa.es', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Nuroa Internet, SL';
+UPDATE COMPANY SET Website = 'www.nuroa.es', Industry = 'Internet', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Nuroa Internet, SL';
 
-UPDATE COMPANY SET Website = 'www.linnenergy.com', Industry = 'Oil & Gas Exploration & Production', NumberOfRatings = 31, Logo = 'https://media.glassdoor.com/sqll/38467/linn-energy-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.9 WHERE CName = 'Linn';
+UPDATE COMPANY SET Website = 'www.linnenergy.com', Industry = 'Oil & Gas Exploration & Production', NumberOfRatings = 31, Logo = 'https://media.glassdoor.com/sqll/38467/linn-energy-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 3.9, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.9 WHERE CName = 'Linn';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Linn';
 
 
-UPDATE COMPANY SET Website = 'www.icemedia.com.au', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 2.6, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.6 WHERE CName = 'Icemedia';
+UPDATE COMPANY SET Website = 'www.icemedia.com.au', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 2.6, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.6 WHERE CName = 'Icemedia';
 
-UPDATE COMPANY SET Website = 'www.netscout.com', Industry = 'Telecommunications Manufacturing', NumberOfRatings = 74, Logo = 'https://media.glassdoor.com/sqll/7948/netscout-systems-squarelogo-1386944928511.png', OverallRating = 3.6, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'NETSCOUT Systems Inc';
+UPDATE COMPANY SET Website = 'www.netscout.com', Industry = 'Telecommunications Manufacturing', NumberOfRatings = 74, Logo = 'https://media.glassdoor.com/sqll/7948/netscout-systems-squarelogo-1386944928511.png', OverallRating = 3.6, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'NETSCOUT Systems Inc';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'NETSCOUT Systems Inc';
 
-UPDATE COMPANY SET Website = 'www.ubimet.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/923530/ubimet-squarelogo-1435664825562.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'UBIMET GmbH';
+UPDATE COMPANY SET Website = 'www.ubimet.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/923530/ubimet-squarelogo-1435664825562.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'UBIMET GmbH';
 
 
-UPDATE COMPANY SET Website = 'www.target.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 14091, Logo = 'https://media.glassdoor.com/sqll/194/target-squarelogo-1441400586391.png', OverallRating = 3.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Till Mobile';
+UPDATE COMPANY SET Website = 'www.target.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 14091, Logo = 'https://media.glassdoor.com/sqll/194/target-squarelogo-1441400586391.png', OverallRating = 3.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Till Mobile';
 UPDATE COMPANY SET CEOAproval = '70' WHERE CName = 'Till Mobile';
 
 
-UPDATE COMPANY SET Website = 'www.nmbrs.nl', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Nmbrs';
+UPDATE COMPANY SET Website = 'www.nmbrs.nl', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Nmbrs';
 
 
 
-UPDATE COMPANY SET Website = 'www.avvo.com', Industry = 'Legal', NumberOfRatings = 35, Logo = 'https://media.glassdoor.com/sqll/704423/avvo-squarelogo-1410889293036.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Avvo, Inc.';
+UPDATE COMPANY SET Website = 'www.avvo.com', Industry = 'Legal', NumberOfRatings = 35, Logo = 'https://media.glassdoor.com/sqll/704423/avvo-squarelogo-1410889293036.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Avvo, Inc.';
 UPDATE COMPANY SET CEOAproval = '95' WHERE CName = 'Avvo, Inc.';
 
-UPDATE COMPANY SET Website = 'www.theclearagency.com', Industry = 'Advertising & Marketing', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/802625/the-clear-agency-squarelogo-1424415174669.png', OverallRating = 3.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Clear Function';
+UPDATE COMPANY SET Website = 'www.theclearagency.com', Industry = 'Advertising & Marketing', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/802625/the-clear-agency-squarelogo-1424415174669.png', OverallRating = 3.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Clear Function';
 UPDATE COMPANY SET CEOAproval = '64' WHERE CName = 'Clear Function';
 
-UPDATE COMPANY SET Website = 'www.carousell.co', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.0 WHERE CName = 'Carousell';
+UPDATE COMPANY SET Website = 'www.carousell.co', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.0 WHERE CName = 'Carousell';
 
-UPDATE COMPANY SET Website = 'www.semanticbits.com', Industry = 'Advertising & Marketing', NumberOfRatings = 14, Logo = 'https://media.glassdoor.com/sqll/269058/semanticbits-squarelogo-1424344204863.png', OverallRating = 3.7, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.7 WHERE CName = 'SemanticBits';
+UPDATE COMPANY SET Website = 'www.semanticbits.com', Industry = 'Advertising & Marketing', NumberOfRatings = 14, Logo = 'https://media.glassdoor.com/sqll/269058/semanticbits-squarelogo-1424344204863.png', OverallRating = 3.7, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.7 WHERE CName = 'SemanticBits';
 UPDATE COMPANY SET CEOAproval = '74' WHERE CName = 'SemanticBits';
 
 
 
-UPDATE COMPANY SET Website = 'www.resortshare.com', Industry = 'Travel Agencies', NumberOfRatings = 21, Logo = 'https://media.glassdoor.com/sqll/959634/resortshare-squarelogo-1433454834612.png', OverallRating = 4.3, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'ResortShare';
+UPDATE COMPANY SET Website = 'www.resortshare.com', Industry = 'Travel Agencies', NumberOfRatings = 21, Logo = 'https://media.glassdoor.com/sqll/959634/resortshare-squarelogo-1433454834612.png', OverallRating = 4.3, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'ResortShare';
 UPDATE COMPANY SET CEOAproval = '94' WHERE CName = 'ResortShare';
 
-UPDATE COMPANY SET Website = 'www.500friends.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/440573/500friends-squarelogo.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = '500friends';
+UPDATE COMPANY SET Website = 'www.500friends.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/440573/500friends-squarelogo.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = '500friends';
 
-UPDATE COMPANY SET Website = 'www.a10networks.com', Industry = 'IT Services', NumberOfRatings = 61, Logo = 'https://media.glassdoor.com/sqll/261028/a10-networks-squarelogo-1439497904473.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.6 WHERE CName = 'A10 Networks';
+UPDATE COMPANY SET Website = 'www.a10networks.com', Industry = 'IT Services', NumberOfRatings = 61, Logo = 'https://media.glassdoor.com/sqll/261028/a10-networks-squarelogo-1439497904473.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.6 WHERE CName = 'A10 Networks';
 UPDATE COMPANY SET CEOAproval = '73' WHERE CName = 'A10 Networks';
 
 
-UPDATE COMPANY SET Website = 'www.inin.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 550, Logo = 'https://media.glassdoor.com/sqll/9375/interactive-intelligence-squarelogo-1426644053477.png', OverallRating = 4.2, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'Interactive Intelligence, Inc.';
+UPDATE COMPANY SET Website = 'www.inin.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 550, Logo = 'https://media.glassdoor.com/sqll/9375/interactive-intelligence-squarelogo-1426644053477.png', OverallRating = 4.2, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'Interactive Intelligence, Inc.';
 UPDATE COMPANY SET CEOAproval = '95' WHERE CName = 'Interactive Intelligence, Inc.';
 
-UPDATE COMPANY SET Website = 'www.mentad.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'MentAd';
+UPDATE COMPANY SET Website = 'www.mentad.com', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'MentAd';
 
-UPDATE COMPANY SET Website = 'www.stretchinternet.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Stretch Internet';
+UPDATE COMPANY SET Website = 'www.stretchinternet.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Stretch Internet';
 
 
-UPDATE COMPANY SET Website = 'www.adp.com/streamline', Industry = 'Staffing & Outsourcing', NumberOfRatings = 2843, Logo = 'https://media.glassdoor.com/sqll/64/adp-squarelogo-1443119350589.png', OverallRating = 3.5, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.7 WHERE CName = 'ADP';
+UPDATE COMPANY SET Website = 'www.adp.com/streamline', Industry = 'Staffing & Outsourcing', NumberOfRatings = 2843, Logo = 'https://media.glassdoor.com/sqll/64/adp-squarelogo-1443119350589.png', OverallRating = 3.5, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.7 WHERE CName = 'ADP';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'ADP';
 
-UPDATE COMPANY SET Website = 'www.nice.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 218, Logo = 'https://media.glassdoor.com/sqll/5674/nice-systems-squarelogo.png', OverallRating = 2.8, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'IEX';
+UPDATE COMPANY SET Website = 'www.nice.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 218, Logo = 'https://media.glassdoor.com/sqll/5674/nice-systems-squarelogo.png', OverallRating = 2.8, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.4, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 2.5, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'IEX';
 UPDATE COMPANY SET CEOAproval = '49' WHERE CName = 'IEX';
 
-UPDATE COMPANY SET Website = 'www.consultmsp.com', Industry = 'Consulting', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'MSP Holdings, LLC';
+UPDATE COMPANY SET Website = 'www.consultmsp.com', Industry = 'Consulting', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'MSP Holdings, LLC';
 
 
-UPDATE COMPANY SET Website = 'www.newforma.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/267465/newforma-squarelogo-1424162099100.png', OverallRating = 3.7, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Newforma';
+UPDATE COMPANY SET Website = 'www.newforma.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/267465/newforma-squarelogo-1424162099100.png', OverallRating = 3.7, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Newforma';
 UPDATE COMPANY SET CEOAproval = '76' WHERE CName = 'Newforma';
 
-UPDATE COMPANY SET Website = 'www.weareclutch.com', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 1.5, CultureAndValuesRating = 1.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 1.5, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.0 WHERE CName = 'Clutch Holdings LLC';
+UPDATE COMPANY SET Website = 'www.weareclutch.com', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 1.5, CultureAndValuesRating = 1.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 1.5, CareerOpportunitiesRating = 1.5, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.0 WHERE CName = 'Clutch Holdings LLC';
 
 
-UPDATE COMPANY SET Website = 'www.idean.com', Industry = 'Advertising & Marketing', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/601315/idean-enterprises-squarelogo-1429704743026.png', OverallRating = 4.5, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.9, RecomendToFriend = 0.9 WHERE CName = 'Idean';
+UPDATE COMPANY SET Website = 'www.idean.com', Industry = 'Advertising & Marketing', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/601315/idean-enterprises-squarelogo-1429704743026.png', OverallRating = 4.5, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.9, WorkLifeBalanceRating = 4.9, RecomendToFriend = 0.9 WHERE CName = 'Idean';
 UPDATE COMPANY SET CEOAproval = '50' WHERE CName = 'Idean';
 
 
-UPDATE COMPANY SET Website = 'www.ceridian.com', Industry = 'Staffing & Outsourcing', NumberOfRatings = 640, Logo = 'https://media.glassdoor.com/sqll/179/ceridian-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'Ceridian';
+UPDATE COMPANY SET Website = 'www.ceridian.com', Industry = 'Staffing & Outsourcing', NumberOfRatings = 640, Logo = 'https://media.glassdoor.com/sqll/179/ceridian-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 3.9, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'Ceridian';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'Ceridian';
 
-UPDATE COMPANY SET Website = 'www.rulesware.com', Industry = 'Consulting', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/429465/rulesware-squarelogo.png', OverallRating = 4.4, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 3.8, RecomendToFriend = 1.0 WHERE CName = 'Rulesware';
+UPDATE COMPANY SET Website = 'www.rulesware.com', Industry = 'Consulting', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/429465/rulesware-squarelogo.png', OverallRating = 4.4, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 4.6, WorkLifeBalanceRating = 3.8, RecomendToFriend = 1.0 WHERE CName = 'Rulesware';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Rulesware';
 
-UPDATE COMPANY SET Website = 'www.clevertech.biz', Industry = 'Computer Hardware & Software', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/781853/clevertech-squarelogo-1422358368408.png', OverallRating = 4.6, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Clevertech';
+UPDATE COMPANY SET Website = 'www.clevertech.biz', Industry = 'Computer Hardware & Software', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/781853/clevertech-squarelogo-1422358368408.png', OverallRating = 4.6, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 4.4, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Clevertech';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Clevertech';
 
-UPDATE COMPANY SET Website = 'www.jpmorganchase.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 6901, Logo = 'https://media.glassdoor.com/sqll/145/j-p-morgan-squarelogo-1392847825435.png', OverallRating = 3.4, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.7 WHERE CName = 'JPMorgan Chase &amp; Co.';
+UPDATE COMPANY SET Website = 'www.jpmorganchase.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 6901, Logo = 'https://media.glassdoor.com/sqll/145/j-p-morgan-squarelogo-1392847825435.png', OverallRating = 3.4, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.7 WHERE CName = 'JPMorgan Chase &amp; Co.';
 UPDATE COMPANY SET CEOAproval = '86' WHERE CName = 'JPMorgan Chase &amp; Co.';
 
 
-UPDATE COMPANY SET Website = 'www.sugarcrm.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 103, Logo = 'https://media.glassdoor.com/sqll/230070/sugarcrm-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.6 WHERE CName = 'SugarCRM';
+UPDATE COMPANY SET Website = 'www.sugarcrm.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 103, Logo = 'https://media.glassdoor.com/sqll/230070/sugarcrm-squarelogo.png', OverallRating = 3.4, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.6 WHERE CName = 'SugarCRM';
 UPDATE COMPANY SET CEOAproval = '85' WHERE CName = 'SugarCRM';
 
-UPDATE COMPANY SET Website = 'www.architizer.com', Industry = 'Internet', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/643099/architizer-squarelogo-1436991905918.png', OverallRating = 3.4, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 3.8, RecomendToFriend = 1.0 WHERE CName = 'Architizer';
+UPDATE COMPANY SET Website = 'www.architizer.com', Industry = 'Internet', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/643099/architizer-squarelogo-1436991905918.png', OverallRating = 3.4, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 4.6, WorkLifeBalanceRating = 3.8, RecomendToFriend = 1.0 WHERE CName = 'Architizer';
 
 
-UPDATE COMPANY SET Website = 'www.financialengines.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 72, Logo = 'https://media.glassdoor.com/sqll/7852/financial-engines-squarelogo-1422910122606.png', OverallRating = 3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.5 WHERE CName = 'Financial Engines';
+UPDATE COMPANY SET Website = 'www.financialengines.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 72, Logo = 'https://media.glassdoor.com/sqll/7852/financial-engines-squarelogo-1422910122606.png', OverallRating = 3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.5 WHERE CName = 'Financial Engines';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'Financial Engines';
 
-UPDATE COMPANY SET Website = 'www.gaggle.net', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = '', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 1.0 WHERE CName = 'Gaggle.Net';
+UPDATE COMPANY SET Website = 'www.gaggle.net', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = '', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 1.0 WHERE CName = 'Gaggle.Net';
 UPDATE COMPANY SET CEOAproval = '-100' WHERE CName = 'Gaggle.Net';
 
-UPDATE COMPANY SET Website = 'www.dartmouth-hitchcock.org', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 86, Logo = 'https://media.glassdoor.com/sqll/234926/dartmouth-hitchcock-medical-center-squarelogo.png', OverallRating = 2.8, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Likeli';
+UPDATE COMPANY SET Website = 'www.dartmouth-hitchcock.org', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 86, Logo = 'https://media.glassdoor.com/sqll/234926/dartmouth-hitchcock-medical-center-squarelogo.png', OverallRating = 2.8, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Likeli';
 UPDATE COMPANY SET CEOAproval = '40' WHERE CName = 'Likeli';
 
-UPDATE COMPANY SET Website = 'www.covermymeds.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/680605/covermymeds-squarelogo-1433881525928.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.8, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'CoverMyMeds';
+UPDATE COMPANY SET Website = 'www.covermymeds.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/680605/covermymeds-squarelogo-1433881525928.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.8, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 4.9, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'CoverMyMeds';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'CoverMyMeds';
 
 
-UPDATE COMPANY SET Website = 'www.sitespect.com', Industry = 'Internet', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/906956/sitespect-squarelogo-1426165588498.png', OverallRating = 3.9, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'SiteSpect';
+UPDATE COMPANY SET Website = 'www.sitespect.com', Industry = 'Internet', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/906956/sitespect-squarelogo-1426165588498.png', OverallRating = 3.9, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'SiteSpect';
 UPDATE COMPANY SET CEOAproval = '88' WHERE CName = 'SiteSpect';
 
-UPDATE COMPANY SET Website = 'www.rightsline.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Rightsline Software, Inc';
+UPDATE COMPANY SET Website = 'www.rightsline.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Rightsline Software, Inc';
 
-UPDATE COMPANY SET Website = 'www.schufa.de', Industry = '', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/933160/schufa-squarelogo-1425887745910.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'SCHUFA Holding AG';
+UPDATE COMPANY SET Website = 'www.schufa.de', Industry = '', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/933160/schufa-squarelogo-1425887745910.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'SCHUFA Holding AG';
 
-UPDATE COMPANY SET Website = 'affectv.co.uk', Industry = 'Advertising & Marketing', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 1.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.0 WHERE CName = 'Affectv';
+UPDATE COMPANY SET Website = 'affectv.co.uk', Industry = 'Advertising & Marketing', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 1.0, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.0 WHERE CName = 'Affectv';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Affectv';
 
-UPDATE COMPANY SET Website = 'www.cvent.com', Industry = 'Internet', NumberOfRatings = 306, Logo = 'https://media.glassdoor.com/sqll/104683/cvent-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.7 WHERE CName = 'Cvent';
+UPDATE COMPANY SET Website = 'www.cvent.com', Industry = 'Internet', NumberOfRatings = 306, Logo = 'https://media.glassdoor.com/sqll/104683/cvent-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.7 WHERE CName = 'Cvent';
 UPDATE COMPANY SET CEOAproval = '84' WHERE CName = 'Cvent';
 
-UPDATE COMPANY SET Website = 'www.acuitybrands.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 71, Logo = 'https://media.glassdoor.com/sqll/13436/acuity-brands-squarelogo.png', OverallRating = 2.9, CultureAndValuesRating = 2.8, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.4 WHERE CName = 'Acuity Brands';
+UPDATE COMPANY SET Website = 'www.acuitybrands.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 71, Logo = 'https://media.glassdoor.com/sqll/13436/acuity-brands-squarelogo.png', OverallRating = 2.9, CultureAndValuesRating = 2.8, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.4 WHERE CName = 'Acuity Brands';
 UPDATE COMPANY SET CEOAproval = '50' WHERE CName = 'Acuity Brands';
 
-UPDATE COMPANY SET Website = 'www.thoughtworks.com', Industry = 'IT Services', NumberOfRatings = 408, Logo = 'https://media.glassdoor.com/sqll/38334/thoughtworks-squarelogo.png', OverallRating = 3.7, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.8 WHERE CName = 'ThoughtWorks';
+UPDATE COMPANY SET Website = 'www.thoughtworks.com', Industry = 'IT Services', NumberOfRatings = 408, Logo = 'https://media.glassdoor.com/sqll/38334/thoughtworks-squarelogo.png', OverallRating = 3.7, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.8 WHERE CName = 'ThoughtWorks';
 UPDATE COMPANY SET CEOAproval = '83' WHERE CName = 'ThoughtWorks';
 
 
-UPDATE COMPANY SET Website = 'www.slendertone.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Bio Medical Research Ltd';
+UPDATE COMPANY SET Website = 'www.slendertone.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Bio Medical Research Ltd';
 
-UPDATE COMPANY SET Website = 'www.nibr.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 131, Logo = 'https://media.glassdoor.com/sqll/435340/novartis-institutes-for-biomedical-research-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.9 WHERE CName = 'Novartis Institutes for BioMedical Research';
+UPDATE COMPANY SET Website = 'www.nibr.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 131, Logo = 'https://media.glassdoor.com/sqll/435340/novartis-institutes-for-biomedical-research-squarelogo.png', OverallRating = 3.9, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.9 WHERE CName = 'Novartis Institutes for BioMedical Research';
 UPDATE COMPANY SET CEOAproval = '83' WHERE CName = 'Novartis Institutes for BioMedical Research';
 
-UPDATE COMPANY SET Website = 'www.benaissance.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/731492/benaissance-squarelogo-1403899660694.png', OverallRating = 3.3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.5 WHERE CName = 'Benaissance';
+UPDATE COMPANY SET Website = 'www.benaissance.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/731492/benaissance-squarelogo-1403899660694.png', OverallRating = 3.3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.5 WHERE CName = 'Benaissance';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Benaissance';
 
 
-UPDATE COMPANY SET Website = 'www.continuum.io', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/983617/continuum-analytics-squarelogo-1441299051262.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.7, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Continuum Analytics';
+UPDATE COMPANY SET Website = 'www.continuum.io', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 3, Logo = 'https://media.glassdoor.com/sqll/983617/continuum-analytics-squarelogo-1441299051262.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.7, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Continuum Analytics';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Continuum Analytics';
 
 
-UPDATE COMPANY SET Website = 'www.careevolution.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/769579/careevolution-squarelogo-1413810405157.png', OverallRating = 4.5, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 4.9, RecomendToFriend = 0.9 WHERE CName = 'CareEvolution';
+UPDATE COMPANY SET Website = 'www.careevolution.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/769579/careevolution-squarelogo-1413810405157.png', OverallRating = 4.5, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 4.9, RecomendToFriend = 0.9 WHERE CName = 'CareEvolution';
 
-UPDATE COMPANY SET Website = 'www.nucleusfinancial.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Nucleus Financial';
+UPDATE COMPANY SET Website = 'www.nucleusfinancial.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Nucleus Financial';
 
-UPDATE COMPANY SET Website = 'www.mrisoftware.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 95, Logo = 'https://media.glassdoor.com/sqll/325785/mri-software-squarelogo-1385582307682.png', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.7 WHERE CName = 'MRI Software LLC';
+UPDATE COMPANY SET Website = 'www.mrisoftware.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 95, Logo = 'https://media.glassdoor.com/sqll/325785/mri-software-squarelogo-1385582307682.png', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.7 WHERE CName = 'MRI Software LLC';
 UPDATE COMPANY SET CEOAproval = '93' WHERE CName = 'MRI Software LLC';
 
-UPDATE COMPANY SET Website = 'www.fiscalnote.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/823633/fiscalnote-squarelogo-1418060881504.png', OverallRating = 4.9, CultureAndValuesRating = 4.9, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.7, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'FiscalNote, Inc.';
+UPDATE COMPANY SET Website = 'www.fiscalnote.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/823633/fiscalnote-squarelogo-1418060881504.png', OverallRating = 4.9, CultureAndValuesRating = 4.9, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.7, CareerOpportunitiesRating = 4.9, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'FiscalNote, Inc.';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'FiscalNote, Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.kpn.com', Industry = 'Cable, Internet & Telephone Providers', NumberOfRatings = 94, Logo = 'https://media.glassdoor.com/sqll/10495/kpn-squarelogo.png', OverallRating = 4.3, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'KPN';
+UPDATE COMPANY SET Website = 'www.kpn.com', Industry = 'Cable, Internet & Telephone Providers', NumberOfRatings = 94, Logo = 'https://media.glassdoor.com/sqll/10495/kpn-squarelogo.png', OverallRating = 4.3, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.9 WHERE CName = 'KPN';
 UPDATE COMPANY SET CEOAproval = '98' WHERE CName = 'KPN';
 
-UPDATE COMPANY SET Website = 'www.myecsinc.com', Industry = 'Consulting', NumberOfRatings = 66, Logo = 'https://media.glassdoor.com/sqll/334811/enterprise-consulting-solutions-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Lumerical Solutions, Inc.';
+UPDATE COMPANY SET Website = 'www.myecsinc.com', Industry = 'Consulting', NumberOfRatings = 66, Logo = 'https://media.glassdoor.com/sqll/334811/enterprise-consulting-solutions-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Lumerical Solutions, Inc.';
 UPDATE COMPANY SET CEOAproval = '51' WHERE CName = 'Lumerical Solutions, Inc.';
 
 
 
 
-UPDATE COMPANY SET Website = 'www.eyec.de', Industry = 'Miscellaneous Manufacturing', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/951241/eyec-squarelogo-1422900156287.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'EyeC GmbH';
+UPDATE COMPANY SET Website = 'www.eyec.de', Industry = 'Miscellaneous Manufacturing', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/951241/eyec-squarelogo-1422900156287.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'EyeC GmbH';
 
-UPDATE COMPANY SET Website = 'business.gogoair.com', Industry = 'Telecommunications Services', NumberOfRatings = 33, Logo = 'https://media.glassdoor.com/sqll/260679/gogo-business-aviation-squarelogo-1410295493020.png', OverallRating = 3.5, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.6 WHERE CName = 'Gogo Business Aviation';
+UPDATE COMPANY SET Website = 'business.gogoair.com', Industry = 'Telecommunications Services', NumberOfRatings = 33, Logo = 'https://media.glassdoor.com/sqll/260679/gogo-business-aviation-squarelogo-1410295493020.png', OverallRating = 3.5, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.6 WHERE CName = 'Gogo Business Aviation';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Gogo Business Aviation';
 
-UPDATE COMPANY SET Website = 'www.powerreviews.com', Industry = 'Advertising & Marketing', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/323313/powerreviews-squarelogo-1427099136324.png', OverallRating = 4.5, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'PowerReviews';
+UPDATE COMPANY SET Website = 'www.powerreviews.com', Industry = 'Advertising & Marketing', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/323313/powerreviews-squarelogo-1427099136324.png', OverallRating = 4.5, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'PowerReviews';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'PowerReviews';
 
-UPDATE COMPANY SET Website = 'jobs.sky.com', Industry = 'TV Broadcast & Cable Networks', NumberOfRatings = 364, Logo = 'https://media.glassdoor.com/sqll/3903/sky-squarelogo-1438182997979.png', OverallRating = 3.4, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.7 WHERE CName = 'Sky';
+UPDATE COMPANY SET Website = 'jobs.sky.com', Industry = 'TV Broadcast & Cable Networks', NumberOfRatings = 364, Logo = 'https://media.glassdoor.com/sqll/3903/sky-squarelogo-1438182997979.png', OverallRating = 3.4, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.7 WHERE CName = 'Sky';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'Sky';
 
-UPDATE COMPANY SET Website = 'www.prodyna.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/771066/prodyna-squarelogo-1436884009065.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'PRODYNA AG';
+UPDATE COMPANY SET Website = 'www.prodyna.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/771066/prodyna-squarelogo-1436884009065.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'PRODYNA AG';
 
 
-UPDATE COMPANY SET Website = 'www.vodafone.com', Industry = 'Cable, Internet & Telephone Providers', NumberOfRatings = 1441, Logo = 'https://media.glassdoor.com/sqll/5775/vodafone-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.7 WHERE CName = 'Vodafone';
+UPDATE COMPANY SET Website = 'www.vodafone.com', Industry = 'Cable, Internet & Telephone Providers', NumberOfRatings = 1441, Logo = 'https://media.glassdoor.com/sqll/5775/vodafone-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.7 WHERE CName = 'Vodafone';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'Vodafone';
 
-UPDATE COMPANY SET Website = 'www.akqa.com', Industry = 'Advertising & Marketing', NumberOfRatings = 316, Logo = 'https://media.glassdoor.com/sqll/23381/akqa-squarelogo-1422459900663.png', OverallRating = 3.4, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.6 WHERE CName = 'AKQA';
+UPDATE COMPANY SET Website = 'www.akqa.com', Industry = 'Advertising & Marketing', NumberOfRatings = 316, Logo = 'https://media.glassdoor.com/sqll/23381/akqa-squarelogo-1422459900663.png', OverallRating = 3.4, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.6 WHERE CName = 'AKQA';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'AKQA';
 
 
-UPDATE COMPANY SET Website = 'www.merchantsbonding.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Merchants Bonding Company';
+UPDATE COMPANY SET Website = 'www.merchantsbonding.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Merchants Bonding Company';
 
-UPDATE COMPANY SET Website = 'www.atlassian.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 131, Logo = 'https://media.glassdoor.com/sqll/115699/atlassian-squarelogo-1424735407620.png', OverallRating = 4.2, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Atlassian';
+UPDATE COMPANY SET Website = 'www.atlassian.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 131, Logo = 'https://media.glassdoor.com/sqll/115699/atlassian-squarelogo-1424735407620.png', OverallRating = 4.2, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 3.9, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Atlassian';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'Atlassian';
 
-UPDATE COMPANY SET Website = 'www.fcg.im', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/670184/formicary-collaboration-squarelogo-1392780204037.png', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'MindLink Software';
+UPDATE COMPANY SET Website = 'www.fcg.im', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/670184/formicary-collaboration-squarelogo-1392780204037.png', OverallRating = 4, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'MindLink Software';
 
 
 
-UPDATE COMPANY SET Website = 'www.sygic.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = '', OverallRating = 3.9, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.6 WHERE CName = 'Sygic a.s.';
+UPDATE COMPANY SET Website = 'www.sygic.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = '', OverallRating = 3.9, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.6 WHERE CName = 'Sygic a.s.';
 
 
-UPDATE COMPANY SET Website = 'www.suitabletech.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Suitable Technologies, Inc.';
+UPDATE COMPANY SET Website = 'www.suitabletech.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Suitable Technologies, Inc.';
 
-UPDATE COMPANY SET Website = 'www.sticky.ad', Industry = 'Advertising & Marketing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Sticky';
+UPDATE COMPANY SET Website = 'www.sticky.ad', Industry = 'Advertising & Marketing', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Sticky';
 
-UPDATE COMPANY SET Website = 'www.sam-media.com', Industry = '', NumberOfRatings = 3, Logo = '', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Sam Media Sdn Bhd';
+UPDATE COMPANY SET Website = 'www.sam-media.com', Industry = '', NumberOfRatings = 3, Logo = '', OverallRating = 3.7, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'Sam Media Sdn Bhd';
 
 
-UPDATE COMPANY SET Website = 'www.ask.com', Industry = 'Motion Picture Production & Distribution', NumberOfRatings = 90, Logo = 'https://media.glassdoor.com/sqll/317059/ask-com-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.5 WHERE CName = 'Ask';
+UPDATE COMPANY SET Website = 'www.ask.com', Industry = 'Motion Picture Production & Distribution', NumberOfRatings = 90, Logo = 'https://media.glassdoor.com/sqll/317059/ask-com-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.5 WHERE CName = 'Ask';
 UPDATE COMPANY SET CEOAproval = '45' WHERE CName = 'Ask';
 
 
-UPDATE COMPANY SET Website = 'www.futuremark.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Futuremark';
+UPDATE COMPANY SET Website = 'www.futuremark.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Futuremark';
 
 
-UPDATE COMPANY SET Website = 'www.t-systems-mms.com', Industry = 'IT Services', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/440532/t-systems-multimedia-solutions-gmbh-squarelogo-1436864071810.png', OverallRating = 3.3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 5.0, RecomendToFriend = 0.8 WHERE CName = 'T-Systems Multimedia Solutions GmbH';
+UPDATE COMPANY SET Website = 'www.t-systems-mms.com', Industry = 'IT Services', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/440532/t-systems-multimedia-solutions-gmbh-squarelogo-1436864071810.png', OverallRating = 3.3, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 0.8 WHERE CName = 'T-Systems Multimedia Solutions GmbH';
 
 
 
 
 
-UPDATE COMPANY SET Website = 'www.idfy.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'IDfy';
+UPDATE COMPANY SET Website = 'www.idfy.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'IDfy';
 
 
-UPDATE COMPANY SET Website = 'www.infod.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 11, Logo = 'https://media.glassdoor.com/sqll/391642/infodynamics-squarelogo-1425986491629.png', OverallRating = 3.1, CultureAndValuesRating = 2.8, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.4 WHERE CName = 'INFODYNAMICS, Inc.';
+UPDATE COMPANY SET Website = 'www.infod.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 11, Logo = 'https://media.glassdoor.com/sqll/391642/infodynamics-squarelogo-1425986491629.png', OverallRating = 3.1, CultureAndValuesRating = 2.8, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.4 WHERE CName = 'INFODYNAMICS, Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.domeyard.com', Industry = 'Venture Capital & Private Equity', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Domeyard LP';
+UPDATE COMPANY SET Website = 'www.domeyard.com', Industry = 'Venture Capital & Private Equity', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Domeyard LP';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Domeyard LP';
 
-UPDATE COMPANY SET Website = 'www.originate.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 12, Logo = '', OverallRating = 4.7, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Originate';
+UPDATE COMPANY SET Website = 'www.originate.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 12, Logo = '', OverallRating = 4.7, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.6, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Originate';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Originate';
 
 
-UPDATE COMPANY SET Website = 'www.outriggermedia.com', Industry = 'Advertising & Marketing', NumberOfRatings = 3, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Outrigger Media';
+UPDATE COMPANY SET Website = 'www.outriggermedia.com', Industry = 'Advertising & Marketing', NumberOfRatings = 3, Logo = '', OverallRating = 5, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Outrigger Media';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Outrigger Media';
 
-UPDATE COMPANY SET Website = 'www.catapultconsultants.com', Industry = 'Federal Agencies', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/299153/catapult-consultants-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.4 WHERE CName = 'Catapult Consulting LLC';
+UPDATE COMPANY SET Website = 'www.catapultconsultants.com', Industry = 'Federal Agencies', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/299153/catapult-consultants-squarelogo.png', OverallRating = 3.1, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.4 WHERE CName = 'Catapult Consulting LLC';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Catapult Consulting LLC';
 
-UPDATE COMPANY SET Website = 'www.discogs.com', Industry = 'Media & Entertainment Retail Stores', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Discogs';
+UPDATE COMPANY SET Website = 'www.discogs.com', Industry = 'Media & Entertainment Retail Stores', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Discogs';
 
-UPDATE COMPANY SET Website = 'www.nerdery.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 94, Logo = 'https://media.glassdoor.com/sqll/249800/the-nerdery-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.7 WHERE CName = 'The Nerdery';
+UPDATE COMPANY SET Website = 'www.nerdery.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 94, Logo = 'https://media.glassdoor.com/sqll/249800/the-nerdery-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.7, RecomendToFriend = 0.7 WHERE CName = 'The Nerdery';
 UPDATE COMPANY SET CEOAproval = '75' WHERE CName = 'The Nerdery';
 
 
-UPDATE COMPANY SET Website = 'www.sharethrough.com', Industry = 'Internet', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/594164/sharethrough-squarelogo-1443214701460.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Sharethrough';
+UPDATE COMPANY SET Website = 'www.sharethrough.com', Industry = 'Internet', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/594164/sharethrough-squarelogo-1443214701460.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'Sharethrough';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Sharethrough';
 
-UPDATE COMPANY SET Website = 'www.xamarin.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/692865/xamarin-squarelogo-1434575831339.png', OverallRating = 5, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Xamarin';
+UPDATE COMPANY SET Website = 'www.xamarin.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/692865/xamarin-squarelogo-1434575831339.png', OverallRating = 5, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Xamarin';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Xamarin';
 
 
-UPDATE COMPANY SET Website = 'www.logianalytics.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 41, Logo = 'https://media.glassdoor.com/sqll/264998/logi-analytics-squarelogo-1423704178213.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.6 WHERE CName = 'Logi Analytics';
+UPDATE COMPANY SET Website = 'www.logianalytics.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 41, Logo = 'https://media.glassdoor.com/sqll/264998/logi-analytics-squarelogo-1423704178213.png', OverallRating = 3.1, CultureAndValuesRating = 3.1, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.5 WHERE CName = 'Logi Analytics';
 UPDATE COMPANY SET CEOAproval = '63' WHERE CName = 'Logi Analytics';
 
-UPDATE COMPANY SET Website = 'www.metrostarsystems.com', Industry = 'IT Services', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/31165/metrostar-systems-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.6 WHERE CName = 'MetroStar Systems';
+UPDATE COMPANY SET Website = 'www.metrostarsystems.com', Industry = 'IT Services', NumberOfRatings = 30, Logo = 'https://media.glassdoor.com/sqll/31165/metrostar-systems-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.6 WHERE CName = 'MetroStar Systems';
 UPDATE COMPANY SET CEOAproval = '76' WHERE CName = 'MetroStar Systems';
 
-UPDATE COMPANY SET Website = 'www.pivotallabs.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 63, Logo = 'https://media.glassdoor.com/sqll/141862/pivotal-labs-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.8 WHERE CName = 'Pivotal Labs';
+UPDATE COMPANY SET Website = 'www.pivotallabs.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 63, Logo = 'https://media.glassdoor.com/sqll/141862/pivotal-labs-squarelogo.png', OverallRating = 4.1, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.4, RecomendToFriend = 0.8 WHERE CName = 'Pivotal Labs';
 UPDATE COMPANY SET CEOAproval = '91' WHERE CName = 'Pivotal Labs';
 
-UPDATE COMPANY SET Website = 'www.madebymany.com', Industry = 'Internet', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 1.0 WHERE CName = 'Made by Many';
+UPDATE COMPANY SET Website = 'www.madebymany.com', Industry = 'Internet', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 1.0 WHERE CName = 'Made by Many';
 
-UPDATE COMPANY SET Website = 'www.yext.com', Industry = 'Internet', NumberOfRatings = 78, Logo = 'https://media.glassdoor.com/sqll/312260/yext-squarelogo-1401461403836.png', OverallRating = 3.8, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.7 WHERE CName = 'Yext';
+UPDATE COMPANY SET Website = 'www.yext.com', Industry = 'Internet', NumberOfRatings = 78, Logo = 'https://media.glassdoor.com/sqll/312260/yext-squarelogo-1401461403836.png', OverallRating = 3.8, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.7 WHERE CName = 'Yext';
 UPDATE COMPANY SET CEOAproval = '99' WHERE CName = 'Yext';
 
-UPDATE COMPANY SET Website = 'www.belk.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 754, Logo = 'https://media.glassdoor.com/sqll/2732/belk-squarelogo.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.4 WHERE CName = 'Belk';
+UPDATE COMPANY SET Website = 'www.belk.com', Industry = 'Department, Clothing, & Shoe Stores', NumberOfRatings = 754, Logo = 'https://media.glassdoor.com/sqll/2732/belk-squarelogo.png', OverallRating = 3, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 2.4, RecomendToFriend = 0.4 WHERE CName = 'Belk';
 UPDATE COMPANY SET CEOAproval = '61' WHERE CName = 'Belk';
 
-UPDATE COMPANY SET Website = 'www.aasehaugen.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Haugen Software';
+UPDATE COMPANY SET Website = 'www.aasehaugen.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Haugen Software';
 
-UPDATE COMPANY SET Website = 'www.grubhub.com', Industry = 'Internet', NumberOfRatings = 113, Logo = 'https://media.glassdoor.com/sqll/419089/grubhub-squarelogo-1404327279836.png', OverallRating = 3.2, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.5 WHERE CName = 'GrubHub, Inc';
+UPDATE COMPANY SET Website = 'www.grubhub.com', Industry = 'Internet', NumberOfRatings = 113, Logo = 'https://media.glassdoor.com/sqll/419089/grubhub-squarelogo-1404327279836.png', OverallRating = 3.2, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.5 WHERE CName = 'GrubHub, Inc';
 UPDATE COMPANY SET CEOAproval = '57' WHERE CName = 'GrubHub, Inc';
 
-UPDATE COMPANY SET Website = 'www.kaspersky.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 118, Logo = 'https://media.glassdoor.com/sqll/19041/kaspersky-lab-squarelogo-1394545220066.png', OverallRating = 4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Kaspersky Lab';
+UPDATE COMPANY SET Website = 'www.kaspersky.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 118, Logo = 'https://media.glassdoor.com/sqll/19041/kaspersky-lab-squarelogo-1394545220066.png', OverallRating = 4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Kaspersky Lab';
 UPDATE COMPANY SET CEOAproval = '95' WHERE CName = 'Kaspersky Lab';
 
 
 
-UPDATE COMPANY SET Website = 'www.careerbuilder.com', Industry = 'Internet', NumberOfRatings = 600, Logo = 'https://media.glassdoor.com/sqll/9054/careerbuilder-squarelogo-1444313360371.png', OverallRating = 3.8, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'Careerbuilder';
+UPDATE COMPANY SET Website = 'www.careerbuilder.com', Industry = 'Internet', NumberOfRatings = 600, Logo = 'https://media.glassdoor.com/sqll/9054/careerbuilder-squarelogo-1444313360371.png', OverallRating = 3.8, CultureAndValuesRating = 4.0, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'Careerbuilder';
 UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'Careerbuilder';
 
 
@@ -9474,55 +9474,55 @@ UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'Careerbuilder';
 
 
 
-UPDATE COMPANY SET Website = 'www.dc-energy.com', Industry = 'Energy', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/249062/dc-energy-squarelogo-1380113313415.png', OverallRating = 3.1, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.6 WHERE CName = 'DC Energy';
+UPDATE COMPANY SET Website = 'www.dc-energy.com', Industry = 'Energy', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/249062/dc-energy-squarelogo-1380113313415.png', OverallRating = 3.1, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.6, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 3.2, RecomendToFriend = 0.6 WHERE CName = 'DC Energy';
 UPDATE COMPANY SET CEOAproval = '19' WHERE CName = 'DC Energy';
 
-UPDATE COMPANY SET Website = 'www.deanfoods.com', Industry = 'Food & Beverage Manufacturing', NumberOfRatings = 174, Logo = 'https://media.glassdoor.com/sqll/3878/dean-foods-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.4 WHERE CName = 'Dean &amp; Company';
+UPDATE COMPANY SET Website = 'www.deanfoods.com', Industry = 'Food & Beverage Manufacturing', NumberOfRatings = 174, Logo = 'https://media.glassdoor.com/sqll/3878/dean-foods-squarelogo.png', OverallRating = 2.6, CultureAndValuesRating = 2.1, SeniorLeadershipRating = 2.0, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 2.3, WorkLifeBalanceRating = 2.1, RecomendToFriend = 0.4 WHERE CName = 'Dean &amp; Company';
 UPDATE COMPANY SET CEOAproval = '37' WHERE CName = 'Dean &amp; Company';
 
 
-UPDATE COMPANY SET Website = 'www.cambridgeconsultants.com', Industry = 'Consulting', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/37158/cambridge-consultants-squarelogo.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'Cambridge Consultants';
+UPDATE COMPANY SET Website = 'www.cambridgeconsultants.com', Industry = 'Consulting', NumberOfRatings = 12, Logo = 'https://media.glassdoor.com/sqll/37158/cambridge-consultants-squarelogo.png', OverallRating = 4.6, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.9 WHERE CName = 'Cambridge Consultants';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Cambridge Consultants';
 
-UPDATE COMPANY SET Website = 'www.lloydsbankinggroup.com', Industry = 'Banks & Credit Unions', NumberOfRatings = 443, Logo = 'https://media.glassdoor.com/sqll/316191/lloyds-banking-group-squarelogo-1422030320055.png', OverallRating = 3.3, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.6 WHERE CName = 'Lloyds Banking Group';
+UPDATE COMPANY SET Website = 'www.lloydsbankinggroup.com', Industry = 'Banks & Credit Unions', NumberOfRatings = 443, Logo = 'https://media.glassdoor.com/sqll/316191/lloyds-banking-group-squarelogo-1422030320055.png', OverallRating = 3.3, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.2, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 3.5, RecomendToFriend = 0.6 WHERE CName = 'Lloyds Banking Group';
 UPDATE COMPANY SET CEOAproval = '82' WHERE CName = 'Lloyds Banking Group';
 
-UPDATE COMPANY SET Website = 'www.crytek.com', Industry = 'Video Games', NumberOfRatings = 69, Logo = 'https://media.glassdoor.com/sqll/347451/crytek-squarelogo.png', OverallRating = 2.9, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.5 WHERE CName = 'Crytek GmbH';
+UPDATE COMPANY SET Website = 'www.crytek.com', Industry = 'Video Games', NumberOfRatings = 69, Logo = 'https://media.glassdoor.com/sqll/347451/crytek-squarelogo.png', OverallRating = 2.9, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 2.1, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.5 WHERE CName = 'Crytek GmbH';
 UPDATE COMPANY SET CEOAproval = '31' WHERE CName = 'Crytek GmbH';
 
-UPDATE COMPANY SET Website = 'www.viewpost.com', Industry = 'Financial Transaction Processing', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/673488/viewpost-squarelogo-1386990791738.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.8 WHERE CName = 'Viewpost';
+UPDATE COMPANY SET Website = 'www.viewpost.com', Industry = 'Financial Transaction Processing', NumberOfRatings = 25, Logo = 'https://media.glassdoor.com/sqll/673488/viewpost-squarelogo-1386990791738.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.8 WHERE CName = 'Viewpost';
 UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'Viewpost';
 
 
-UPDATE COMPANY SET Website = 'www.pftec.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = '', OverallRating = 3.8, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Pathfinder Group, Ltd.';
+UPDATE COMPANY SET Website = 'www.pftec.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = '', OverallRating = 3.8, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Pathfinder Group, Ltd.';
 
 
-UPDATE COMPANY SET Website = 'www.project-a.com', Industry = 'Accounting', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/684491/project-a-ventures-squarelogo-1378820072948.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 1.0 WHERE CName = 'Project A Ventures';
+UPDATE COMPANY SET Website = 'www.project-a.com', Industry = 'Accounting', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/684491/project-a-ventures-squarelogo-1378820072948.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 1.0 WHERE CName = 'Project A Ventures';
 
-UPDATE COMPANY SET Website = 'www.wheelright.co.uk', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'WheelRight Ltd';
-
-
-UPDATE COMPANY SET Website = 'www.teamwork.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Teamwork.com';
+UPDATE COMPANY SET Website = 'www.wheelright.co.uk', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'WheelRight Ltd';
 
 
-UPDATE COMPANY SET Website = 'www.ondeck.com', Industry = 'Lending', NumberOfRatings = 85, Logo = 'https://media.glassdoor.com/sqll/445023/ondeck-squarelogo-1384473831627.png', OverallRating = 4.2, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'OnDeck';
+UPDATE COMPANY SET Website = 'www.teamwork.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 4.2, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Teamwork.com';
+
+
+UPDATE COMPANY SET Website = 'www.ondeck.com', Industry = 'Lending', NumberOfRatings = 85, Logo = 'https://media.glassdoor.com/sqll/445023/ondeck-squarelogo-1384473831627.png', OverallRating = 4.2, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 3.9, RecomendToFriend = 0.8 WHERE CName = 'OnDeck';
 UPDATE COMPANY SET CEOAproval = '98' WHERE CName = 'OnDeck';
 
 
-UPDATE COMPANY SET Website = 'www.bol.com', Industry = 'Other Retail Stores', NumberOfRatings = 18, Logo = 'https://media.glassdoor.com/sqll/838762/bol-com-squarelogo-1435816381031.png', OverallRating = 4.6, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Bol.com';
+UPDATE COMPANY SET Website = 'www.bol.com', Industry = 'Other Retail Stores', NumberOfRatings = 18, Logo = 'https://media.glassdoor.com/sqll/838762/bol-com-squarelogo-1435816381031.png', OverallRating = 4.6, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Bol.com';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Bol.com';
 
 
-UPDATE COMPANY SET Website = 'www.virtual-solution.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/948110/virtual-solution-squarelogo-1437027748248.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'virtual solution AG';
+UPDATE COMPANY SET Website = 'www.virtual-solution.com', Industry = 'IT Services', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/948110/virtual-solution-squarelogo-1437027748248.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'virtual solution AG';
 
-UPDATE COMPANY SET Website = 'worldremit.co.uk', Industry = 'Financial Transaction Processing', NumberOfRatings = 20, Logo = 'https://media.glassdoor.com/sqll/996002/worldremit-squarelogo-1442319353762.png', OverallRating = 2, CultureAndValuesRating = 1.9, SeniorLeadershipRating = 1.6, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.2, RecomendToFriend = 0.2 WHERE CName = 'WorldRemit';
+UPDATE COMPANY SET Website = 'worldremit.co.uk', Industry = 'Financial Transaction Processing', NumberOfRatings = 20, Logo = 'https://media.glassdoor.com/sqll/996002/worldremit-squarelogo-1442319353762.png', OverallRating = 2, CultureAndValuesRating = 1.9, SeniorLeadershipRating = 1.6, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.2, WorkLifeBalanceRating = 2.2, RecomendToFriend = 0.2 WHERE CName = 'WorldRemit';
 UPDATE COMPANY SET CEOAproval = '15' WHERE CName = 'WorldRemit';
 
-UPDATE COMPANY SET Website = 'www.proofpoint.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 90, Logo = 'https://media.glassdoor.com/sqll/39140/proofpoint-squarelogo.png', OverallRating = 4, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.9, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'Proofpoint';
+UPDATE COMPANY SET Website = 'www.proofpoint.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 90, Logo = 'https://media.glassdoor.com/sqll/39140/proofpoint-squarelogo.png', OverallRating = 4, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.9, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.8 WHERE CName = 'Proofpoint';
 UPDATE COMPANY SET CEOAproval = '96' WHERE CName = 'Proofpoint';
 
 
-UPDATE COMPANY SET Website = 'www.masimo.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 79, Logo = 'https://media.glassdoor.com/sqll/12670/masimo-squarelogo-1392670349452.png', OverallRating = 2.9, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'Masimo';
+UPDATE COMPANY SET Website = 'www.masimo.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 79, Logo = 'https://media.glassdoor.com/sqll/12670/masimo-squarelogo-1392670349452.png', OverallRating = 2.9, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.4 WHERE CName = 'Masimo';
 UPDATE COMPANY SET CEOAproval = '55' WHERE CName = 'Masimo';
 
 
@@ -9531,208 +9531,208 @@ UPDATE COMPANY SET CEOAproval = '55' WHERE CName = 'Masimo';
 
 
 
-UPDATE COMPANY SET Website = 'www.relayfoods.com', Industry = 'Food & Beverage Manufacturing', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/687185/relay-foods-squarelogo-1442211598212.png', OverallRating = 3.4, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.8 WHERE CName = 'Relay Foods';
+UPDATE COMPANY SET Website = 'www.relayfoods.com', Industry = 'Food & Beverage Manufacturing', NumberOfRatings = 13, Logo = 'https://media.glassdoor.com/sqll/687185/relay-foods-squarelogo-1442211598212.png', OverallRating = 3.4, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.8 WHERE CName = 'Relay Foods';
 
 
 
 
 
-UPDATE COMPANY SET Website = 'www.sproutsocial.com', Industry = 'Internet', NumberOfRatings = 31, Logo = 'https://media.glassdoor.com/sqll/701678/sprout-social-squarelogo-1438724388947.png', OverallRating = 4.7, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Sprout Social Inc.';
+UPDATE COMPANY SET Website = 'www.sproutsocial.com', Industry = 'Internet', NumberOfRatings = 31, Logo = 'https://media.glassdoor.com/sqll/701678/sprout-social-squarelogo-1438724388947.png', OverallRating = 4.7, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.8, RecomendToFriend = 1.0 WHERE CName = 'Sprout Social Inc.';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Sprout Social Inc.';
 
-UPDATE COMPANY SET Website = 'www.solarcity.com', Industry = 'Energy', NumberOfRatings = 1039, Logo = 'https://media.glassdoor.com/sqll/244963/solarcity-squarelogo-1443557090651.png', OverallRating = 3.8, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.7 WHERE CName = 'SolarCity';
+UPDATE COMPANY SET Website = 'www.solarcity.com', Industry = 'Energy', NumberOfRatings = 1039, Logo = 'https://media.glassdoor.com/sqll/244963/solarcity-squarelogo-1443557090651.png', OverallRating = 3.8, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.6, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.7 WHERE CName = 'SolarCity';
 UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'SolarCity';
 
-UPDATE COMPANY SET Website = 'www.shopathome.com', Industry = 'Internet', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/374042/belcaro-group-squarelogo-1431703562814.png', OverallRating = 2.7, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.4 WHERE CName = 'ShopAtHome.com';
+UPDATE COMPANY SET Website = 'www.shopathome.com', Industry = 'Internet', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/374042/belcaro-group-squarelogo-1431703562814.png', OverallRating = 2.7, CultureAndValuesRating = 2.4, SeniorLeadershipRating = 2.3, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 2.6, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.4 WHERE CName = 'ShopAtHome.com';
 UPDATE COMPANY SET CEOAproval = '26' WHERE CName = 'ShopAtHome.com';
 
 
-UPDATE COMPANY SET Website = 'www.q2ebanking.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 41, Logo = 'https://media.glassdoor.com/sqll/515740/q2ebanking-squarelogo-1423587870142.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.5 WHERE CName = 'Q2ebanking';
+UPDATE COMPANY SET Website = 'www.q2ebanking.com', Industry = 'Investment Banking & Asset Management', NumberOfRatings = 41, Logo = 'https://media.glassdoor.com/sqll/515740/q2ebanking-squarelogo-1423587870142.png', OverallRating = 3.1, CultureAndValuesRating = 3.2, SeniorLeadershipRating = 2.8, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 2.7, RecomendToFriend = 0.5 WHERE CName = 'Q2ebanking';
 UPDATE COMPANY SET CEOAproval = '91' WHERE CName = 'Q2ebanking';
 
 
 
-UPDATE COMPANY SET Website = 'www.blueacorn.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/458414/blue-acorn-squarelogo-1407419957113.png', OverallRating = 4.6, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Blue Acorn';
+UPDATE COMPANY SET Website = 'www.blueacorn.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 22, Logo = 'https://media.glassdoor.com/sqll/458414/blue-acorn-squarelogo-1407419957113.png', OverallRating = 4.6, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.4, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 4.3, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Blue Acorn';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Blue Acorn';
 
-UPDATE COMPANY SET Website = 'www.navis.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 24, Logo = 'https://media.glassdoor.com/sqll/135597/navis-llc-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'NAVIS';
+UPDATE COMPANY SET Website = 'www.navis.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 24, Logo = 'https://media.glassdoor.com/sqll/135597/navis-llc-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.1, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.7 WHERE CName = 'NAVIS';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'NAVIS';
 
-UPDATE COMPANY SET Website = 'www.centralreach.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/734034/centralreach-squarelogo-1431679470408.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.8 WHERE CName = 'CentralReach';
+UPDATE COMPANY SET Website = 'www.centralreach.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/734034/centralreach-squarelogo-1431679470408.png', OverallRating = 3.8, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.8 WHERE CName = 'CentralReach';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'CentralReach';
 
-UPDATE COMPANY SET Website = 'www.engagency.com', Industry = 'Internet', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/1070160/engagency-squarelogo-1442688523490.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'ENGAGENCY';
+UPDATE COMPANY SET Website = 'www.engagency.com', Industry = 'Internet', NumberOfRatings = 0, Logo = 'https://media.glassdoor.com/sqll/1070160/engagency-squarelogo-1442688523490.png', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'ENGAGENCY';
 
 
-UPDATE COMPANY SET Website = 'www.www,forensiq.com', Industry = 'Research & Development', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Forensiq';
+UPDATE COMPANY SET Website = 'www.www,forensiq.com', Industry = 'Research & Development', NumberOfRatings = 1, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Forensiq';
 
-UPDATE COMPANY SET Website = 'www.nightowldms.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 1, CultureAndValuesRating = 1.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 1.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 0.0 WHERE CName = 'NightOwl';
+UPDATE COMPANY SET Website = 'www.nightowldms.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1, Logo = '', OverallRating = 1, CultureAndValuesRating = 1.0, SeniorLeadershipRating = 1.0, CompensationAndBenefitsRating = 1.0, CareerOpportunitiesRating = 1.0, WorkLifeBalanceRating = 2.0, RecomendToFriend = 0.0 WHERE CName = 'NightOwl';
 
 
-UPDATE COMPANY SET Website = 'www.enersight.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Enersight Corp.';
+UPDATE COMPANY SET Website = 'www.enersight.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Enersight Corp.';
 
-UPDATE COMPANY SET Website = 'www.r65labs.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'R65 Labs';
+UPDATE COMPANY SET Website = 'www.r65labs.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'R65 Labs';
 
-UPDATE COMPANY SET Website = 'www.blackbaud.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 346, Logo = 'https://media.glassdoor.com/sqll/15863/blackbaud-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.6 WHERE CName = 'Blackbaud';
+UPDATE COMPANY SET Website = 'www.blackbaud.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 346, Logo = 'https://media.glassdoor.com/sqll/15863/blackbaud-squarelogo.png', OverallRating = 3.3, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.6 WHERE CName = 'Blackbaud';
 UPDATE COMPANY SET CEOAproval = '90' WHERE CName = 'Blackbaud';
 
-UPDATE COMPANY SET Website = 'www.frontpointsecurity.com', Industry = 'Advertising & Marketing', NumberOfRatings = 104, Logo = 'https://media.glassdoor.com/sqll/662765/frontpoint-squarelogo-1410963157017.png', OverallRating = 3.3, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.6 WHERE CName = 'Frontpoint';
+UPDATE COMPANY SET Website = 'www.frontpointsecurity.com', Industry = 'Advertising & Marketing', NumberOfRatings = 104, Logo = 'https://media.glassdoor.com/sqll/662765/frontpoint-squarelogo-1410963157017.png', OverallRating = 3.3, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.2, WorkLifeBalanceRating = 3.0, RecomendToFriend = 0.6 WHERE CName = 'Frontpoint';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Frontpoint';
 
-UPDATE COMPANY SET Website = 'www.hytrust.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 24, Logo = 'https://media.glassdoor.com/sqll/571920/hytrust-squarelogo-1404151431178.png', OverallRating = 4.3, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.9 WHERE CName = 'HyTrust';
+UPDATE COMPANY SET Website = 'www.hytrust.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 24, Logo = 'https://media.glassdoor.com/sqll/571920/hytrust-squarelogo-1404151431178.png', OverallRating = 4.3, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.9 WHERE CName = 'HyTrust';
 UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'HyTrust';
 
 
 
-UPDATE COMPANY SET Website = 'www.abcam.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/236524/abcam-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.3, CompensationAndBenefitsRating = 3.2, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.6 WHERE CName = 'Abcam';
+UPDATE COMPANY SET Website = 'www.abcam.com', Industry = 'Biotech & Pharmaceuticals', NumberOfRatings = 40, Logo = 'https://media.glassdoor.com/sqll/236524/abcam-squarelogo.png', OverallRating = 3.5, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.6 WHERE CName = 'Abcam';
 UPDATE COMPANY SET CEOAproval = '79' WHERE CName = 'Abcam';
 
-UPDATE COMPANY SET Website = 'www.wotech.de/ro', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Develer Srl';
+UPDATE COMPANY SET Website = 'www.wotech.de/ro', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Develer Srl';
 
-UPDATE COMPANY SET Website = 'www.worldfirst.com', Industry = 'Brokerage Services', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/222068/world-first-squarelogo-1440675026689.png', OverallRating = 4.1, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.8 WHERE CName = 'World First';
+UPDATE COMPANY SET Website = 'www.worldfirst.com', Industry = 'Brokerage Services', NumberOfRatings = 16, Logo = 'https://media.glassdoor.com/sqll/222068/world-first-squarelogo-1440675026689.png', OverallRating = 4.1, CultureAndValuesRating = 4.1, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 4.3, RecomendToFriend = 0.8 WHERE CName = 'World First';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'World First';
 
-UPDATE COMPANY SET Website = 'www.origindigital.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/272004/origin-digital-squarelogo.png', OverallRating = 3.2, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 2.9, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.2 WHERE CName = 'Digital Origin';
+UPDATE COMPANY SET Website = 'www.origindigital.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 5, Logo = 'https://media.glassdoor.com/sqll/272004/origin-digital-squarelogo.png', OverallRating = 3.2, CultureAndValuesRating = 2.6, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 2.9, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.2 WHERE CName = 'Digital Origin';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Digital Origin';
 
-UPDATE COMPANY SET Website = 'www.captechconsulting.com', Industry = 'IT Services', NumberOfRatings = 32, Logo = 'https://media.glassdoor.com/sqll/15454/captech-squarelogo-1437593906998.png', OverallRating = 4.4, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'CapTech';
+UPDATE COMPANY SET Website = 'www.captechconsulting.com', Industry = 'IT Services', NumberOfRatings = 32, Logo = 'https://media.glassdoor.com/sqll/15454/captech-squarelogo-1437593906998.png', OverallRating = 4.4, CultureAndValuesRating = 4.5, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'CapTech';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'CapTech';
 
 
 
-UPDATE COMPANY SET Website = 'www.pangeare.com', Industry = 'Real Estate', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/803348/pangea-real-estate-squarelogo-1402774987137.png', OverallRating = 4.5, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.8, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Pangea';
+UPDATE COMPANY SET Website = 'www.pangeare.com', Industry = 'Real Estate', NumberOfRatings = 23, Logo = 'https://media.glassdoor.com/sqll/803348/pangea-real-estate-squarelogo-1402774987137.png', OverallRating = 4.5, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.8, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Pangea';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Pangea';
 
 
-UPDATE COMPANY SET Website = 'www.gehealthcare.com', Industry = 'Health Care Products Manufacturing', NumberOfRatings = 1306, Logo = 'https://media.glassdoor.com/sqll/4112/ge-healthcare-squarelogo-1432805568628.png', OverallRating = 3.5, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.7 WHERE CName = 'Ambassador';
+UPDATE COMPANY SET Website = 'www.gehealthcare.com', Industry = 'Health Care Products Manufacturing', NumberOfRatings = 1306, Logo = 'https://media.glassdoor.com/sqll/4112/ge-healthcare-squarelogo-1432805568628.png', OverallRating = 3.5, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.7 WHERE CName = 'Ambassador';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'Ambassador';
 
 
-UPDATE COMPANY SET Website = 'www.bloomberg.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1640, Logo = 'https://media.glassdoor.com/sqll/3096/bloomberg-l-p-squarelogo-1429884480302.png', OverallRating = 3.6, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Bloomberg LP';
+UPDATE COMPANY SET Website = 'www.bloomberg.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 1640, Logo = 'https://media.glassdoor.com/sqll/3096/bloomberg-l-p-squarelogo-1429884480302.png', OverallRating = 3.6, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.7 WHERE CName = 'Bloomberg LP';
 UPDATE COMPANY SET CEOAproval = '89' WHERE CName = 'Bloomberg LP';
 
-UPDATE COMPANY SET Website = 'www.blackbirdkitchen.com', Industry = 'Casual Restaurants', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Blackbird';
+UPDATE COMPANY SET Website = 'www.blackbirdkitchen.com', Industry = 'Casual Restaurants', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Blackbird';
 
-UPDATE COMPANY SET Website = 'www.ventivtech.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Ventiv Technology';
+UPDATE COMPANY SET Website = 'www.ventivtech.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Ventiv Technology';
 
 
-UPDATE COMPANY SET Website = 'www.cinemassive.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/509034/cinemassive-displays-squarelogo-1442558223639.png', OverallRating = 3.6, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.5, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.7 WHERE CName = 'CineMassive';
+UPDATE COMPANY SET Website = 'www.cinemassive.com', Industry = 'Electrical & Electronic Manufacturing', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/509034/cinemassive-displays-squarelogo-1442558223639.png', OverallRating = 3.6, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.5, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 3.3, RecomendToFriend = 0.7 WHERE CName = 'CineMassive';
 UPDATE COMPANY SET CEOAproval = '70' WHERE CName = 'CineMassive';
 
 
-UPDATE COMPANY SET Website = 'www.trivago.com', Industry = 'Internet', NumberOfRatings = 50, Logo = 'https://media.glassdoor.com/sqll/673041/trivago-squarelogo-1419358734304.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'trivago GmbH';
+UPDATE COMPANY SET Website = 'www.trivago.com', Industry = 'Internet', NumberOfRatings = 50, Logo = 'https://media.glassdoor.com/sqll/673041/trivago-squarelogo-1419358734304.png', OverallRating = 3.9, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'trivago GmbH';
 UPDATE COMPANY SET CEOAproval = '92' WHERE CName = 'trivago GmbH';
 
 
-UPDATE COMPANY SET Website = 'www.think-cell.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'think-cell Software GmbH';
+UPDATE COMPANY SET Website = 'www.think-cell.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'think-cell Software GmbH';
 
 
-UPDATE COMPANY SET Website = 'www.sorensonmedia.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/15395/sorenson-media-squarelogo.png', OverallRating = 4.5, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Sorenson Media';
+UPDATE COMPANY SET Website = 'www.sorensonmedia.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 4, Logo = 'https://media.glassdoor.com/sqll/15395/sorenson-media-squarelogo.png', OverallRating = 4.5, CultureAndValuesRating = 3.8, SeniorLeadershipRating = 3.8, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Sorenson Media';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Sorenson Media';
 
-UPDATE COMPANY SET Website = 'www.armdigital.in', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'ARM Ltd';
+UPDATE COMPANY SET Website = 'www.armdigital.in', Industry = '', NumberOfRatings = 1, Logo = '', OverallRating = 3, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 2.0, CareerOpportunitiesRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'ARM Ltd';
 
 
 
 
 
-UPDATE COMPANY SET Website = 'www.pebblecode.com', Industry = 'Internet', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/998927/pebble-code-squarelogo-1432313973043.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'pebble {code}';
+UPDATE COMPANY SET Website = 'www.pebblecode.com', Industry = 'Internet', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/998927/pebble-code-squarelogo-1432313973043.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'pebble {code}';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'pebble {code}';
 
-UPDATE COMPANY SET Website = 'www.hookedonharrys.com', Industry = 'Upscale Restaurants', NumberOfRatings = 4, Logo = '', OverallRating = 3.4, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 2.6, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.5 WHERE CName = 'Harry''s';
+UPDATE COMPANY SET Website = 'www.hookedonharrys.com', Industry = 'Upscale Restaurants', NumberOfRatings = 4, Logo = '', OverallRating = 3.4, CultureAndValuesRating = 2.9, SeniorLeadershipRating = 2.9, CompensationAndBenefitsRating = 2.6, CareerOpportunitiesRating = 2.6, WorkLifeBalanceRating = 2.8, RecomendToFriend = 0.5 WHERE CName = 'Harry''s';
 
 
-UPDATE COMPANY SET Website = 'www.cbscorporation.com', Industry = 'Motion Picture Production & Distribution', NumberOfRatings = 76, Logo = 'https://media.glassdoor.com/sqll/1053/cbs-corp-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.7 WHERE CName = 'CBS Corporation';
+UPDATE COMPANY SET Website = 'www.cbscorporation.com', Industry = 'Motion Picture Production & Distribution', NumberOfRatings = 76, Logo = 'https://media.glassdoor.com/sqll/1053/cbs-corp-squarelogo.png', OverallRating = 3.6, CultureAndValuesRating = 3.3, SeniorLeadershipRating = 3.1, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 2.9, WorkLifeBalanceRating = 3.4, RecomendToFriend = 0.7 WHERE CName = 'CBS Corporation';
 UPDATE COMPANY SET CEOAproval = '84' WHERE CName = 'CBS Corporation';
 
 
-UPDATE COMPANY SET Website = 'www.daylightsolutions.com', Industry = 'Aerospace & Defense', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Daylight Solutions';
+UPDATE COMPANY SET Website = 'www.daylightsolutions.com', Industry = 'Aerospace & Defense', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Daylight Solutions';
 
 
-UPDATE COMPANY SET Website = 'www.bedrockanalytics.com', Industry = '', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/1053070/bedrock-analytics-corporation-squarelogo-1440781694678.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Bedrock Analytics Corporation';
+UPDATE COMPANY SET Website = 'www.bedrockanalytics.com', Industry = '', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/1053070/bedrock-analytics-corporation-squarelogo-1440781694678.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Bedrock Analytics Corporation';
 
-UPDATE COMPANY SET Website = 'www.fn-design.com', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 4.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Guide Financial';
+UPDATE COMPANY SET Website = 'www.fn-design.com', Industry = '', NumberOfRatings = 2, Logo = '', OverallRating = 4.2, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Guide Financial';
 
-UPDATE COMPANY SET Website = 'www.fintech.net', Industry = 'Financial Transaction Processing', NumberOfRatings = 3, Logo = '', OverallRating = 2.8, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 2.8, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.4 WHERE CName = 'Fintech';
+UPDATE COMPANY SET Website = 'www.fintech.net', Industry = 'Financial Transaction Processing', NumberOfRatings = 3, Logo = '', OverallRating = 2.8, CultureAndValuesRating = 2.5, SeniorLeadershipRating = 2.5, CompensationAndBenefitsRating = 2.8, CareerOpportunitiesRating = 2.8, WorkLifeBalanceRating = 3.8, RecomendToFriend = 0.4 WHERE CName = 'Fintech';
 UPDATE COMPANY SET CEOAproval = '56' WHERE CName = 'Fintech';
 
 
-UPDATE COMPANY SET Website = 'www.mutuallyhuman.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Mutually Human';
+UPDATE COMPANY SET Website = 'www.mutuallyhuman.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 4.5, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Mutually Human';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Mutually Human';
 
 
 
-UPDATE COMPANY SET Website = 'www.casenex.com', Industry = 'Education Training Services', NumberOfRatings = 3, Logo = '', OverallRating = 4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.5 WHERE CName = 'CaseNEX';
+UPDATE COMPANY SET Website = 'www.casenex.com', Industry = 'Education Training Services', NumberOfRatings = 3, Logo = '', OverallRating = 4, CultureAndValuesRating = 3.5, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.5, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.5 WHERE CName = 'CaseNEX';
 
-UPDATE COMPANY SET Website = 'www.jwplayer.com', Industry = 'Internet', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/700757/longtail-video-squarelogo-1386282089218.png', OverallRating = 4.2, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.6, WorkLifeBalanceRating = 4.2, RecomendToFriend = 1.0 WHERE CName = 'JW Player';
+UPDATE COMPANY SET Website = 'www.jwplayer.com', Industry = 'Internet', NumberOfRatings = 8, Logo = 'https://media.glassdoor.com/sqll/700757/longtail-video-squarelogo-1386282089218.png', OverallRating = 4.2, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 4.2, CompensationAndBenefitsRating = 3.6, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 1.0 WHERE CName = 'JW Player';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'JW Player';
 
-UPDATE COMPANY SET Website = 'www.kirasystems.com', Industry = 'Legal', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/1009727/kira-ca-squarelogo-1433790823758.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Kira Inc.';
+UPDATE COMPANY SET Website = 'www.kirasystems.com', Industry = 'Legal', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/1009727/kira-ca-squarelogo-1433790823758.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Kira Inc.';
 
-UPDATE COMPANY SET Website = 'www.pinger.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 28, Logo = 'https://media.glassdoor.com/sqll/598172/pinger-squarelogo.png', OverallRating = 4.2, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Pinger';
+UPDATE COMPANY SET Website = 'www.pinger.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 28, Logo = 'https://media.glassdoor.com/sqll/598172/pinger-squarelogo.png', OverallRating = 4.2, CultureAndValuesRating = 4.3, SeniorLeadershipRating = 3.9, CompensationAndBenefitsRating = 4.1, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.8 WHERE CName = 'Pinger';
 UPDATE COMPANY SET CEOAproval = '82' WHERE CName = 'Pinger';
 
-UPDATE COMPANY SET Website = 'www.crossover.com', Industry = 'Internet', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/1041838/crossover-for-work-squarelogo-1444055358277.png', OverallRating = 4, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.8 WHERE CName = 'Crossover';
+UPDATE COMPANY SET Website = 'www.crossover.com', Industry = 'Internet', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/1041838/crossover-for-work-squarelogo-1444055358277.png', OverallRating = 4, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 4.1, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 3.3, WorkLifeBalanceRating = 4.5, RecomendToFriend = 0.8 WHERE CName = 'Crossover';
 
-UPDATE COMPANY SET Website = 'www.namely.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/752700/namely-squarelogo-1410717587696.png', OverallRating = 4.7, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Namely';
+UPDATE COMPANY SET Website = 'www.namely.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 17, Logo = 'https://media.glassdoor.com/sqll/752700/namely-squarelogo-1410717587696.png', OverallRating = 4.7, CultureAndValuesRating = 4.6, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 4.8, WorkLifeBalanceRating = 4.6, RecomendToFriend = 0.9 WHERE CName = 'Namely';
 UPDATE COMPANY SET CEOAproval = '94' WHERE CName = 'Namely';
 
-UPDATE COMPANY SET Website = 'www.offerupnow.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/854884/offerup-squarelogo-1434048441936.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.6, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'OfferUp';
+UPDATE COMPANY SET Website = 'www.offerupnow.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/854884/offerup-squarelogo-1434048441936.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 4.9, CompensationAndBenefitsRating = 4.6, CareerOpportunitiesRating = 4.9, WorkLifeBalanceRating = 4.7, RecomendToFriend = 1.0 WHERE CName = 'OfferUp';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'OfferUp';
 
-UPDATE COMPANY SET Website = 'www.pelmorex.com', Industry = 'TV Broadcast & Cable Networks', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/471109/pelmorex-media-squarelogo-1442209101553.png', OverallRating = 3.4, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.1, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.6 WHERE CName = 'Pelmorex Media';
+UPDATE COMPANY SET Website = 'www.pelmorex.com', Industry = 'TV Broadcast & Cable Networks', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/471109/pelmorex-media-squarelogo-1442209101553.png', OverallRating = 3.4, CultureAndValuesRating = 3.4, SeniorLeadershipRating = 3.2, CompensationAndBenefitsRating = 3.1, CareerOpportunitiesRating = 2.6, WorkLifeBalanceRating = 4.0, RecomendToFriend = 0.6 WHERE CName = 'Pelmorex Media';
 UPDATE COMPANY SET CEOAproval = '0' WHERE CName = 'Pelmorex Media';
 
 
-UPDATE COMPANY SET Website = 'www.teletracking.com', Industry = '', NumberOfRatings = 28, Logo = 'https://media.glassdoor.com/sqll/434974/teletracking-technologies-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 4.3, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.6 WHERE CName = 'TeleTracking Technologies';
+UPDATE COMPANY SET Website = 'www.teletracking.com', Industry = '', NumberOfRatings = 28, Logo = 'https://media.glassdoor.com/sqll/434974/teletracking-technologies-squarelogo.png', OverallRating = 3.8, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 4.3, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.6 WHERE CName = 'TeleTracking Technologies';
 
-UPDATE COMPANY SET Website = 'www.skykick.com', Industry = 'IT Services', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/910072/skykick-squarelogo-1437592962306.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 4.5, RecomendToFriend = 1.0 WHERE CName = 'SkyKick';
+UPDATE COMPANY SET Website = 'www.skykick.com', Industry = 'IT Services', NumberOfRatings = 6, Logo = 'https://media.glassdoor.com/sqll/910072/skykick-squarelogo-1437592962306.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 4.5, RecomendToFriend = 1.0 WHERE CName = 'SkyKick';
 
-UPDATE COMPANY SET Website = 'profoundideation.com', Industry = 'Accounting', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Profound';
+UPDATE COMPANY SET Website = 'profoundideation.com', Industry = 'Accounting', NumberOfRatings = 2, Logo = '', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 5.0, CareerOpportunitiesRating = 5.0, WorkLifeBalanceRating = 5.0, RecomendToFriend = 1.0 WHERE CName = 'Profound';
 
-UPDATE COMPANY SET Website = 'www.buzz-inc.com', Industry = 'Internet', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 1.0 WHERE CName = 'Buzz Technologies, Inc.';
+UPDATE COMPANY SET Website = 'www.buzz-inc.com', Industry = 'Internet', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 3.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 3.0, RecomendToFriend = 1.0 WHERE CName = 'Buzz Technologies, Inc.';
 
-UPDATE COMPANY SET Website = 'www.nuvi.com', Industry = '', NumberOfRatings = 3, Logo = '', OverallRating = 4, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'NUVI - Social Media Monitoring';
+UPDATE COMPANY SET Website = 'www.nuvi.com', Industry = '', NumberOfRatings = 3, Logo = '', OverallRating = 4, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'NUVI - Social Media Monitoring';
 
-UPDATE COMPANY SET Website = 'www.newrelic.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 78, Logo = 'https://media.glassdoor.com/sqll/461657/new-relic-squarelogo-1416939696917.png', OverallRating = 3.8, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.4, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'New Relic';
+UPDATE COMPANY SET Website = 'www.newrelic.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 78, Logo = 'https://media.glassdoor.com/sqll/461657/new-relic-squarelogo-1416939696917.png', OverallRating = 3.8, CultureAndValuesRating = 3.7, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.4, CareerOpportunitiesRating = 3.7, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'New Relic';
 UPDATE COMPANY SET CEOAproval = '98' WHERE CName = 'New Relic';
 
-UPDATE COMPANY SET Website = 'www.insideradius.com', Industry = 'Consulting', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/665581/radius-inc-squarelogo-1423676431250.png', OverallRating = 4.3, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Radius';
+UPDATE COMPANY SET Website = 'www.insideradius.com', Industry = 'Consulting', NumberOfRatings = 10, Logo = 'https://media.glassdoor.com/sqll/665581/radius-inc-squarelogo-1423676431250.png', OverallRating = 4.3, CultureAndValuesRating = 4.4, SeniorLeadershipRating = 4.3, CompensationAndBenefitsRating = 4.2, CareerOpportunitiesRating = 4.1, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Radius';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Radius';
 
 
 
-UPDATE COMPANY SET Website = 'www.scarletmanagementgroup.com', Industry = 'Advertising & Marketing', NumberOfRatings = 20, Logo = 'https://media.glassdoor.com/sqll/745198/scarlet-management-group-squarelogo-1424931795246.png', OverallRating = 3.6, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.6 WHERE CName = 'Scarlet';
+UPDATE COMPANY SET Website = 'www.scarletmanagementgroup.com', Industry = 'Advertising & Marketing', NumberOfRatings = 20, Logo = 'https://media.glassdoor.com/sqll/745198/scarlet-management-group-squarelogo-1424931795246.png', OverallRating = 3.6, CultureAndValuesRating = 3.6, SeniorLeadershipRating = 3.4, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.6, WorkLifeBalanceRating = 2.9, RecomendToFriend = 0.6 WHERE CName = 'Scarlet';
 UPDATE COMPANY SET CEOAproval = '87' WHERE CName = 'Scarlet';
 
-UPDATE COMPANY SET Website = 'www.smtp.com', Industry = 'Advertising & Marketing', NumberOfRatings = 3, Logo = '', OverallRating = 3.7, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 2.7, WorkLifeBalanceRating = 4.3, RecomendToFriend = 1.0 WHERE CName = 'SMTP, Inc.';
+UPDATE COMPANY SET Website = 'www.smtp.com', Industry = 'Advertising & Marketing', NumberOfRatings = 3, Logo = '', OverallRating = 3.7, CultureAndValuesRating = 2.7, SeniorLeadershipRating = 2.7, CompensationAndBenefitsRating = 2.7, CareerOpportunitiesRating = 2.7, WorkLifeBalanceRating = 4.3, RecomendToFriend = 1.0 WHERE CName = 'SMTP, Inc.';
 
-UPDATE COMPANY SET Website = 'www.vocecommunications.com', Industry = 'Accounting', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/306654/voce-communications-squarelogo-1426575232232.png', OverallRating = 3.7, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Voce Communications';
+UPDATE COMPANY SET Website = 'www.vocecommunications.com', Industry = 'Accounting', NumberOfRatings = 9, Logo = 'https://media.glassdoor.com/sqll/306654/voce-communications-squarelogo-1426575232232.png', OverallRating = 3.7, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.5, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.4, WorkLifeBalanceRating = 3.6, RecomendToFriend = 0.8 WHERE CName = 'Voce Communications';
 UPDATE COMPANY SET CEOAproval = '72' WHERE CName = 'Voce Communications';
 
-UPDATE COMPANY SET Website = 'www.reingold.com', Industry = 'Consulting', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/288608/reingold-squarelogo.png', OverallRating = 4.2, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.7, RecomendToFriend = 1.0 WHERE CName = 'Reingold, Inc.';
+UPDATE COMPANY SET Website = 'www.reingold.com', Industry = 'Consulting', NumberOfRatings = 7, Logo = 'https://media.glassdoor.com/sqll/288608/reingold-squarelogo.png', OverallRating = 4.2, CultureAndValuesRating = 4.8, SeniorLeadershipRating = 4.0, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 3.7, RecomendToFriend = 1.0 WHERE CName = 'Reingold, Inc.';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Reingold, Inc.';
 
 
-UPDATE COMPANY SET Website = 'www.cloverhealth.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/1027820/clover-health-squarelogo-1441997961984.png', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Clover Health';
+UPDATE COMPANY SET Website = 'www.cloverhealth.com', Industry = 'Health Care Services & Hospitals', NumberOfRatings = 1, Logo = 'https://media.glassdoor.com/sqll/1027820/clover-health-squarelogo-1441997961984.png', OverallRating = 5, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Clover Health';
 
-UPDATE COMPANY SET Website = 'www.reverbnation.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/659953/reverbnation-squarelogo-1384802268831.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.4, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'ReverbNation';
+UPDATE COMPANY SET Website = 'www.reverbnation.com', Industry = 'Computer Hardware & Software', NumberOfRatings = 2, Logo = 'https://media.glassdoor.com/sqll/659953/reverbnation-squarelogo-1384802268831.png', OverallRating = 5, CultureAndValuesRating = 5.0, SeniorLeadershipRating = 5.0, CompensationAndBenefitsRating = 4.4, CareerOpportunitiesRating = 4.6, WorkLifeBalanceRating = 4.6, RecomendToFriend = 1.0 WHERE CName = 'ReverbNation';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'ReverbNation';
 
-UPDATE COMPANY SET Website = 'www.circonus.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Circonus, Inc.';
+UPDATE COMPANY SET Website = 'www.circonus.com', Industry = 'Enterprise Software & Network Solutions', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Circonus, Inc.';
 
-UPDATE COMPANY SET Website = 'www.distilnetworks.com', Industry = 'IT Services', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/657395/distil-squarelogo-1408972915844.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 4.5, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Distil Networks';
+UPDATE COMPANY SET Website = 'www.distilnetworks.com', Industry = 'IT Services', NumberOfRatings = 15, Logo = 'https://media.glassdoor.com/sqll/657395/distil-squarelogo-1408972915844.png', OverallRating = 4.6, CultureAndValuesRating = 4.7, SeniorLeadershipRating = 4.5, CompensationAndBenefitsRating = 4.5, CareerOpportunitiesRating = 4.7, WorkLifeBalanceRating = 4.2, RecomendToFriend = 0.9 WHERE CName = 'Distil Networks';
 UPDATE COMPANY SET CEOAproval = '100' WHERE CName = 'Distil Networks';
 
-UPDATE COMPANY SET Website = 'www.parkwhiz.com', Industry = 'Other Retail Stores', NumberOfRatings = 14, Logo = 'https://media.glassdoor.com/sqll/705183/parkwhiz-squarelogo-1424438888302.png', OverallRating = 3.8, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.7, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'ParkWhiz';
+UPDATE COMPANY SET Website = 'www.parkwhiz.com', Industry = 'Other Retail Stores', NumberOfRatings = 14, Logo = 'https://media.glassdoor.com/sqll/705183/parkwhiz-squarelogo-1424438888302.png', OverallRating = 3.8, CultureAndValuesRating = 3.9, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.7, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 4.1, RecomendToFriend = 0.7 WHERE CName = 'ParkWhiz';
 UPDATE COMPANY SET CEOAproval = '80' WHERE CName = 'ParkWhiz';
 
-UPDATE COMPANY SET Website = 'www.tubemogul.com', Industry = 'Advertising & Marketing', NumberOfRatings = 104, Logo = 'https://media.glassdoor.com/sqll/250150/tubemogul-squarelogo-1412708217524.png', OverallRating = 3.8, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.3, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.8 WHERE CName = 'TubeMogul';
+UPDATE COMPANY SET Website = 'www.tubemogul.com', Industry = 'Advertising & Marketing', NumberOfRatings = 104, Logo = 'https://media.glassdoor.com/sqll/250150/tubemogul-squarelogo-1412708217524.png', OverallRating = 3.8, CultureAndValuesRating = 4.2, SeniorLeadershipRating = 3.7, CompensationAndBenefitsRating = 3.3, CareerOpportunitiesRating = 3.8, WorkLifeBalanceRating = 3.1, RecomendToFriend = 0.8 WHERE CName = 'TubeMogul';
 UPDATE COMPANY SET CEOAproval = '86' WHERE CName = 'TubeMogul';
 
 
-UPDATE COMPANY SET Website = 'www.ivenix.com', Industry = 'Health Care Products Manufacturing', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 4.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Ivenix';
+UPDATE COMPANY SET Website = 'www.ivenix.com', Industry = 'Health Care Products Manufacturing', NumberOfRatings = 1, Logo = '', OverallRating = 4, CultureAndValuesRating = 3.0, SeniorLeadershipRating = 3.0, CompensationAndBenefitsRating = 4.0, CareerOpportunitiesRating = 3.0, WorkLifeBalanceRating = 4.0, RecomendToFriend = 1.0 WHERE CName = 'Ivenix';
 
-UPDATE COMPANY SET Website = 'www.musterring.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Muster';
+UPDATE COMPANY SET Website = 'www.musterring.com', Industry = '', NumberOfRatings = 0, Logo = '', OverallRating = 0, CultureAndValuesRating = 0.0, SeniorLeadershipRating = 0.0, CompensationAndBenefitsRating = 0.0, CareerOpportunitiesRating = 0.0, WorkLifeBalanceRating = 0.0, RecomendToFriend = 0.0 WHERE CName = 'Muster';
 
 

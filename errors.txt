@@ -137,7 +137,7 @@ Company Ldger Inc. not found
 Company Ytrail AG not found
 Company Society of Grownups not found
 Company Kasisto, Inc. not found
-Company UCLA Information Technology Services not found
+ERROR -- UCLA Information Technology Services
 Company DataFinch Technologies not found
 Company Deep Intel not found
 Company O''Reilly Auto Parts not found
