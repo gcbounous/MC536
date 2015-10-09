@@ -14,14 +14,15 @@ doc = Nokogiri::XML(File.open('so.rss'))
 id = 1
 doc.css('item').each do |i|
   offer_id = id
-  
-  url = i.css('link').children
-  company = i.css('a10|author a10|name').children.to_s
-  title = i.css('title').children
-  description = i.css('description').children
-  pub_date = i.css('pubDate').children
-  updated = i.css('a10|updated').children
-  location = i.css('location').children
+
+  # There is too much repetition here...
+  url = i.css('link').children.to_s.sub("'", "''")
+  company = i.css('a10|author a10|name').children.to_s.sub("'", "''")
+  title = i.css('title').children.to_s.sub("'", "''")
+  description = i.css('description').children.to_s.sub("'", "''")
+  pub_date = i.css('pubDate').children.to_s.sub("'", "''")
+  updated = i.css('a10|updated').children.to_s.sub("'", "''")
+  location = i.css('location').children.to_s.sub("'", "''")
 
   unless companies_ids[company]
     puts "INSERT INTO COMPANY(Id, CName) VALUES (#{id}, '#{company}');" 
@@ -34,7 +35,7 @@ doc.css('item').each do |i|
   puts "INSERT INTO PROPOSES(CompanyId, OfferId) VALUES (#{companies_ids[company]}, #{offer_id});"
 
   i.css('category').each do |c|
-    sname = c.children.to_s
+    sname = c.children.to_s.sub("'", "''")
     unless skills_ids[sname]
       puts "INSERT INTO SKILL(Id, SName) VALUES (#{id}, '#{sname}');"
       skills_ids[sname] = id
