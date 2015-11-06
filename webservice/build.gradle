@@ -39,11 +39,7 @@ dependencies {
     compile "org.springframework:spring-core:$springVersion"
     compile "org.springframework:spring-web:$springVersion"
     compile "org.springframework:spring-webmvc:$springVersion"
-    compile "org.springframework:spring-jdbc:${springVersion}"
-//    compile "org.springframework:spring-orm:${springVersion}"
-//    compile "org.springframework.data:spring-data-jpa:$springDataVersion"
-
-//    compile "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:$hibernateJpaVersion"
+    compile "org.springframework:spring-jdbc:$springVersion"
 
     compile "org.apache.commons:commons-lang3:$apacheCommonsVersion"
     compile "org.apache.httpcomponents:httpclient:$httpClientVersion"
