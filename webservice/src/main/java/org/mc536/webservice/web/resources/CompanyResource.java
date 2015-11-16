@@ -26,7 +26,7 @@ public class CompanyResource {
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.GET)
-    public Company update(@RequestParam("company") Company company) {
+    public Company update(Company company) {
 
         return companyService.updateCompany(company);
     }
