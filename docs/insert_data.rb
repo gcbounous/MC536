@@ -3,51 +3,57 @@ require 'json'
 require 'set'
 require 'open-uri'
 
-companies = Set.new
+$companies_ids = {}
+$skills_ids = {}
+$urls = Set.new
+$id = 1
+def fetch_and_insert_offers(file)
+  doc = Nokogiri::XML(open(file))
+  doc.css('item').each do |i|
+    offer_id = $id
 
-companies_ids = {}
-skills_ids = {}
+    url = i.css('link').children.to_s.gsub("'", "''")
 
-doc = Nokogiri::XML(File.open('so.rss'))
+    unless $urls.include? url
+      $urls.add url
 
-id = 1
-doc.css('item').each do |i|
-  offer_id = id
+      company = i.css('a10|author a10|name').children.to_s.gsub("'", "''")
+      title = i.css('title').children.to_s.gsub("'", "''")
+      description = i.css('description').children.to_s.gsub("'", "''")
+      pub_date = i.css('pubDate').children.to_s.gsub("'", "''")
+      updated = i.css('a10|updated').children.to_s.gsub("'", "''")
+      location = i.css('location').children.to_s.gsub("'", "''")
 
-  # There is too much repetition here...
-  url = i.css('link').children.to_s.gsub("'", "''")
-  company = i.css('a10|author a10|name').children.to_s.gsub("'", "''")
-  title = i.css('title').children.to_s.gsub("'", "''")
-  description = i.css('description').children.to_s.gsub("'", "''")
-  pub_date = i.css('pubDate').children.to_s.gsub("'", "''")
-  updated = i.css('a10|updated').children.to_s.gsub("'", "''")
-  location = i.css('location').children.to_s.gsub("'", "''")
+      unless $companies_ids[company]
+        puts "INSERT INTO COMPANY(Id, CName) VALUES (#{$id}, '#{company}');" 
+        $companies_ids[company] = $id
+        $id += 1
+      end
 
-  unless companies_ids[company]
-    puts "INSERT INTO COMPANY(Id, CName) VALUES (#{id}, '#{company}');" 
-    companies_ids[company] = id
-    id += 1
-  end
+      puts "INSERT INTO OFFER(Id, Title, Description, Location, Url, PubDate, Updated, CompanyId) VALUES (#{offer_id}, '#{title}', '#{description}', '#{location}', '#{url}', '#{pub_date}', '#{updated}', #{$companies_ids[company]});"
 
-  puts "INSERT INTO OFFER(Id, Title, Description, Location, Url, PubDate, Updated, CompanyId) VALUES (#{offer_id}, '#{title}', '#{description}', '#{location}', '#{url}', '#{pub_date}', '#{updated}', #{companies_ids[company]});"
+      puts "INSERT INTO PROPOSES(CompanyId, OfferId) VALUES (#{$companies_ids[company]}, #{offer_id});"
 
-  puts "INSERT INTO PROPOSES(CompanyId, OfferId) VALUES (#{companies_ids[company]}, #{offer_id});"
+      i.css('category').each do |c|
+        sname = c.children.to_s.gsub("'", "''")
+        unless $skills_ids[sname]
+          puts "INSERT INTO SKILL(Id, SName) VALUES (#{$id}, '#{sname}');"
+          $skills_ids[sname] = $id
+          $id += 1
+          fetch_and_insert_offers "https://careers.stackoverflow.com/jobs/feed?tags=#{sname}"
+        end
+        puts "INSERT INTO DEMANDS(OfferId, SkillId) VALUES (#{offer_id}, #{$skills_ids[sname]});"
+      end
 
-  i.css('category').each do |c|
-    sname = c.children.to_s.gsub("'", "''")
-    unless skills_ids[sname]
-      puts "INSERT INTO SKILL(Id, SName) VALUES (#{id}, '#{sname}');"
-      skills_ids[sname] = id
-      id += 1
+      puts
+      $id += 1
     end
-    puts "INSERT INTO DEMANDS(OfferId, SkillId) VALUES (#{offer_id}, #{skills_ids[sname]});"
   end
-
-  puts
-  id += 1
 end
 
-companies_ids.keys.each do |c|
+fetch_and_insert_offers 'https://careers.stackoverflow.com/jobs/feed'
+
+$companies_ids.keys.each do |c|
   begin
     j = JSON.parse open("http://api.glassdoor.com/api/api.htm?t.p=42773&t.k=jd0Cb9TfM3M&format=json&v=1&action=employers&q=#{c}").read
     e = j['response']['employers'].first
