@@ -1,7 +1,6 @@
 package org.mc536.webservice.web.resources;
 
 import org.mc536.webservice.domain.model.entity.Skill;
-import org.mc536.webservice.domain.model.dao.SkillDAO;
 import org.mc536.webservice.domain.model.service.SkillService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

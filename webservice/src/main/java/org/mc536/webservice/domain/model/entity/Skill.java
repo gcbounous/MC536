@@ -1,9 +1,17 @@
 package org.mc536.webservice.domain.model.entity;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Skill")
 public class Skill {
 
+    @Id
+    @GeneratedValue
+    @Column(name = "Id")
     private Integer id;
 
+    @Column(name = "SName", length = 20, unique = true, nullable = false)
     private String name;
 
     public Integer getId() {

@@ -40,10 +40,14 @@ dependencies {
     compile "org.springframework:spring-web:$springVersion"
     compile "org.springframework:spring-webmvc:$springVersion"
     compile "org.springframework:spring-jdbc:$springVersion"
+    compile "org.springframework:spring-orm:$springVersion"
 
     compile "org.apache.commons:commons-lang3:$apacheCommonsVersion"
     compile "org.apache.httpcomponents:httpclient:$httpClientVersion"
     compile "org.apache.httpcomponents:httpasyncclient:$httpAsyncClientVersion"
+
+    compile "org.hibernate:hibernate-entitymanager:$hibernateVersion"
+    compile "org.hibernate:hibernate-core:$hibernateVersion"
 }
 
 task wrapper(type: Wrapper) {
