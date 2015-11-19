@@ -9,9 +9,13 @@ import org.mc536.webservice.domain.model.dao.OfferDAO;
 import org.mc536.webservice.domain.model.entity.Offer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.util.CollectionUtils;
 
 import javax.transaction.Transactional;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Repository
 @Transactional
@@ -21,6 +25,22 @@ public class OfferMysqlDAO implements OfferDAO {
             "select o from " + Offer.class.getName() + " as o" +
             " inner join o.skills as s" +
             " with s.name = :skill";
+
+    private static final String SEARCH_QUERY = "" +
+            "select o from " + Offer.class.getName() + " as o" +
+            " inner join o.skills as s" +
+            " with s.name in (:skills) or :any_skill is true" +
+            " inner join o.company as c" +
+            " order by (" +
+            " c.overallRating * :overallRatingWeigth + " +
+            " c.cultureAndValuesRating * :cultureAndValuesRatingWeight +" +
+            " c.seniorLeadershipRating * :seniorLeadershipRatingWeight +" +
+            " c.compensationAndBenefitsRating * :compensationAndBenefitsRatingWeight +" +
+            " c.careerOpportunitiesRating * :careerOpportunitiesRatingWeight +" +
+            " c.workLifeBalanceRating * :workLifeBalanceRatingWeight +" +
+            " c.recomendToFriend * :recomendToFriendWeight" +
+            " ) desc," +
+            " o.publicationDate desc";
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -62,6 +82,32 @@ public class OfferMysqlDAO implements OfferDAO {
     public List<Offer> findBySkill(String skill) {
         Query query = sessionFactory.getCurrentSession().createQuery(FIND_BY_SKILL_QUERY);
         query.setParameter("skill", skill);
+        return query.list();
+    }
+
+    @Override
+    public List<Offer> search(Set<String> skills,
+                              Float overallRatingWeigth,
+                              Float cultureAndValuesRatingWeight,
+                              Float seniorLeadershipRatingWeight,
+                              Float compensationAndBenefitsRatingWeight,
+                              Float careerOpportunitiesRatingWeight,
+                              Float workLifeBalanceRatingWeight,
+                              Float recomendToFriendWeight,
+                              Integer limit) {
+
+        Query query = sessionFactory.getCurrentSession().createQuery(SEARCH_QUERY);
+
+        query.setMaxResults(limit);
+        query.setParameterList("skills", !CollectionUtils.isEmpty(skills) ? skills : new HashSet<>(Arrays.asList(" ")));
+        query.setBoolean("any_skill", CollectionUtils.isEmpty(skills));
+        query.setFloat("overallRatingWeigth", overallRatingWeigth);
+        query.setFloat("cultureAndValuesRatingWeight", cultureAndValuesRatingWeight);
+        query.setFloat("seniorLeadershipRatingWeight", seniorLeadershipRatingWeight);
+        query.setFloat("compensationAndBenefitsRatingWeight", compensationAndBenefitsRatingWeight);
+        query.setFloat("careerOpportunitiesRatingWeight", careerOpportunitiesRatingWeight);
+        query.setFloat("workLifeBalanceRatingWeight", workLifeBalanceRatingWeight);
+        query.setFloat("recomendToFriendWeight", recomendToFriendWeight);
         return query.list();
     }
 

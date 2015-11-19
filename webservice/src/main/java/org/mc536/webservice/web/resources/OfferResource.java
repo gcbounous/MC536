@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/offers")
@@ -52,6 +53,28 @@ public class OfferResource {
     @RequestMapping(value = "/skill/{skill}", method = RequestMethod.GET)
     public List<Offer> findBySkill(@PathVariable("skill") String skill) {
         return offerService.findBySkill(skill);
+    }
+
+    @RequestMapping(value = "/search", method = RequestMethod.GET)
+    public List<Offer> search(@RequestParam(name = "skills", required = false) Set<String> skills,
+                              @RequestParam(name = "overall", required = false) Boolean overallRatingWeigth,
+                              @RequestParam(name = "cultureAndValues", required = false) Boolean cultureAndValuesRatingWeight,
+                              @RequestParam(name = "seniorLeadership", required = false) Boolean seniorLeadershipRatingWeight,
+                              @RequestParam(name = "compensationAndBenefits", required = false) Boolean compensationAndBenefitsRatingWeight,
+                              @RequestParam(name = "careerOpportunities", required = false) Boolean careerOpportunitiesRatingWeight,
+                              @RequestParam(name = "workLifeBalance", required = false) Boolean workLifeBalanceRatingWeight,
+                              @RequestParam(name = "recomendToFriend", required = false) Boolean recomendToFriendWeight,
+                              @RequestParam(name = "limit", required = false) Integer limit) {
+
+        return offerService.search(skills,
+                overallRatingWeigth,
+                cultureAndValuesRatingWeight,
+                seniorLeadershipRatingWeight,
+                compensationAndBenefitsRatingWeight,
+                careerOpportunitiesRatingWeight,
+                workLifeBalanceRatingWeight,
+                recomendToFriendWeight,
+                limit);
     }
 
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)

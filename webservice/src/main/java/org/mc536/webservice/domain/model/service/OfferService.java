@@ -9,9 +9,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 @Service
 public class OfferService {
+
+    private static final int SEARCH_LIMIT = 10;
 
     @Autowired
     private OfferDAO offerDAO;
@@ -81,6 +84,27 @@ public class OfferService {
 
     public List<Offer> findBySkill(String skill) {
         return offerDAO.findBySkill(skill);
+    }
+
+    public List<Offer> search(Set<String> skills,
+                              Boolean overallRatingWeigth,
+                              Boolean cultureAndValuesRatingWeight,
+                              Boolean seniorLeadershipRatingWeight,
+                              Boolean compensationAndBenefitsRatingWeight,
+                              Boolean careerOpportunitiesRatingWeight,
+                              Boolean workLifeBalanceRatingWeight,
+                              Boolean recomendToFriendWeight,
+                              Integer limit) {
+
+        return offerDAO.search(skills,
+                Boolean.TRUE.equals(overallRatingWeigth) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(cultureAndValuesRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(seniorLeadershipRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(compensationAndBenefitsRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(careerOpportunitiesRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(workLifeBalanceRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(recomendToFriendWeight) ? 1.0F : 0.0F,
+                limit != null ? limit : SEARCH_LIMIT);
     }
 
     public boolean exists(Integer id) {
