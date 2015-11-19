@@ -18,5 +18,7 @@ public interface OfferDAO {
 
     List<Offer> findByCompanyId(Integer companyId);
 
+    List<Offer> findBySkill(String skill);
+
     void delete(Integer id);
 }

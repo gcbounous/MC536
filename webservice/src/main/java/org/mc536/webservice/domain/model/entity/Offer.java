@@ -2,6 +2,7 @@ package org.mc536.webservice.domain.model.entity;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "Offer")
@@ -30,8 +31,20 @@ public class Offer {
     @Column(name = "Updated")
     private Date updated;
 
-    @Column(name = "CompanyId")
+    @Column(name = "CompanyId", nullable = false)
     private Integer companyId;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "CompanyId", nullable = false, insertable = false, updatable = false)
+    private Company company;
+
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "Demands",
+            joinColumns = { @JoinColumn(name = "OfferId", nullable = false) },
+            inverseJoinColumns = { @JoinColumn(name = "SkillId", nullable = false)}
+    )
+    private List<Skill> skills;
 
     public Integer getId() {
         return id;
@@ -95,5 +108,21 @@ public class Offer {
 
     public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public List<Skill> getSkills() {
+        return skills;
+    }
+
+    public void setSkills(List<Skill> skills) {
+        this.skills = skills;
     }
 }

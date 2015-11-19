@@ -49,6 +49,11 @@ public class OfferResource {
         return offerService.findByCompanyid(companyId);
     }
 
+    @RequestMapping(value = "/skill/{skill}", method = RequestMethod.GET)
+    public List<Offer> findBySkill(@PathVariable("skill") String skill) {
+        return offerService.findBySkill(skill);
+    }
+
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public void delete(@PathVariable("id") Integer id) {
         offerService.delete(id);

@@ -57,6 +57,7 @@ public class OfferService {
         offer.setDescription(normalize(description));
         offer.setLocation(normalize(location));
         offer.setUrl(normalize(url));
+        offer.setUpdated(new Date());
 
         try {
             offerDAO.update(offer);
@@ -76,6 +77,10 @@ public class OfferService {
 
     public List<Offer> findByCompanyid(Integer companyId) {
         return offerDAO.findByCompanyId(companyId);
+    }
+
+    public List<Offer> findBySkill(String skill) {
+        return offerDAO.findBySkill(skill);
     }
 
     public boolean exists(Integer id) {

@@ -38,12 +38,8 @@ CREATE TABLE Proposes (
     CompanyId INT NOT NULL,
     OfferId INT NOT NULL,
     PRIMARY KEY (CompanyId, OfferId),
-    FOREIGN KEY (CompanyId) REFERENCES Company(Id)
-        ON DELETE CASCADE
-        ON UPDATE CASCADE,
+    FOREIGN KEY (CompanyId) REFERENCES Company(Id),
     FOREIGN KEY (OfferId) REFERENCES Offer(Id)
-        ON DELETE CASCADE
-        ON UPDATE CASCADE
 );
 
 -- Offer demands a Skill
@@ -51,10 +47,6 @@ CREATE TABLE Demands (
     OfferId INT NOT NULL,
     SkillId INT NOT NULL,
     PRIMARY KEY (OfferId, SkillId),
-    FOREIGN KEY (OfferId) REFERENCES Offer(Id)
-        ON DELETE CASCADE
-        ON UPDATE CASCADE,
+    FOREIGN KEY (OfferId) REFERENCES Offer(Id),
     FOREIGN KEY (SkillId) REFERENCES Skill(Id)
-        ON DELETE CASCADE
-        ON UPDATE CASCADE
 );
