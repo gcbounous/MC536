@@ -33,15 +33,6 @@ CREATE TABLE Offer (
     CompanyId INT NOT NULL
 );
 
--- Company proposes an Offer
-CREATE TABLE Proposes (
-    CompanyId INT NOT NULL,
-    OfferId INT NOT NULL,
-    PRIMARY KEY (CompanyId, OfferId),
-    FOREIGN KEY (CompanyId) REFERENCES Company(Id),
-    FOREIGN KEY (OfferId) REFERENCES Offer(Id)
-);
-
 -- Offer demands a Skill
 CREATE TABLE Demands (
     OfferId INT NOT NULL,
