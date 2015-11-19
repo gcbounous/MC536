@@ -1,21 +1,54 @@
 package org.mc536.webservice.domain.model.entity;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Company")
 public class Company {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "Id")
     private Integer id;
+
+    @Column(name = "CName", length = 50, unique = true, nullable = false)
     private String name;
+
+    @Column(name = "Website", length = 100)
     private String website;
+
+    @Column(name = "Industry", length = 50)
     private String industry;
+
+    @Column(name = "NumberOfRatings", nullable = false)
     private Integer numberOfRatings;
+
+    @Column(name = "Logo", length = 150)
     private String logo;
-    private Double overallRating;
-    private Double cultureAndValuesRating;
-    private Double seniorLeadershipRating;
-    private Double compensationAndBenefitsRating;
-    private Double careerOpportunitiesRating;
-    private Double workLifeBalanceRating;
-    private Double recomendToFriend;
-    private Integer CEOAproval;
+
+    @Column(name = "OverallRating")
+    private Float overallRating;
+
+    @Column(name = "CultureAndValuesRating")
+    private Float cultureAndValuesRating;
+
+    @Column(name = "SeniorLeadershipRating")
+    private Float seniorLeadershipRating;
+
+    @Column(name = "CompensationAndBenefitsRating")
+    private Float compensationAndBenefitsRating;
+
+    @Column(name = "CareerOpportunitiesRating")
+    private Float careerOpportunitiesRating;
+
+    @Column(name = "WorkLifeBalanceRating")
+    private Float workLifeBalanceRating;
+
+    @Column(name = "RecomendToFriend")
+    private Float recomendToFriend;
+
+    @Column(name = "CEOAproval")
+    private Integer ceoAproval;
 
     public Integer getId() {
         return id;
@@ -62,70 +95,70 @@ public class Company {
     }
 
     public void setLogo(String logo) {
-        logo = logo;
+        this.logo = logo;
     }
 
-    public Double getOverallRating() {
+    public Float getOverallRating() {
         return overallRating;
     }
 
-    public void setOverallRating(Double overallRating) {
+    public void setOverallRating(Float overallRating) {
         this.overallRating = overallRating;
     }
 
-    public Double getCultureAndValuesRating() {
+    public Float getCultureAndValuesRating() {
         return cultureAndValuesRating;
     }
 
-    public void setCultureAndValuesRating(Double cultureAndValuesRating) {
+    public void setCultureAndValuesRating(Float cultureAndValuesRating) {
         this.cultureAndValuesRating = cultureAndValuesRating;
     }
 
-    public Double getSeniorLeadershipRating() {
+    public Float getSeniorLeadershipRating() {
         return seniorLeadershipRating;
     }
 
-    public void setSeniorLeadershipRating(Double seniorLeadershipRating) {
+    public void setSeniorLeadershipRating(Float seniorLeadershipRating) {
         this.seniorLeadershipRating = seniorLeadershipRating;
     }
 
-    public Double getCompensationAndBenefitsRating() {
+    public Float getCompensationAndBenefitsRating() {
         return compensationAndBenefitsRating;
     }
 
-    public void setCompensationAndBenefitsRating(Double compensationAndBenefitsRating) {
+    public void setCompensationAndBenefitsRating(Float compensationAndBenefitsRating) {
         this.compensationAndBenefitsRating = compensationAndBenefitsRating;
     }
 
-    public Double getCareerOpportunitiesRating() {
+    public Float getCareerOpportunitiesRating() {
         return careerOpportunitiesRating;
     }
 
-    public void setCareerOpportunitiesRating(Double careerOpportunitiesRating) {
+    public void setCareerOpportunitiesRating(Float careerOpportunitiesRating) {
         this.careerOpportunitiesRating = careerOpportunitiesRating;
     }
 
-    public Double getWorkLifeBalanceRating() {
+    public Float getWorkLifeBalanceRating() {
         return workLifeBalanceRating;
     }
 
-    public void setWorkLifeBalanceRating(Double workLifeBalanceRating) {
+    public void setWorkLifeBalanceRating(Float workLifeBalanceRating) {
         this.workLifeBalanceRating = workLifeBalanceRating;
     }
 
-    public Double getRecomendToFriend() {
+    public Float getRecomendToFriend() {
         return recomendToFriend;
     }
 
-    public void setRecomendToFriend(Double recomendToFriend) {
+    public void setRecomendToFriend(Float recomendToFriend) {
         this.recomendToFriend = recomendToFriend;
     }
 
-    public Integer getCEOAproval() {
-        return CEOAproval;
+    public Integer getCeoAproval() {
+        return ceoAproval;
     }
 
-    public void setCEOAproval(Integer CEOAproval) {
-        this.CEOAproval = CEOAproval;
+    public void setCeoAproval(Integer ceoAproval) {
+        this.ceoAproval = ceoAproval;
     }
 }

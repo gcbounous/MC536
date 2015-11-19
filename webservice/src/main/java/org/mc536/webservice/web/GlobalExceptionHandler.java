@@ -67,8 +67,8 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         Locale currentLocale = LocaleContextHolder.getLocale();
         String localizedErrorMessage = messageSource.getMessage(fieldError, currentLocale);
 
-        //If the message was not found, return the most accurate field error code instead.
-        //You can remove this check if you prefer to get the default error message.
+        // If the message was not found, return the most accurate field error code instead.
+        // You can remove this check if you prefer to get the default error message.
         if (localizedErrorMessage.equals(fieldError.getDefaultMessage())) {
             String[] fieldErrorCodes = fieldError.getCodes();
             localizedErrorMessage = fieldErrorCodes[0];

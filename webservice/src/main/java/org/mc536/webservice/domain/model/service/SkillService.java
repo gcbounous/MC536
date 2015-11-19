@@ -4,7 +4,7 @@ import org.apache.commons.lang3.Validate;
 import org.mc536.webservice.domain.model.dao.SkillDAO;
 import org.mc536.webservice.domain.model.entity.Skill;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DuplicateKeyException;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,38 +12,34 @@ import java.util.List;
 @Service
 public class SkillService {
 
-    private static final int NAME_LENGTH = 20;
-
     private static final String NAME_INVALID_CHARS = "\\s";
 
     @Autowired
     private SkillDAO skillDAO;
 
     public Skill createSkill(String name) {
-        validateName(name);
 
         Skill skill = new Skill();
-        skill.setName(name);
+        skill.setName(normalizeName(name));
 
         try {
             skillDAO.create(skill);
             return skill;
-        } catch (DuplicateKeyException e) {
-            throw new IllegalArgumentException("There's already a skill with name=" + name);
+        } catch (DataIntegrityViolationException e) {
+            throw new IllegalArgumentException("Cannot create skill with name=" + name, e);
         }
     }
 
     public Skill updateSkill(Integer id, String name) {
-        validateName(name);
 
         Skill skill = skillDAO.findById(id);
-        skill.setName(name);
+        skill.setName(normalizeName(name));
 
         try {
             skillDAO.update(skill);
             return skill;
-        } catch (DuplicateKeyException e) {
-            throw new IllegalArgumentException("There's already a skill with name=" + name);
+        } catch (DataIntegrityViolationException e) {
+            throw new IllegalArgumentException("There's already a skill with name=" + name, e);
         }
     }
 
@@ -59,6 +55,10 @@ public class SkillService {
         return skillDAO.findByName(name);
     }
 
+    public boolean exists(Integer id) {
+        return findById(id) != null;
+    }
+
     public boolean exists(String name) {
         return findByName(name) != null;
     }
@@ -67,11 +67,14 @@ public class SkillService {
         skillDAO.delete(id);
     }
 
-    private void validateName(String name) {
-        name = name.trim();
+    private String normalizeName(String name) {
+        Validate.notNull(name, "Name cannot be null");
 
-        Validate.notBlank(name, "Skill name cannot be blank");
-        Validate.isTrue(name.length() <= NAME_LENGTH, "Skill names should be no longer than " + NAME_LENGTH + " characters");
-        Validate.isTrue(!name.matches(NAME_INVALID_CHARS), "Skill name contains invalid characters");
+        String normalized = name.trim().toLowerCase();
+
+        Validate.notBlank(normalized, "Skill name cannot be blank");
+        Validate.isTrue(!normalized.matches(NAME_INVALID_CHARS), "Skill name contains invalid characters");
+
+        return normalized;
     }
 }

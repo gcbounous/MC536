@@ -1,7 +1,6 @@
 package org.mc536.webservice.web.resources;
 
 import org.mc536.webservice.domain.model.entity.Company;
-import org.mc536.webservice.domain.model.dao.CompanyDAO;
 import org.mc536.webservice.domain.model.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -21,14 +20,22 @@ public class CompanyResource {
     }
 
     @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public Company create(@RequestParam("name") String name) {
-        return companyService.createCompany(name);
+    public Company create(@RequestParam("name") String name,
+                          @RequestParam("website") String website,
+                          @RequestParam("industry") String industry,
+                          @RequestParam("logo") String logo) {
+
+        return companyService.createCompany(name, website, industry, logo);
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.GET)
-    public Company update(Company company) {
+    public Company update(@RequestParam("id") Integer id,
+                          @RequestParam("name") String name,
+                          @RequestParam("website") String website,
+                          @RequestParam("industry") String industry,
+                          @RequestParam("logo") String logo) {
 
-        return companyService.updateCompany(company);
+        return companyService.updateCompany(id, name, website, industry, logo);
     }
 
     @RequestMapping(value = "/id/{id}", method = RequestMethod.GET)

@@ -30,10 +30,7 @@ CREATE TABLE Offer (
     Url VARCHAR(200) UNIQUE NOT NULL,
     PubDate TIMESTAMP NOT NULL,
     Updated TIMESTAMP,
-    CompanyId INT NOT NULL,
-    FOREIGN KEY (CompanyId) REFERENCES Company(Id)
-        ON DELETE RESTRICT
-        ON UPDATE CASCADE
+    CompanyId INT NOT NULL
 );
 
 -- Company proposes an Offer
