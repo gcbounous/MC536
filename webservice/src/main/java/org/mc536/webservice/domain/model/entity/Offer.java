@@ -13,16 +13,16 @@ public class Offer {
     @Column(name = "Id")
     private Integer id;
 
-    @Column(name = "Title", length = 100, nullable = false)
+    @Column(name = "Title", length = 200, nullable = false)
     private String title;
 
-    @Column(name = "Description", length = 1000, nullable = false)
+    @Column(name = "Description", columnDefinition = "TEXT", nullable = false)
     private String description;
 
     @Column(name = "Location", length = 50, nullable = false)
     private String location;
 
-    @Column(name = "Url", length = 200, unique = true, nullable = false)
+    @Column(name = "Url", length = 500, unique = true, nullable = false)
     private String url;
 
     @Column(name = "PubDate", nullable = false)
