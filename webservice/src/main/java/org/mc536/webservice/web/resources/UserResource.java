@@ -26,7 +26,7 @@ public class UserResource {
 
     @RequestMapping(value = "/update", method = RequestMethod.GET)
     public User update(@RequestParam("id") Integer id,
-                        @RequestParam("name") String name) {
+                       @RequestParam("name") String name) {
 
         return userService.updateUser(id, name);
     }
