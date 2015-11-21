@@ -13,7 +13,7 @@ public class UserService {
     @Autowired
     private UserDAO userDAO;
 
-    public User createUser(String name) {
+    public User createUser() {
 
         User user = new User();
 
@@ -25,7 +25,7 @@ public class UserService {
         }
     }
 
-    public User updateUser(Integer id, String name) {
+    public User updateUser(Integer id) {
 
         User user = userDAO.findById(id);
 

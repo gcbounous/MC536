@@ -20,15 +20,13 @@ public class UserResource {
     }
 
     @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public User create(@RequestParam("name") String name) {
-        return userService.createUser(name);
+    public User create() {
+        return userService.createUser();
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.GET)
-    public User update(@RequestParam("id") Integer id,
-                       @RequestParam("name") String name) {
-
-        return userService.updateUser(id, name);
+    public User update(@RequestParam("id") Integer id) {
+        return userService.updateUser(id);
     }
 
     @RequestMapping(value = "/id/{id}", method = RequestMethod.GET)
