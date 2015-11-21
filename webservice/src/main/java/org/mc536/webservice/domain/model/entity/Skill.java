@@ -25,14 +25,6 @@ public class Skill {
     @Column(name = "SName", length = 30, unique = true, nullable = false)
     private String name;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinTable(
-        name = "User_Skill",
-        joinColumns = { @JoinColumn(name = "SkillId", nullable = false) },
-        inverseJoinColumns = { @JoinColumn(name = "UserId", nullable = false)}
-    )
-    private List<User> users;
-
     public Integer getId() {
         return id;
     }
@@ -47,13 +39,5 @@ public class Skill {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
     }
 }
