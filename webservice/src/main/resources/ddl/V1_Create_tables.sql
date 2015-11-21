@@ -32,7 +32,7 @@ CREATE TABLE Offer (
     CompanyId INT NOT NULL
 );
 
-CREATE TABLE Account (
+CREATE TABLE `User` (
     Id INT PRIMARY KEY AUTO_INCREMENT
 );
 
@@ -46,10 +46,10 @@ CREATE TABLE Demands (
 );
 
 -- Relação entre usuários e skills
-CREATE TABLE Account_Skill (
-    AccountId INT NOT NULL,
+CREATE TABLE User_Skill (
+    UserId INT NOT NULL,
     SkillId INT NOT NULL,
-    PRIMARY KEY (AccountId, SkillId),
-    FOREIGN KEY (AccountId) REFERENCES Account(Id),
+    PRIMARY KEY (UserId, SkillId),
+    FOREIGN KEY (UserId) REFERENCES `User`(Id),
     FOREIGN KEY (SkillId) REFERENCES Skill(Id)
 );
