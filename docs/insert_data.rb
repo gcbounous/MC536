@@ -2,6 +2,7 @@ require 'nokogiri'
 require 'json'
 require 'set'
 require 'open-uri'
+require 'date'
 
 $companies_ids = {}
 $skills_ids = {}
@@ -20,29 +21,27 @@ def fetch_and_insert_offers(file)
       company = i.css('a10|author a10|name').children.to_s.gsub("'", "''")
       title = i.css('title').children.to_s.gsub("'", "''")
       description = i.css('description').children.to_s.gsub("'", "''")
-      pub_date = i.css('pubDate').children.to_s.gsub("'", "''")
-      updated = i.css('a10|updated').children.to_s.gsub("'", "''")
+      pub_date = Date.parse(i.css('pubDate').children.to_s.gsub("'", "''")).to_s.sub('Z', '')
+      updated = i.css('a10|updated').children.to_s.gsub("'", "''").sub('Z', '')
       location = i.css('location').children.to_s.gsub("'", "''")
 
-      unless $companies_ids[company]
-        puts "INSERT INTO COMPANY(Id, CName) VALUES (#{$id}, '#{company}');" 
-        $companies_ids[company] = $id
+      unless $companies_ids[company.downcase]
+        puts "INSERT INTO Company(Id, CName) VALUES (#{$id}, '#{company}');"
+        $companies_ids[company.downcase] = $id
         $id += 1
       end
 
-      puts "INSERT INTO OFFER(Id, Title, Description, Location, Url, PubDate, Updated, CompanyId) VALUES (#{offer_id}, '#{title}', '#{description}', '#{location}', '#{url}', '#{pub_date}', '#{updated}', #{$companies_ids[company]});"
-
-      puts "INSERT INTO PROPOSES(CompanyId, OfferId) VALUES (#{$companies_ids[company]}, #{offer_id});"
+      puts "INSERT INTO Offer(Id, Title, Description, Location, Url, PubDate, Updated, CompanyId) VALUES (#{offer_id}, '#{title}', '#{description}', '#{location}', '#{url}', '#{pub_date}', '#{updated}', #{$companies_ids[company.downcase]});"
 
       i.css('category').each do |c|
         sname = c.children.to_s.gsub("'", "''")
         unless $skills_ids[sname]
-          puts "INSERT INTO SKILL(Id, SName) VALUES (#{$id}, '#{sname}');"
+          puts "INSERT INTO Skill(Id, SName) VALUES (#{$id}, '#{sname}');"
           $skills_ids[sname] = $id
           $id += 1
           fetch_and_insert_offers "https://careers.stackoverflow.com/jobs/feed?tags=#{sname}"
         end
-        puts "INSERT INTO DEMANDS(OfferId, SkillId) VALUES (#{offer_id}, #{$skills_ids[sname]});"
+        puts "INSERT INTO Demands(OfferId, SkillId) VALUES (#{offer_id}, #{$skills_ids[sname]});"
       end
 
       puts
@@ -52,6 +51,8 @@ def fetch_and_insert_offers(file)
 end
 
 fetch_and_insert_offers 'https://careers.stackoverflow.com/jobs/feed'
+
+exit unless $urls.count > 3000
 
 $companies_ids.keys.each do |c|
   begin
@@ -69,10 +70,10 @@ $companies_ids.keys.each do |c|
       career = e['careerOpportunitiesRating']
       work_life = e['workLifeBalanceRating']
       friends = e['recommendToFriendRating']
-      puts "UPDATE COMPANY SET Website = '#{website}', Industry = '#{industry}', NumberOfRatings = #{number_ratings}, Logo = '#{logo}', OverallRating = #{overall}, CultureAndValuesRating = #{culture}, SeniorLeadershipRating = #{leadership}, CompensationAndBenefitsRating = #{compensation}, CareerOpportunitiesRating = #{career}, WorkLifeBalanceRating = #{work_life}, RecomendToFriend = #{friends} WHERE CName = '#{c}';"
+      puts "UPDATE Company SET Website = '#{website}', Industry = '#{industry}', NumberOfRatings = #{number_ratings}, Logo = '#{logo}', OverallRating = #{overall}, CultureAndValuesRating = #{culture}, SeniorLeadershipRating = #{leadership}, CompensationAndBenefitsRating = #{compensation}, CareerOpportunitiesRating = #{career}, WorkLifeBalanceRating = #{work_life}, RecomendToFriend = #{friends} WHERE CName = '#{c}';"
       if e['ceo'] && e['ceo']['numberOfRatings'] > 0
         pct = e['ceo']['pctApprove']
-        puts "UPDATE COMPANY SET CEOAproval = '#{pct}' WHERE CName = '#{c}';"
+        puts "UPDATE Company SET CEOAproval = '#{pct}' WHERE CName = '#{c}';"
       end
     else
       STDERR.puts "Company #{c} not found"
