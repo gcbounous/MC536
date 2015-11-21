@@ -11,7 +11,7 @@ public class Company {
     @Column(name = "Id")
     private Integer id;
 
-    @Column(name = "CName", length = 100, nullable = false)
+    @Column(name = "CName", length = 100, unique = true, nullable = false)
     private String name;
 
     @Column(name = "Website", length = 100)
