@@ -1,8 +1,13 @@
+# coding: utf-8
 require 'nokogiri'
 require 'json'
 require 'set'
 require 'open-uri'
 require 'date'
+
+puts
+puts '-- Comandos para inserção dos dados'
+puts
 
 $companies_ids = {}
 $skills_ids = {}

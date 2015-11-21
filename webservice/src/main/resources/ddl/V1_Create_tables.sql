@@ -1,5 +1,4 @@
--- Entities
-
+-- Entidades
 CREATE TABLE Skill (
     Id INT PRIMARY KEY AUTO_INCREMENT,
     SName VARCHAR(30) UNIQUE NOT NULL
@@ -33,11 +32,24 @@ CREATE TABLE Offer (
     CompanyId INT NOT NULL
 );
 
+CREATE TABLE Account (
+    Id INT PRIMARY KEY AUTO_INCREMENT
+);
+
 -- Offer demands a Skill
 CREATE TABLE Demands (
     OfferId INT NOT NULL,
     SkillId INT NOT NULL,
     PRIMARY KEY (OfferId, SkillId),
     FOREIGN KEY (OfferId) REFERENCES Offer(Id),
+    FOREIGN KEY (SkillId) REFERENCES Skill(Id)
+);
+
+-- Relação entre usuários e skills
+CREATE TABLE Account_Skill (
+    AccountId INT NOT NULL,
+    SkillId INT NOT NULL,
+    PRIMARY KEY (AccountId, SkillId),
+    FOREIGN KEY (AccountId) REFERENCES Account(Id),
     FOREIGN KEY (SkillId) REFERENCES Skill(Id)
 );
