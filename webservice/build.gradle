@@ -1,0 +1,55 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.7.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'mc536-webservice'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "mysql:mysql-connector-java:$mysqlDriverVersion"
+    compile "c3p0:c3p0:$c3p0Version"
+
+    compile "org.eclipse.jetty:jetty-server:$jettyVersion"
+    compile "org.eclipse.jetty:jetty-servlet:$jettyVersion"
+    compile "org.eclipse.jetty:jetty-servlets:$jettyVersion"
+    compile "org.eclipse.jetty:jetty-client:$jettyVersion"
+    compile "org.eclipse.jetty:jetty-webapp:$jettyVersion"
+
+    compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework:spring-core:$springVersion"
+    compile "org.springframework:spring-web:$springVersion"
+    compile "org.springframework:spring-webmvc:$springVersion"
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile "org.springframework:spring-orm:$springVersion"
+
+    compile "org.apache.commons:commons-lang3:$apacheCommonsVersion"
+    compile "org.apache.httpcomponents:httpclient:$httpClientVersion"
+    compile "org.apache.httpcomponents:httpasyncclient:$httpAsyncClientVersion"
+
+    compile "org.hibernate:hibernate-entitymanager:$hibernateVersion"
+    compile "org.hibernate:hibernate-core:$hibernateVersion"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
