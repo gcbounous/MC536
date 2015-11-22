@@ -6,6 +6,7 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import org.mc536.webservice.domain.model.dao.UserDAO;
 import org.mc536.webservice.domain.model.entity.User;
+import org.mc536.webservice.domain.model.entity.Offer;
 
 @Service
 public class UserService {
@@ -53,4 +54,7 @@ public class UserService {
         userDAO.delete(id);
     }
 
+    public List<Offer> recommendations(Integer id) {
+        return userDAO.recommendations(id);
+    }
 }

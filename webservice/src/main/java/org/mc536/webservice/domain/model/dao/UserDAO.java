@@ -1,6 +1,7 @@
 package org.mc536.webservice.domain.model.dao;
 
 import org.mc536.webservice.domain.model.entity.User;
+import org.mc536.webservice.domain.model.entity.Offer;
 import java.util.List;
 
 public interface UserDAO {
@@ -14,4 +15,6 @@ public interface UserDAO {
     User findById(Integer id);
 
     void delete(Integer id);
+
+    List<Offer> recommendations(Integer id);
 }

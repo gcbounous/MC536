@@ -2,6 +2,7 @@ package org.mc536.webservice.web.resources;
 
 import java.util.List;
 import org.mc536.webservice.domain.model.entity.User;
+import org.mc536.webservice.domain.model.entity.Offer;
 import org.mc536.webservice.domain.model.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -42,4 +43,8 @@ public class UserResource {
         userService.delete(id);
     }
 
+    @RequestMapping(value = "/recommendations/{id}", method = RequestMethod.GET)
+    public List<Offer> recommendations(@PathVariable("id") Integer id) {
+        return userService.recommendations(id);
+    }
 }
