@@ -3,6 +3,7 @@ package org.mc536.webservice.main;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.databind.SerializationConfig;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -55,6 +56,7 @@ class SpringMVCConfig extends WebMvcConfigurerAdapter {
         final MappingJackson2HttpMessageConverter jacksonConverter = new MappingJackson2HttpMessageConverter();
 
         final ObjectMapper objectMapper = jacksonConverter.getObjectMapper();
+        objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategy.CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES);
         objectMapper.setSerializationInclusion(JsonInclude.Include.ALWAYS);
