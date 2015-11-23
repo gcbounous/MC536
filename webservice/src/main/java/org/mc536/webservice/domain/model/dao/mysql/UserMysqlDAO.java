@@ -3,6 +3,7 @@ package org.mc536.webservice.domain.model.dao.mysql;
 import java.util.List;
 import javax.transaction.Transactional;
 import org.apache.commons.lang3.Validate;
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.mc536.webservice.domain.model.dao.UserDAO;
@@ -16,9 +17,13 @@ import org.springframework.stereotype.Repository;
 public class UserMysqlDAO implements UserDAO {
 
     private static final String RECOMMENDATION_QUERY = "" +
-            "SELECT DISTINCT O FROM Offer O, Company C, Demands D, User_Skill US, User U" +
-            " WHERE O.companyId = C.id AND O.id = D.OfferId AND D.SkillId = US.SkillId AND US.UserId = U.id AND U.id = :id AND C.numberOfRatings > 50" +
-            " ORDER BY C.overallRating DESC, O.publicationDate DESC";
+            "SELECT o FROM Offer AS o, User AS u" +
+            "    INNER JOIN o.company AS c" +
+            "        WITH c.numberOfRatings > 50" +
+            "    INNER JOIN o.skills AS os" +
+            "    INNER JOIN u.skills AS us" +
+            "    WHERE u.id = :id AND os.id = us.id" +
+            "    ORDER BY c.overallRating DESC, o.publicationDate DESC";
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -44,7 +49,10 @@ public class UserMysqlDAO implements UserDAO {
 
     @Override
     public List<User> findAll() {
-        return sessionFactory.getCurrentSession().createCriteria(User.class).list();
+        return sessionFactory.getCurrentSession()
+                .createCriteria(User.class)
+                .setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY)
+                .list();
     }
 
     @Override

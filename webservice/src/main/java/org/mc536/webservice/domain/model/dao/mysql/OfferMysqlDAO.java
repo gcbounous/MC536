@@ -121,6 +121,8 @@ public class OfferMysqlDAO implements OfferDAO {
     }
 
     private Criteria getCriteria() {
-        return sessionFactory.getCurrentSession().createCriteria(Offer.class);
+        return sessionFactory.getCurrentSession()
+                .createCriteria(Offer.class)
+                .setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
     }
 }
