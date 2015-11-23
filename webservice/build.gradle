@@ -15,6 +15,9 @@ apply plugin: 'spring-boot'
 jar {
     baseName = 'mc536-webservice'
     version =  '0.1.0'
+    manifest {
+        attributes 'Main-Class': 'org.mc536.webservice.main.Application'
+    }
 }
 
 repositories {
