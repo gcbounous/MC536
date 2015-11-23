@@ -24,7 +24,8 @@ CREATE TABLE Offer (
     Url VARCHAR(500) UNIQUE NOT NULL,
     PubDate TIMESTAMP NOT NULL,
     Updated TIMESTAMP,
-    CompanyId INT NOT NULL
+    CompanyId INT NOT NULL,
+    FOREIGN KEY (CompanyId) REFERENCES Company(Id)
 );
 
 CREATE TABLE Skill (
