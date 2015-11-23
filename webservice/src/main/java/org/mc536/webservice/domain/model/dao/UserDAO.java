@@ -16,5 +16,5 @@ public interface UserDAO {
 
     void delete(Integer id);
 
-    List<Offer> recommendations(Integer id);
+    List<Offer> recommendations(Integer id, Integer limit);
 }

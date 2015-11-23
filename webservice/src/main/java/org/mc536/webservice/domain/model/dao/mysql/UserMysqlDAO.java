@@ -15,6 +15,11 @@ import org.springframework.stereotype.Repository;
 @Transactional
 public class UserMysqlDAO implements UserDAO {
 
+    private static final String RECOMMENDATION_QUERY = "" +
+            "SELECT DISTINCT O FROM Offer O, Company C, Demands D, User_Skill US, User U" +
+            " WHERE O.companyId = C.id AND O.id = D.OfferId AND D.SkillId = US.SkillId AND US.UserId = U.id AND U.id = :id AND C.numberOfRatings > 50" +
+            " ORDER BY C.overallRating DESC, O.publicationDate DESC";
+
     @Autowired
     private SessionFactory sessionFactory;
 
@@ -58,24 +63,11 @@ public class UserMysqlDAO implements UserDAO {
         sessionFactory.getCurrentSession().delete(user);
     }
 
-    public List<Offer> recommendations(Integer id) {
-        String RECOMMENDATION_QUERY = createQuery(id);
+    @Override
+    public List<Offer> recommendations(Integer id, Integer limit) {
         Query query = sessionFactory.getCurrentSession().createQuery(RECOMMENDATION_QUERY);
-        query.setMaxResults(10);
+        query.setInteger("id", id);
+        query.setMaxResults(limit);
         return query.list();
-    }
-
-    private String createQuery(Integer id) {
-        String result;
-        result = "SELECT DISTINCT O "
-                + "FROM Offer O, Company C, Demands D, User_Skill US, User U "
-                + "WHERE O.companyId = C.id AND "
-                + "O.id = D.OfferId AND "
-                + "D.SkillId = US.SkillId AND "
-                + "US.UserId = U.id AND "
-                + "U.id = " + id + " AND "
-                + "C.numberOfRatings > 50 "
-                + "ORDER BY C.overallRating DESC, O.publicationDate DESC";
-        return result;
     }
 }

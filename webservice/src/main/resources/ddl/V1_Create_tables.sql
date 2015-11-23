@@ -34,7 +34,8 @@ CREATE TABLE Skill (
 );
 
 CREATE TABLE `User` (
-    Id INT PRIMARY KEY AUTO_INCREMENT
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(100) NOT NULL
 );
 
 -- Offer demands a Skill

@@ -35,7 +35,7 @@ public class OfferResource {
                         @RequestParam("title") String title,
                         @RequestParam("description") String description,
                         @RequestParam("location") String location,
-                        @RequestParam("yurl") String url) {
+                        @RequestParam("url") String url) {
 
         return offerService.updateOffer(id, title, description, location, url);
     }

@@ -1,6 +1,7 @@
 package org.mc536.webservice.web.resources;
 
 import java.util.List;
+
 import org.mc536.webservice.domain.model.entity.User;
 import org.mc536.webservice.domain.model.entity.Offer;
 import org.mc536.webservice.domain.model.service.UserService;
@@ -24,13 +25,15 @@ public class UserResource {
     }
 
     @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public User create() {
-        return userService.createUser();
+    public User create(@RequestParam("name") String name) {
+        return userService.createUser(name);
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.GET)
-    public User update(@RequestParam("id") Integer id) {
-        return userService.updateUser(id);
+    public User update(@RequestParam("id") Integer id,
+                       @RequestParam("name") String name) {
+
+        return userService.updateUser(id, name);
     }
 
     @RequestMapping(value = "/id/{id}", method = RequestMethod.GET)
@@ -44,7 +47,9 @@ public class UserResource {
     }
 
     @RequestMapping(value = "/recommendations/{id}", method = RequestMethod.GET)
-    public List<Offer> recommendations(@PathVariable("id") Integer id) {
-        return userService.recommendations(id);
+    public List<Offer> recommendations(@PathVariable("id") Integer id,
+                                       @RequestParam(name = "limit", required = false) Integer limit) {
+
+        return userService.recommendations(id, limit);
     }
 }

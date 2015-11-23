@@ -11,12 +11,14 @@ import org.mc536.webservice.domain.model.entity.Offer;
 @Service
 public class UserService {
 
+    private static final int RECOMMENDATIONS_LIMIT = 10;
+
     @Autowired
     private UserDAO userDAO;
 
-    public User createUser() {
-
+    public User createUser(String name) {
         User user = new User();
+        user.setName(name);
 
         try {
             userDAO.create(user);
@@ -26,9 +28,9 @@ public class UserService {
         }
     }
 
-    public User updateUser(Integer id) {
-
+    public User updateUser(Integer id, String name) {
         User user = userDAO.findById(id);
+        user.setName(name);
 
         try {
             userDAO.update(user);
@@ -54,7 +56,7 @@ public class UserService {
         userDAO.delete(id);
     }
 
-    public List<Offer> recommendations(Integer id) {
-        return userDAO.recommendations(id);
+    public List<Offer> recommendations(Integer id, Integer limit) {
+        return userDAO.recommendations(id, limit != null ? limit : RECOMMENDATIONS_LIMIT);
     }
 }
