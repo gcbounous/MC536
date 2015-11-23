@@ -1,8 +1,14 @@
 package org.mc536.webservice.web.resources;
 
 import org.mc536.webservice.domain.model.entity.Company;
+import org.mc536.webservice.domain.model.entity.User;
 import org.mc536.webservice.domain.model.service.CompanyService;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -74,4 +80,12 @@ public class CompanyResource {
     public void delete(@PathVariable("id") Integer id) {
         companyService.delete(id);
     }
+
+    @RequestMapping(value = "/recommendUser/{id}", method = RequestMethod.GET)
+    public List<User> recommendUser(@PathVariable("id") Integer id,
+                                    @RequestParam(name = "limit", required = false) Integer limit){
+
+        return companyService.recommendUser(id, limit);
+    };
+
 }

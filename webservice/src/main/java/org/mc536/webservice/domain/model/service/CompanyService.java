@@ -3,6 +3,7 @@ package org.mc536.webservice.domain.model.service;
 import org.apache.commons.lang3.Validate;
 import org.mc536.webservice.domain.model.dao.CompanyDAO;
 import org.mc536.webservice.domain.model.entity.Company;
+import org.mc536.webservice.domain.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
@@ -119,5 +120,9 @@ public class CompanyService {
         Validate.notBlank(normalized, "Text cannot be blank");
 
         return normalized;
+    }
+
+    public List<User> recommendUser(Integer offerId, Integer limit){
+        return companyDAO.recommendUser(offerId, limit != null ? limit :RECOMMENDATIONS_LIMIT);
     }
 }
