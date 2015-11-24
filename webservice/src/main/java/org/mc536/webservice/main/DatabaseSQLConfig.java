@@ -85,6 +85,8 @@ public class DatabaseSQLConfig {
         LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(dataSource);
         builder.scanPackages("org.mc536.webservice.domain.model.entity");
         builder.setProperty("hibernate.hbm2ddl.auto", "validate");
+        builder.setProperty("hibernate.show_sql", "true");
+        builder.setProperty("hibernate.format_sql", "true");
         return builder.buildSessionFactory();
     }
 }

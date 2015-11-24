@@ -7,6 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import org.mc536.webservice.domain.model.dao.OfferDAO;
 import org.mc536.webservice.domain.model.entity.Offer;
+import org.mc536.webservice.domain.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.CollectionUtils;
@@ -41,6 +42,13 @@ public class OfferMysqlDAOImpl implements OfferDAO {
             " c.recomendToFriend * :recomendToFriendWeight" +
             " ) desc," +
             " o.publicationDate desc";
+
+    private static final String RECOMMENDED_USERS_QUERY = "" +
+            "SELECT u FROM Offer AS o, User AS u" +
+            "    INNER JOIN o.skills AS os" +
+            "    INNER JOIN u.skills AS us" +
+            "    WHERE o.id = :id AND os.id = us.id" +
+            "    ORDER BY count(us) DESC";
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -108,6 +116,14 @@ public class OfferMysqlDAOImpl implements OfferDAO {
         query.setFloat("careerOpportunitiesRatingWeight", careerOpportunitiesRatingWeight);
         query.setFloat("workLifeBalanceRatingWeight", workLifeBalanceRatingWeight);
         query.setFloat("recomendToFriendWeight", recomendToFriendWeight);
+        return query.list();
+    }
+
+    @Override
+    public List<User> recommendedUsers(Integer offerId, Integer limit){
+        Query query = sessionFactory.getCurrentSession().createQuery(RECOMMENDED_USERS_QUERY);
+        query.setInteger("id", offerId);
+        query.setMaxResults(limit);
         return query.list();
     }
 

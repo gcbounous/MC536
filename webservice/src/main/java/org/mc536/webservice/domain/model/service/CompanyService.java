@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class CompanyService {
 
-    private static final int RECOMMENDATIONS_LIMIT = 10;
+    private static final int LIMIT = 10;
 
     @Autowired
     private CompanyDAO companyDAO;
@@ -102,7 +102,7 @@ public class CompanyService {
                 Boolean.TRUE.equals(careerOpportunitiesRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(workLifeBalanceRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(recomendToFriendWeight) ? 1.0F : 0.0F,
-                limit != null ? limit : RECOMMENDATIONS_LIMIT);
+                limit != null ? limit : LIMIT);
     }
 
     public boolean exists(Integer id) {
@@ -120,9 +120,5 @@ public class CompanyService {
         Validate.notBlank(normalized, "Text cannot be blank");
 
         return normalized;
-    }
-
-    public List<User> recommendUser(Integer offerId, Integer limit){
-        return companyDAO.recommendUser(offerId, limit != null ? limit :RECOMMENDATIONS_LIMIT);
     }
 }

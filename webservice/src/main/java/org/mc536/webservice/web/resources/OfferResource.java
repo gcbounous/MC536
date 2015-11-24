@@ -1,6 +1,7 @@
 package org.mc536.webservice.web.resources;
 
 import org.mc536.webservice.domain.model.entity.Offer;
+import org.mc536.webservice.domain.model.entity.User;
 import org.mc536.webservice.domain.model.service.OfferService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -75,6 +76,13 @@ public class OfferResource {
                 workLifeBalanceRatingWeight,
                 recomendToFriendWeight,
                 limit);
+    }
+
+    @RequestMapping(value = "/recommended/{id}", method = RequestMethod.GET)
+    public List<User> recommendUser(@PathVariable("id") Integer id,
+                                    @RequestParam(name = "limit", required = false) Integer limit){
+
+        return offerService.recommendUser(id, limit);
     }
 
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)

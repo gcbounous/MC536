@@ -3,6 +3,7 @@ package org.mc536.webservice.domain.model.service;
 import org.apache.commons.lang3.Validate;
 import org.mc536.webservice.domain.model.dao.OfferDAO;
 import org.mc536.webservice.domain.model.entity.Offer;
+import org.mc536.webservice.domain.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
@@ -14,7 +15,7 @@ import java.util.Set;
 @Service
 public class OfferService {
 
-    private static final int SEARCH_LIMIT = 10;
+    private static final int LIMIT = 10;
 
     @Autowired
     private OfferDAO offerDAO;
@@ -104,7 +105,11 @@ public class OfferService {
                 Boolean.TRUE.equals(careerOpportunitiesRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(workLifeBalanceRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(recomendToFriendWeight) ? 1.0F : 0.0F,
-                limit != null ? limit : SEARCH_LIMIT);
+                limit != null ? limit : LIMIT);
+    }
+
+    public List<User> recommendUser(Integer offerId, Integer limit){
+        return offerDAO.recommendedUsers(offerId, limit != null ? limit : LIMIT);
     }
 
     public boolean exists(Integer id) {

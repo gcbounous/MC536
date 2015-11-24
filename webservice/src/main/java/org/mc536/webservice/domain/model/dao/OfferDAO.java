@@ -1,6 +1,7 @@
 package org.mc536.webservice.domain.model.dao;
 
 import org.mc536.webservice.domain.model.entity.Offer;
+import org.mc536.webservice.domain.model.entity.User;
 
 import java.util.List;
 import java.util.Set;
@@ -30,6 +31,8 @@ public interface OfferDAO {
                        Float workLifeBalanceRatingWeight,
                        Float recomendToFriendWeight,
                        Integer limit);
+
+    List<User> recommendedUsers(Integer offerId, Integer limit);
 
     void delete(Integer id);
 }

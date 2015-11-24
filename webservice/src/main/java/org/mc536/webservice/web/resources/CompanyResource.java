@@ -80,12 +80,4 @@ public class CompanyResource {
     public void delete(@PathVariable("id") Integer id) {
         companyService.delete(id);
     }
-
-    @RequestMapping(value = "/recommendUser/{id}", method = RequestMethod.GET)
-    public List<User> recommendUser(@PathVariable("id") Integer id,
-                                    @RequestParam(name = "limit", required = false) Integer limit){
-
-        return companyService.recommendUser(id, limit);
-    };
-
 }
