@@ -7,7 +7,7 @@ function Principal(){
 		self.getSkills(self.fillSkillsCB);
 
 		$('#searchOffers').on('click', function(){
-			$('#ofertas').clear();
+			$('#ofertas').empty();
 			self.searchOffers(self.searchResult());
 		});
 
@@ -51,12 +51,12 @@ function Principal(){
 	self.searchResult = function(data){
 		var offer = "";
 
-		// for(var i=0; i<data.length; i++){
-		// 	offer+= '<div class="col-md-12">';
-  //         	offer+= '<h2>'+data[i].title+'</h2>';
-  //         	offer+= '<p>'+data[i].description+'</p>';
-  //       	offer+= '</div><!-- /.col-md-12 -->';
-  //   	}
+		for(var i=0; i<data.length; i++){
+			offer+= '<div class="col-md-12">';
+          	offer+= '<h2>'+data[i].title+'</h2>';
+          	offer+= '<p>'+data[i].description+'</p>';
+        	offer+= '</div><!-- /.col-md-12 -->';
+    	}
 
     	$("#ofertas").append(offer);
 	};
