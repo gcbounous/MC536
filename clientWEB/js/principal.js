@@ -8,7 +8,7 @@ function Principal(){
 
 		$('#searchOffers').on('click', function(){
 			$('#ofertas').empty();
-			self.searchOffers(self.searchResult());
+			self.searchOffers(self.searchResult);
 		});
 
 		$('.ratingItem').on('click', function(){
@@ -20,7 +20,7 @@ function Principal(){
 	self.searchOffers = function(callback){
 		var skills = self.skillsAtivos();
 		var ratings = self.ratingsAtivos();
-		offer.searchOffers(callback, skills, ratings);
+		offer.searchOffers(skills, ratings, callback);
 	}
 
 	self.getSkills = function(callback){
@@ -50,12 +50,14 @@ function Principal(){
 
 	self.searchResult = function(data){
 		var offer = "";
-
-		for(var i=0; i<data.length; i++){
-			offer+= '<div class="col-md-12">';
-          	offer+= '<h2>'+data[i].title+'</h2>';
-          	offer+= '<p>'+data[i].description+'</p>';
-        	offer+= '</div><!-- /.col-md-12 -->';
+		if(typeof data !== "undefined")
+		{
+			for(var i=0; i<data.length; i++){
+				offer+= '<div class="col-md-12">';
+	          	offer+= '<h2>'+data[i].title+'</h2>';
+	          	offer+= '<p>'+data[i].description+'</p>';
+	        	offer+= '</div><!-- /.col-md-12 -->';
+	    	}
     	}
 
     	$("#ofertas").append(offer);
