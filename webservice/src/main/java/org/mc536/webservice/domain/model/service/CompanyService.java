@@ -12,6 +12,8 @@ import java.util.List;
 @Service
 public class CompanyService {
 
+    private static final int RECOMMENDATIONS_LIMIT = 10;
+
     @Autowired
     private CompanyDAO companyDAO;
 
@@ -79,6 +81,27 @@ public class CompanyService {
 
     public Company findByName(String name) {
         return companyDAO.findByName(name);
+    }
+
+    public List<Company> search(String name,
+                                Boolean overallRatingWeigth,
+                                Boolean cultureAndValuesRatingWeight,
+                                Boolean seniorLeadershipRatingWeight,
+                                Boolean compensationAndBenefitsRatingWeight,
+                                Boolean careerOpportunitiesRatingWeight,
+                                Boolean workLifeBalanceRatingWeight,
+                                Boolean recomendToFriendWeight,
+                                Integer limit) {
+
+        return companyDAO.search(name,
+                Boolean.TRUE.equals(overallRatingWeigth) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(cultureAndValuesRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(seniorLeadershipRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(compensationAndBenefitsRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(careerOpportunitiesRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(workLifeBalanceRatingWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(recomendToFriendWeight) ? 1.0F : 0.0F,
+                limit != null ? limit : RECOMMENDATIONS_LIMIT);
     }
 
     public boolean exists(Integer id) {

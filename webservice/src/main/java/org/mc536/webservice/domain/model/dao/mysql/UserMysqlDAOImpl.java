@@ -14,9 +14,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 @Transactional
-public class UserMysqlDAO implements UserDAO {
+public class UserMysqlDAOImpl implements UserDAO {
 
-    private static final String RECOMMENDATION_QUERY = "" +
+    private static final String RECOMMENDED_OFFERS_QUERY = "" +
             "SELECT o FROM Offer AS o, User AS u" +
             "    INNER JOIN o.company AS c" +
             "        WITH c.numberOfRatings > 50" +
@@ -72,8 +72,8 @@ public class UserMysqlDAO implements UserDAO {
     }
 
     @Override
-    public List<Offer> recommendations(Integer id, Integer limit) {
-        Query query = sessionFactory.getCurrentSession().createQuery(RECOMMENDATION_QUERY);
+    public List<Offer> recommendedOffers(Integer id, Integer limit) {
+        Query query = sessionFactory.getCurrentSession().createQuery(RECOMMENDED_OFFERS_QUERY);
         query.setInteger("id", id);
         query.setMaxResults(limit);
         return query.list();

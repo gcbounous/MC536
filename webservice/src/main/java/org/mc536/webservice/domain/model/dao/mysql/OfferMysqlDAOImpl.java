@@ -19,7 +19,7 @@ import java.util.Set;
 
 @Repository
 @Transactional
-public class OfferMysqlDAO implements OfferDAO {
+public class OfferMysqlDAOImpl implements OfferDAO {
 
     private static final String FIND_BY_SKILL_QUERY = "" +
             "select o from " + Offer.class.getName() + " as o" +

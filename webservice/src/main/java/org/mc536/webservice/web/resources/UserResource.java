@@ -50,6 +50,6 @@ public class UserResource {
     public List<Offer> recommendations(@PathVariable("id") Integer id,
                                        @RequestParam(name = "limit", required = false) Integer limit) {
 
-        return userService.recommendations(id, limit);
+        return userService.recommendedOffers(id, limit);
     }
 }

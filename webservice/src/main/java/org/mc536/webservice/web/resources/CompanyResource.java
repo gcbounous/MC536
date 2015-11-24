@@ -48,6 +48,28 @@ public class CompanyResource {
         return companyService.findByName(name);
     }
 
+    @RequestMapping(value = "/search", method = RequestMethod.GET)
+    public List<Company> recommendedCompanies(@RequestParam(name = "name", required = false) String name,
+                                              @RequestParam(name = "overall", required = false) Boolean overallRatingWeigth,
+                                              @RequestParam(name = "cultureAndValues", required = false) Boolean cultureAndValuesRatingWeight,
+                                              @RequestParam(name = "seniorLeadership", required = false) Boolean seniorLeadershipRatingWeight,
+                                              @RequestParam(name = "compensationAndBenefits", required = false) Boolean compensationAndBenefitsRatingWeight,
+                                              @RequestParam(name = "careerOpportunities", required = false) Boolean careerOpportunitiesRatingWeight,
+                                              @RequestParam(name = "workLifeBalance", required = false) Boolean workLifeBalanceRatingWeight,
+                                              @RequestParam(name = "recomendToFriend", required = false) Boolean recomendToFriendWeight,
+                                              @RequestParam(name = "limit", required = false) Integer limit) {
+
+        return companyService.search(name,
+                overallRatingWeigth,
+                cultureAndValuesRatingWeight,
+                seniorLeadershipRatingWeight,
+                compensationAndBenefitsRatingWeight,
+                careerOpportunitiesRatingWeight,
+                workLifeBalanceRatingWeight,
+                recomendToFriendWeight,
+                limit);
+    }
+
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public void delete(@PathVariable("id") Integer id) {
         companyService.delete(id);
