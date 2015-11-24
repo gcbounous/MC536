@@ -1,0 +1,44 @@
+body {
+	background-color: #lclclc; !important
+}
+
+.nav-items{
+    margin-right: 15px;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-brand {
+	padding: 0;
+    margin-left: 25px;    
+}
+
+.ativo, .skillItem:hover, .ratingItem:hover{
+	background-color: #46A7EB ;
+}
+
+#userSpaceButton.active ,#userSpaceButton.active > a, #userSpaceButton:hover{
+    background-color:#00A286;
+}
+
+#companySpaceButton.active ,#companySpaceButton.active > a, #companySpaceButton:hover{
+    background-color: #EF6530;
+}
+
+#brandImg {
+	height: 100%;
+	margin-left: 25px;
+}
+
+#searchOffers {
+	margin-right: 14px;
+}
+
+#skillPanel{	
+    overflow-y:auto;
+    overflow-x:hidden;
+    max-height:301px;
+}

@@ -11,6 +11,8 @@ java -jar webservice.jar \
 
 - Após a inicialização do programa, um conjunto de URLs ficará disponível para acesso a partir do endereço http://localhost:8080, sendo algumas delas:
 
+    - Interface gráfica na raiz (http://localhost:8080)
+
     - Lista de empresas cadastradas:
         /companies
 
