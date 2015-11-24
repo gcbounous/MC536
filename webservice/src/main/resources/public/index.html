@@ -1,1 +1,172 @@
-PONG
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- Bootstrap -->
+  <link href="ressources/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awsome -->
+  <link href="ressources/fonts/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- My CSS -->
+  <link href="css/mc536.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+
+    <nav id="nav" class="main-nav navbar navbar-inverse navbar-fixed-top">
+
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> 
+            <img id="brandImg" alt="FindJob" src="./assets/Find-Jobs.png"> 
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <div class="navbar-right nav-items" >
+            <ul class="nav navbar-nav">  
+              <li id="companySpaceButton" class="nav-item nav-inscription"><a  href="#"> Espaço Empresa </a></li>
+              <li id="userSpaceButton" class="nav-item nav-connexion"><a  href="#"> Espaço Usuario </a></li>
+              <li id="connectedUser" class="nav-item " style="display:none;"> 
+                <a  href="#"><i class="fa fa-user"> </i></a>
+              </li>
+              <li id="disconnectButton" class="nav-item nav-connexion"  style="display:none;"><a  href="#"> Déconnecter </a></li>
+            </ul>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="row">
+      <div class="col-md-12">
+
+      </div>     
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            <h1>Procure ofertas</h1>
+          </div>
+        </div>
+          <div id="mainPanel" class="col-md-offset-2 col-md-8">
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+          <div class="row">
+          <div  class="col-md-6">
+            <div id="skillPanel" class="panel panel-default  ">
+              <div class="panel-heading"><strong>Skills</strong></div>
+              <table class="table">
+                <tbody id="skills">
+                 <!--  <tr>
+                    <td class="skillItem" data-skill="overall">Overall</td>
+                  </tr>
+                  <tr>
+                    <td class="skillItem" data-skill="cultureAndValues">Culture and values</td>
+                  </tr>
+                  <tr>
+                    <td class="skillItem" data-skill="seniorLeadership">Senior Leadership</td>
+                  </tr>
+                  <tr>
+                    <td class="skillItem" data-skill="compensationAndBenefits">Compensation and benefits</td>
+                  </tr>
+                  <tr>
+                    <td class="skillItem" data-skill="careerOpportunities">Career opportunities</td>
+                  </tr>
+                  <tr>
+                    <td class="skillItem" data-skill="workLifeBalance">Work life balance</td>
+                  </tr>
+                  <tr>
+                    <td class="skillItem" data-skill="recomendToFriend">Recomend to friend</td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+           <div  class="col-md-6">
+            <div id="ratingPanel" class="panel panel-default  ">
+              <div class="panel-heading"><strong>Ratings</strong></div>
+              <table class="table">
+                <tbody id="ratings">
+                  <tr>
+                    <td class="ratingItem" data-rating="overall">Overall</td>
+                  </tr>
+                  <tr>
+                    <td class="ratingItem" data-rating="cultureAndValues">Culture and values</td>
+                  </tr>
+                  <tr>
+                    <td class="ratingItem" data-rating="seniorLeadership">Senior Leadership</td>
+                  </tr>
+                  <tr>
+                    <td class="ratingItem" data-rating="compensationAndBenefits">Compensation and benefits</td>
+                  </tr>
+                  <tr>
+                    <td class="ratingItem" data-rating="careerOpportunities">Career opportunities</td>
+                  </tr>
+                  <tr>
+                    <td class="ratingItem" data-rating="workLifeBalance">Work life balance</td>
+                  </tr>
+                  <tr>
+                    <td class="ratingItem" data-rating="recomendToFriend">Recomend to friend</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div> 
+        </div>         
+          <div class="row">
+            <div class="pull-right">
+              <button id="searchOffers" class="btn btn-success"> <i class="fa fa-search fa-lg"></i> </button> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+      </div>
+    </div>
+
+   <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div id="ofertas" class="row">
+        <div class="col-lg-12">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 MC536 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="ressources/js/jquery-1.11.2.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="ressources/js/bootstrap.min.js"></script>
+  <!-- JavaScript inputs -->
+  <script src="js/RESTful.js"></script>
+  <script src="js/Offer.js"></script>
+  <script src="js/Skill.js"></script>
+  <script src="js/principal.js"></script>
+
+</body>
+</html>

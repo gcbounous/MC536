@@ -1,5 +1,5 @@
 http-server:
-    port: 18081
+    port: 8080
     name: jetty
     maxIdleTime: 30000
     threadPool: 16
