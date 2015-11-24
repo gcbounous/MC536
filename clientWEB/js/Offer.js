@@ -6,7 +6,6 @@ function Offer() {
 
      self.searchOffers = function(skills, ratings, callback) {
      	var searchPath =self.path+'search?limit=10'; 
-     	console.log(skills);
      	for(var i = 0; i< skills.length; i++){
      		if(typeof skills[i]!== "undefined"){
      			searchPath +='&skills='+skills[i];
@@ -17,7 +16,6 @@ function Offer() {
      			searchPath +='&'+ratings[i]+'=true';
      		}
      	}
-     	alert(searchPath);
         rest.get(searchPath, null , callback );
     };
 
