@@ -71,6 +71,11 @@ class SpringMVCConfig extends WebMvcConfigurerAdapter {
         return resolver;
     }
 
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**");
+    }
+
     @PostConstruct
     public void doAfter() {
         dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
