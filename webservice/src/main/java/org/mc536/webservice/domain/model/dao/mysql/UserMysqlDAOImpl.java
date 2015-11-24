@@ -19,11 +19,10 @@ public class UserMysqlDAOImpl implements UserDAO {
     private static final String RECOMMENDED_OFFERS_QUERY = "" +
             "SELECT o FROM Offer AS o, User AS u" +
             "    INNER JOIN o.company AS c" +
-            "        WITH c.numberOfRatings > 50" +
             "    INNER JOIN o.skills AS os" +
             "    INNER JOIN u.skills AS us" +
             "    WHERE u.id = :id AND os.id = us.id" +
-            "    ORDER BY c.overallRating DESC, o.publicationDate DESC";
+            "    ORDER BY c.overallRating DESC, c.numberOfRatings DESC, o.publicationDate DESC";
 
     @Autowired
     private SessionFactory sessionFactory;
