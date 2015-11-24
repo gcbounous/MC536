@@ -1,0 +1,24 @@
+http-server:
+    port: 18081
+    name: jetty
+    maxIdleTime: 30000
+    threadPool: 16
+    threadPool-minThreads: 10
+    threadPool-maxThreads: 100
+    acceptQueueSize: 1000
+    acceptorsSize: 4
+
+http-utils:
+    connect-timeout-inseconds: 120
+    read-timeout-inseconds: 120
+
+database-sql:
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/mc536
+    username: root
+    password: admin
+    acquire-increment: 5
+    idle-connection-test-period: 60
+    max-pool-size: 10
+    min-pool-size: 3
+    max-statements: 5
