@@ -7,7 +7,8 @@ import org.mc536.webservice.domain.model.entity.User;
 import org.mc536.webservice.domain.model.entity.Offer;
 import org.mc536.webservice.domain.model.service.UserService;
 import org.mc536.webservice.domain.model.service.recommendation.Recommendation;
-import org.mc536.webservice.domain.model.service.recommendation.RecommendationService;
+import org.mc536.webservice.domain.model.service.recommendation.RecommendationServiceV1;
+import org.mc536.webservice.domain.model.service.recommendation.RecommendationServiceV2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +24,10 @@ public class UserResource {
     private UserService userService;
 
     @Autowired
-    private RecommendationService recommendationService;
+    private RecommendationServiceV1 recommendationServiceV1;
+
+    @Autowired
+    private RecommendationServiceV2 recommendationServiceV2;
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public List<User> all() {
@@ -59,11 +63,18 @@ public class UserResource {
         return userService.recommendedOffers(id, limit);
     }
 
-    @RequestMapping(value = "/recommend/{id}/offers_by_ratings", method = RequestMethod.GET)
-    public List<Recommendation<Offer>> recommendedOffersByRatings(@PathVariable("id") Integer id,
-                                                                  @RequestParam(name = "limit", required = false) Integer limit) {
+    @RequestMapping(value = "/recommend/{id}/offers_by_ratings/v1", method = RequestMethod.GET)
+    public List<Recommendation<Offer>> recommendedOffersByRatingsV1(@PathVariable("id") Integer id,
+                                                                    @RequestParam(name = "limit", required = false) Integer limit) {
 
-        return recommendationService.recommendOffers(id, limit);
+        return recommendationServiceV1.recommendOffers(id, limit);
+    }
+
+    @RequestMapping(value = "/recommend/{id}/offers_by_ratings/v2", method = RequestMethod.GET)
+    public List<Recommendation<Offer>> recommendedOffersByRatingsV2(@PathVariable("id") Integer id,
+                                                                    @RequestParam(name = "limit", required = false) Integer limit) {
+
+        return recommendationServiceV2.recommendOffers(id, limit);
     }
 
     @RequestMapping(value = "/like/{userId}", method = RequestMethod.GET)

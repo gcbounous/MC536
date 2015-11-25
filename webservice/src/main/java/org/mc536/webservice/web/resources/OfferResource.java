@@ -3,7 +3,7 @@ package org.mc536.webservice.web.resources;
 import org.mc536.webservice.domain.model.entity.Offer;
 import org.mc536.webservice.domain.model.entity.User;
 import org.mc536.webservice.domain.model.service.OfferService;
-import org.mc536.webservice.domain.model.service.recommendation.RecommendationService;
+import org.mc536.webservice.domain.model.service.recommendation.RecommendationServiceV1;
 import org.mc536.webservice.domain.model.service.recommendation.Recommendation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +19,7 @@ public class OfferResource {
     private OfferService offerService;
 
     @Autowired
-    private RecommendationService recommendationService;
+    private RecommendationServiceV1 recommendationServiceV1;
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public List<Offer> all() {
@@ -94,14 +94,14 @@ public class OfferResource {
     public List<Recommendation<Offer>> similarOffers(@RequestParam("id") Set<Integer> ids,
                                                      @RequestParam(name = "limit", required = false) Integer limit) {
 
-        return recommendationService.findSimilarOffers(ids, limit);
+        return recommendationServiceV1.findSimilarOffers(ids, limit);
     }
 
     @RequestMapping(value = "/similar/{id}", method = RequestMethod.GET)
     public List<Recommendation<Offer>> similarOffers(@PathVariable("id") Integer id,
                                                      @RequestParam(name = "limit", required = false) Integer limit) {
 
-        return recommendationService.findSimilarOffers(id, limit);
+        return recommendationServiceV1.findSimilarOffers(id, limit);
     }
 
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
