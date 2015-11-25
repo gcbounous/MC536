@@ -1,21 +1,23 @@
 package org.mc536.webservice.domain.model.service.recommendation;
 
 import org.mc536.webservice.domain.model.dao.OfferDAO;
+import org.mc536.webservice.domain.model.dao.OfferRatingDAO;
 import org.mc536.webservice.domain.model.entity.Company;
 import org.mc536.webservice.domain.model.entity.Offer;
+import org.mc536.webservice.domain.model.entity.OfferRating;
 import org.mc536.webservice.domain.model.entity.Skill;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
 public class RecommendationService {
+
+    @Autowired
+    private OfferRatingDAO offerRatingDAO;
 
     @Autowired
     private OfferDAO offerDAO;
@@ -35,35 +37,68 @@ public class RecommendationService {
     @Value("${recommendation.weight.rankings_f}")
     private double rankingsFactorWeight;
 
-    public List<Recommendation> findSimilarOffers(Set<Integer> ids, Integer limit) {
+    public List<Recommendation<Offer>> recommendOffers(Integer userId, Integer limit) {
+
+        List<OfferRating> offerRatings = offerRatingDAO.findUserRatings(userId);
+        if (offerRatings.isEmpty()) {
+            return offerDAO.findAll(limit != null ? limit : defaultLimit)
+                    .stream()
+                    .map(o -> new Recommendation<>(o, 0.0))
+                    .collect(Collectors.toList());
+        }
+
+        Set<Integer> offersIds = offerRatings.stream()
+                .map(OfferRating::getOfferId)
+                .collect(Collectors.toSet());
+
+        Map<Integer, Integer> ratingsMap = offerRatings.stream()
+                .collect(Collectors.toMap(OfferRating::getOfferId, OfferRating::getGrade));
+
+        return findSimilarOffers(offersIds, ratingsMap, limit);
+    }
+
+    public List<Recommendation<Offer>> findSimilarOffers(Set<Integer> ids, Integer limit) {
+        return findSimilarOffers(ids, new HashMap<>(), limit);
+    }
+
+    public List<Recommendation<Offer>> findSimilarOffers(Set<Integer> ids, Map<Integer, Integer> ratingsMap, Integer limit) {
         List<Offer> baseOffers = offerDAO.findById(ids);
         List<Offer> offers = offerDAO.findAllExcept(ids);
-        return findSimilarOffers(baseOffers, offers, limit);
+        return findSimilarOffers(baseOffers, ratingsMap, offers, limit);
     }
 
-    public List<Recommendation> findSimilarOffers(Integer id, Integer limit) {
+    public List<Recommendation<Offer>> findSimilarOffers(Integer id, Integer limit) {
+        return findSimilarOffers(id, new HashMap<>(), limit);
+    }
+
+    public List<Recommendation<Offer>> findSimilarOffers(Integer id, Map<Integer, Integer> ratingsMap, Integer limit) {
         List<Offer> baseOffers = Arrays.asList(offerDAO.findById(id));
         List<Offer> offers = offerDAO.findAllExcept(id);
-        return findSimilarOffers(baseOffers, offers, limit);
+        return findSimilarOffers(baseOffers, ratingsMap, offers, limit);
     }
 
-    private List<Recommendation> findSimilarOffers(List<Offer> baseOffers, List<Offer> offers, Integer limit) {
+    private List<Recommendation<Offer>> findSimilarOffers(List<Offer> baseOffers, Map<Integer, Integer> ratingsMap, List<Offer> offers, Integer limit) {
         return offers
                 .stream()
-                .map(o -> new Recommendation<>(o, similarity(baseOffers, o)))
+                .map(o -> new Recommendation<>(o, similarity(baseOffers, ratingsMap, o)))
                 .filter(os -> os.getScore() >= minScore)
                 .sorted((o1, o2) -> Double.compare(o2.getScore(), o1.getScore()))
                 .limit(limit != null ? limit : defaultLimit)
                 .collect(Collectors.toList());
     }
 
-    private double similarity(List<Offer> baseOffers, Offer offer) {
+    private double similarity(List<Offer> baseOffers, Map<Integer, Integer> ratingsMap, Offer offer) {
         double t = baseOffers
                 .stream()
-                .map(bo -> similarity(bo, offer))
-                .reduce(1.0, (k, s) -> k * s);
+                .map(bo -> similarity(bo, offer) * rating(bo, ratingsMap))
+                .reduce(0.0, (k, s) -> k + s);
 
-        return Math.pow(t, 1.0 / baseOffers.size());
+        return t / baseOffers.size();
+    }
+
+    private double rating(Offer offer, Map<Integer, Integer> ratingsMap) {
+        Integer r = ratingsMap.get(offer.getId());
+        return r != null ? r : 0;
     }
 
     private double similarity(Offer o1, Offer o2) {

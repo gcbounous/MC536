@@ -14,6 +14,8 @@ public interface OfferDAO {
 
     List<Offer> findAll();
 
+    List<Offer> findAll(Integer limit);
+
     List<Offer> findAllExcept(Integer id);
 
     List<Offer> findAllExcept(Set<Integer> ids);

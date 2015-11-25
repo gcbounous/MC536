@@ -13,10 +13,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.util.CollectionUtils;
 
 import javax.transaction.Transactional;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 import static org.hibernate.criterion.Restrictions.*;
 
@@ -74,13 +71,22 @@ public class OfferMysqlDAOImpl implements OfferDAO {
     }
 
     @Override
+    public List<Offer> findAll(Integer limit) {
+        return getCriteria().setMaxResults(limit).list();
+    }
+
+    @Override
     public List<Offer> findAllExcept(Integer id) {
         return getCriteria().add(ne("id", id)).list();
     }
 
     @Override
     public List<Offer> findAllExcept(Set<Integer> ids) {
-        return getCriteria().add(not(in("id", ids))).list();
+        Criteria criteria = getCriteria();
+        if (ids != null && !ids.isEmpty()) {
+            criteria.add(not(in("id", ids)));
+        }
+        return criteria.list();
     }
 
     @Override
@@ -90,7 +96,7 @@ public class OfferMysqlDAOImpl implements OfferDAO {
 
     @Override
     public List<Offer> findById(Set<Integer> ids) {
-        return getCriteria().add(in("id", ids)).list();
+        return ids != null && !ids.isEmpty() ? getCriteria().add(in("id", ids)).list() : new ArrayList<>();
     }
 
     @Override

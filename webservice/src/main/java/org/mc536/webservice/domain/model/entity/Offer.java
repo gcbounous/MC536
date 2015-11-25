@@ -41,8 +41,8 @@ public class Offer {
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "Demands",
-            joinColumns = { @JoinColumn(name = "OfferId", nullable = false) },
-            inverseJoinColumns = { @JoinColumn(name = "SkillId", nullable = false)}
+            joinColumns = @JoinColumn(name = "OfferId", nullable = false),
+            inverseJoinColumns = @JoinColumn(name = "SkillId", nullable = false)
     )
     private Set<Skill> skills;
 

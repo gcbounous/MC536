@@ -30,3 +30,6 @@ recommendation:
         skills_cos: 17
         rankings_cos: 2
         rankings_f: 1
+    grade:
+        like: 1
+        dislike: -1

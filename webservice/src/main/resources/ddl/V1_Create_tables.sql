@@ -55,3 +55,12 @@ CREATE TABLE User_Skill (
     FOREIGN KEY (UserId) REFERENCES `User`(Id),
     FOREIGN KEY (SkillId) REFERENCES Skill(Id)
 );
+
+CREATE TABLE Offer_Rating (
+    UserId INT NOT NULL,
+    OfferId INT NOT NULL,
+    Grade INT NOT NULL,
+    PRIMARY KEY (UserId, OfferId),
+    FOREIGN KEY (UserId) REFERENCES `User`(Id),
+    FOREIGN KEY (OfferId) REFERENCES Offer(Id)
+);

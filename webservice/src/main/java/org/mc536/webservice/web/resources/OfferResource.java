@@ -91,15 +91,15 @@ public class OfferResource {
     }
 
     @RequestMapping(value = "/similar", method = RequestMethod.GET)
-    public List<Recommendation> similarOffers(@RequestParam("id") Set<Integer> ids,
-                                              @RequestParam(name = "limit", required = false) Integer limit) {
+    public List<Recommendation<Offer>> similarOffers(@RequestParam("id") Set<Integer> ids,
+                                                     @RequestParam(name = "limit", required = false) Integer limit) {
 
         return recommendationService.findSimilarOffers(ids, limit);
     }
 
     @RequestMapping(value = "/similar/{id}", method = RequestMethod.GET)
-    public List<Recommendation> similarOffers(@PathVariable("id") Integer id,
-                                              @RequestParam(name = "limit", required = false) Integer limit) {
+    public List<Recommendation<Offer>> similarOffers(@PathVariable("id") Integer id,
+                                                     @RequestParam(name = "limit", required = false) Integer limit) {
 
         return recommendationService.findSimilarOffers(id, limit);
     }

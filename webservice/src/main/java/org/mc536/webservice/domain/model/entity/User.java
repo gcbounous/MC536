@@ -1,7 +1,6 @@
 package org.mc536.webservice.domain.model.entity;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -19,8 +18,8 @@ public class User {
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "User_Skill",
-            joinColumns = { @JoinColumn(name = "UserId", nullable = false) },
-            inverseJoinColumns = { @JoinColumn(name = "SkillId", nullable = false)}
+            joinColumns = @JoinColumn(name = "UserId", nullable = false),
+            inverseJoinColumns = @JoinColumn(name = "SkillId", nullable = false)
     )
     private Set<Skill> skills;
 
