@@ -20,31 +20,31 @@ public class Company {
     @Column(name = "Industry", length = 50)
     private String industry;
 
-    @Column(name = "NumberOfRatings")
+    @Column(name = "NumberOfRatings", nullable = false)
     private Integer numberOfRatings;
 
     @Column(name = "Logo", length = 150)
     private String logo;
 
-    @Column(name = "OverallRating")
+    @Column(name = "OverallRating", nullable = false)
     private Float overallRating;
 
-    @Column(name = "CultureAndValuesRating")
+    @Column(name = "CultureAndValuesRating", nullable = false)
     private Float cultureAndValuesRating;
 
-    @Column(name = "SeniorLeadershipRating")
+    @Column(name = "SeniorLeadershipRating", nullable = false)
     private Float seniorLeadershipRating;
 
-    @Column(name = "CompensationAndBenefitsRating")
+    @Column(name = "CompensationAndBenefitsRating", nullable = false)
     private Float compensationAndBenefitsRating;
 
-    @Column(name = "CareerOpportunitiesRating")
+    @Column(name = "CareerOpportunitiesRating", nullable = false)
     private Float careerOpportunitiesRating;
 
-    @Column(name = "WorkLifeBalanceRating")
+    @Column(name = "WorkLifeBalanceRating", nullable = false)
     private Float workLifeBalanceRating;
 
-    @Column(name = "RecomendToFriend")
+    @Column(name = "RecomendToFriend", nullable = false)
     private Float recomendToFriend;
 
     @Column(name = "CEOAproval")

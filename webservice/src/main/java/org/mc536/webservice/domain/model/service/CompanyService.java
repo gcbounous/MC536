@@ -3,7 +3,6 @@ package org.mc536.webservice.domain.model.service;
 import org.apache.commons.lang3.Validate;
 import org.mc536.webservice.domain.model.dao.CompanyDAO;
 import org.mc536.webservice.domain.model.entity.Company;
-import org.mc536.webservice.domain.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
@@ -29,13 +28,13 @@ public class CompanyService {
         company.setIndustry(normalize(industry));
         company.setLogo(normalize(logo));
         company.setNumberOfRatings(0);
-        company.setOverallRating(0.0F);
-        company.setCultureAndValuesRating(0.0F);
-        company.setSeniorLeadershipRating(0.0F);
-        company.setCompensationAndBenefitsRating(0.0F);
-        company.setCareerOpportunitiesRating(0.0F);
-        company.setWorkLifeBalanceRating(0.0F);
-        company.setRecomendToFriend(0.0F);
+        company.setOverallRating(0F);
+        company.setCultureAndValuesRating(0F);
+        company.setSeniorLeadershipRating(0F);
+        company.setCompensationAndBenefitsRating(0F);
+        company.setCareerOpportunitiesRating(0F);
+        company.setWorkLifeBalanceRating(0F);
+        company.setRecomendToFriend(0F);
         company.setCeoAproval(0);
 
         try {
@@ -85,7 +84,7 @@ public class CompanyService {
     }
 
     public List<Company> search(String name,
-                                Boolean overallRatingWeigth,
+                                Boolean overallRatingWeight,
                                 Boolean cultureAndValuesRatingWeight,
                                 Boolean seniorLeadershipRatingWeight,
                                 Boolean compensationAndBenefitsRatingWeight,
@@ -95,13 +94,13 @@ public class CompanyService {
                                 Integer limit) {
 
         return companyDAO.search(name,
-                Boolean.TRUE.equals(overallRatingWeigth) ? 1.0F : 0.0F,
-                Boolean.TRUE.equals(cultureAndValuesRatingWeight) ? 1.0F : 0.0F,
-                Boolean.TRUE.equals(seniorLeadershipRatingWeight) ? 1.0F : 0.0F,
-                Boolean.TRUE.equals(compensationAndBenefitsRatingWeight) ? 1.0F : 0.0F,
-                Boolean.TRUE.equals(careerOpportunitiesRatingWeight) ? 1.0F : 0.0F,
-                Boolean.TRUE.equals(workLifeBalanceRatingWeight) ? 1.0F : 0.0F,
-                Boolean.TRUE.equals(recomendToFriendWeight) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(overallRatingWeight) ? 1F : 0F,
+                Boolean.TRUE.equals(cultureAndValuesRatingWeight) ? 1F : 0F,
+                Boolean.TRUE.equals(seniorLeadershipRatingWeight) ? 1F : 0F,
+                Boolean.TRUE.equals(compensationAndBenefitsRatingWeight) ? 1F : 0F,
+                Boolean.TRUE.equals(careerOpportunitiesRatingWeight) ? 1F : 0F,
+                Boolean.TRUE.equals(workLifeBalanceRatingWeight) ? 1F : 0F,
+                Boolean.TRUE.equals(recomendToFriendWeight) ? 1F : 0F,
                 limit != null ? limit : LIMIT);
     }
 

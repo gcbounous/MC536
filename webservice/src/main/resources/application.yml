@@ -22,3 +22,11 @@ database-sql:
     max-pool-size: 10
     min-pool-size: 3
     max-statements: 5
+
+recommendation:
+    limit: 10
+    min_score: 0.0
+    weight:
+        skills_cos: 17
+        rankings_cos: 2
+        rankings_f: 1

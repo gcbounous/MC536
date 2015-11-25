@@ -2,7 +2,7 @@ package org.mc536.webservice.domain.model.entity;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "Offer")
@@ -44,7 +44,7 @@ public class Offer {
             joinColumns = { @JoinColumn(name = "OfferId", nullable = false) },
             inverseJoinColumns = { @JoinColumn(name = "SkillId", nullable = false)}
     )
-    private List<Skill> skills;
+    private Set<Skill> skills;
 
     public Integer getId() {
         return id;
@@ -118,11 +118,11 @@ public class Offer {
         this.company = company;
     }
 
-    public List<Skill> getSkills() {
+    public Set<Skill> getSkills() {
         return skills;
     }
 
-    public void setSkills(List<Skill> skills) {
+    public void setSkills(Set<Skill> skills) {
         this.skills = skills;
     }
 }

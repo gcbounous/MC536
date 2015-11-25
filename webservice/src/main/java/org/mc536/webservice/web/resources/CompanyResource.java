@@ -56,7 +56,7 @@ public class CompanyResource {
 
     @RequestMapping(value = "/search", method = RequestMethod.GET)
     public List<Company> recommendedCompanies(@RequestParam(name = "name", required = false) String name,
-                                              @RequestParam(name = "overall", required = false) Boolean overallRatingWeigth,
+                                              @RequestParam(name = "overall", required = false) Boolean overallRatingWeight,
                                               @RequestParam(name = "cultureAndValues", required = false) Boolean cultureAndValuesRatingWeight,
                                               @RequestParam(name = "seniorLeadership", required = false) Boolean seniorLeadershipRatingWeight,
                                               @RequestParam(name = "compensationAndBenefits", required = false) Boolean compensationAndBenefitsRatingWeight,
@@ -66,7 +66,7 @@ public class CompanyResource {
                                               @RequestParam(name = "limit", required = false) Integer limit) {
 
         return companyService.search(name,
-                overallRatingWeigth,
+                overallRatingWeight,
                 cultureAndValuesRatingWeight,
                 seniorLeadershipRatingWeight,
                 compensationAndBenefitsRatingWeight,

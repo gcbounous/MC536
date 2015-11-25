@@ -4,15 +4,15 @@ CREATE TABLE Company (
     CName VARCHAR(100) CHARACTER SET utf8 UNIQUE NOT NULL,
     Website VARCHAR(100),
     Industry VARCHAR(50),
-    NumberOfRatings INT,
+    NumberOfRatings INT NOT NULL DEFAULT 0,
     Logo VARCHAR(150),
-    OverallRating FLOAT,
-    CultureAndValuesRating FLOAT,
-    SeniorLeadershipRating FLOAT,
-    CompensationAndBenefitsRating FLOAT,
-    CareerOpportunitiesRating FLOAT,
-    WorkLifeBalanceRating FLOAT,
-    RecomendToFriend FLOAT,
+    OverallRating FLOAT NOT NULL DEFAULT 0,
+    CultureAndValuesRating FLOAT NOT NULL DEFAULT 0,
+    SeniorLeadershipRating FLOAT NOT NULL DEFAULT 0,
+    CompensationAndBenefitsRating FLOAT NOT NULL DEFAULT 0,
+    CareerOpportunitiesRating FLOAT NOT NULL DEFAULT 0,
+    WorkLifeBalanceRating FLOAT NOT NULL DEFAULT 0,
+    RecomendToFriend FLOAT NOT NULL DEFAULT 0,
     CEOAproval INT
 );
 

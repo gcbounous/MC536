@@ -18,6 +18,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import static org.hibernate.criterion.Restrictions.*;
+
 @Repository
 @Transactional
 public class OfferMysqlDAOImpl implements OfferDAO {
@@ -33,7 +35,7 @@ public class OfferMysqlDAOImpl implements OfferDAO {
             " with s.name in (:skills) or :any_skill is true" +
             " inner join o.company as c" +
             " order by (" +
-            " c.overallRating * :overallRatingWeigth + " +
+            " c.overallRating * :overallRatingWeight + " +
             " c.cultureAndValuesRating * :cultureAndValuesRatingWeight +" +
             " c.seniorLeadershipRating * :seniorLeadershipRatingWeight +" +
             " c.compensationAndBenefitsRating * :compensationAndBenefitsRatingWeight +" +
@@ -72,18 +74,33 @@ public class OfferMysqlDAOImpl implements OfferDAO {
     }
 
     @Override
+    public List<Offer> findAllExcept(Integer id) {
+        return getCriteria().add(ne("id", id)).list();
+    }
+
+    @Override
+    public List<Offer> findAllExcept(Set<Integer> ids) {
+        return getCriteria().add(not(in("id", ids))).list();
+    }
+
+    @Override
     public Offer findById(Integer id) {
         return (Offer) sessionFactory.getCurrentSession().get(Offer.class, id);
     }
 
     @Override
+    public List<Offer> findById(Set<Integer> ids) {
+        return getCriteria().add(in("id", ids)).list();
+    }
+
+    @Override
     public Offer findByUrl(String url) {
-        return (Offer) getCriteria().add(Restrictions.eq("url", url)).uniqueResult();
+        return (Offer) getCriteria().add(eq("url", url)).uniqueResult();
     }
 
     @Override
     public List<Offer> findByCompanyId(Integer companyId) {
-        return getCriteria().add(Restrictions.eq("companyId", companyId)).list();
+        return getCriteria().add(eq("companyId", companyId)).list();
     }
 
     @Override
@@ -95,7 +112,7 @@ public class OfferMysqlDAOImpl implements OfferDAO {
 
     @Override
     public List<Offer> search(Set<String> skills,
-                              Float overallRatingWeigth,
+                              Float overallRatingWeight,
                               Float cultureAndValuesRatingWeight,
                               Float seniorLeadershipRatingWeight,
                               Float compensationAndBenefitsRatingWeight,
@@ -109,7 +126,7 @@ public class OfferMysqlDAOImpl implements OfferDAO {
         query.setMaxResults(limit);
         query.setParameterList("skills", !CollectionUtils.isEmpty(skills) ? skills : new HashSet<>(Arrays.asList(" ")));
         query.setBoolean("any_skill", CollectionUtils.isEmpty(skills));
-        query.setFloat("overallRatingWeigth", overallRatingWeigth);
+        query.setFloat("overallRatingWeight", overallRatingWeight);
         query.setFloat("cultureAndValuesRatingWeight", cultureAndValuesRatingWeight);
         query.setFloat("seniorLeadershipRatingWeight", seniorLeadershipRatingWeight);
         query.setFloat("compensationAndBenefitsRatingWeight", compensationAndBenefitsRatingWeight);
