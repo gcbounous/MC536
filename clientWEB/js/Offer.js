@@ -4,7 +4,7 @@ function Offer() {
 
     self.path = '/offers/';
 
-     self.searchOffers = function(skills, ratings, callback) {
+    self.searchOffers = function(skills, ratings, callback) {
      	var searchPath =self.path+'search?limit=10'; 
      	for(var i = 0; i< skills.length; i++){
      		if(typeof skills[i]!== "undefined"){
@@ -17,6 +17,10 @@ function Offer() {
      		}
      	}
         rest.get(searchPath, null , callback );
+    };
+
+    self.findByCompanyId = function(companyId, callback){
+    	rest.get(self.path+'company/'+companyId, null , callback );
     };
 
   }

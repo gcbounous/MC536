@@ -1,5 +1,26 @@
-body {
-	background-color: #lclclc; !important
+body { 
+	background-color: #545958;
+	padding-top: 80px; 
+}
+
+small{
+	font-size: 80%;
+}
+
+footer {
+	bottom: 0px;
+}
+
+.jumbotron{
+	margin-top: -10px;
+}
+
+.jumbotron p{
+	font-size: 16px;
+}
+
+.jumbotron > .container{
+	margin-top: -2%;
 }
 
 .nav-items{
@@ -16,15 +37,57 @@ body {
     margin-left: 25px;    
 }
 
-.ativo, .skillItem:hover, .ratingItem:hover{
-	background-color: #46A7EB ;
+.offerTitle > h2 {
+	margin: 0%;
 }
 
-#userSpaceButton.active ,#userSpaceButton.active > a, #userSpaceButton:hover{
+.offerTags > p{
+	margin: -5px;
+}
+
+.skillItem.ativo, .ratingItem.ativo .skillItem:hover, .ratingItem:hover{
+	background-color: #46A7EB ;
+	cursor: pointer;
+}
+
+
+.userItem > span {
+	background-color: #00A286;
+}
+
+.userItem:hover, .userItem.ativo {
+	background-color: #00A286;
+	color: white;
+	border-color: #00A286;
+	cursor: pointer;
+}
+
+.userItem:hover > span, .userItem.ativo > span{
+	background-color: white;
+	color: #545958;
+}
+
+.companyItem > span {
+	background-color: #EF6530;
+}
+
+.companyItem:hover, .companyItem.ativo {
+	background-color: #EF6530;
+	color: white;
+	border-color: #EF6530;
+	cursor: pointer;
+}
+
+.companyItem:hover > span, .companyItem.ativo > span{
+	background-color: white;
+	color: #545958;
+}
+
+#userSpaceButton.ativo ,#userSpaceButton.ativo > a, #userSpaceButton:hover{
     background-color:#00A286;
 }
 
-#companySpaceButton.active ,#companySpaceButton.active > a, #companySpaceButton:hover{
+#companySpaceButton.ativo ,#companySpaceButton.ativo > a, #companySpaceButton:hover{
     background-color: #EF6530;
 }
 
@@ -41,4 +104,24 @@ body {
     overflow-y:auto;
     overflow-x:hidden;
     max-height:301px;
+}
+
+#offerPanel > .panel-heading {
+	margin: 0%;
+    width: 100%;
+}
+
+#mainContainer{
+	background-color: #545958;
+}
+
+#searchOffers{
+	padding: 10px 30px;
+}
+
+#companies{	
+    overflow-y:auto;
+    overflow-x:hidden;
+    max-height:500px;
+
 }
