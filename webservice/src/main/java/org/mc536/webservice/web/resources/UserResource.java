@@ -1,6 +1,7 @@
 package org.mc536.webservice.web.resources;
 
 import java.util.List;
+import java.util.Map;
 
 import org.mc536.webservice.domain.model.entity.OfferRating;
 import org.mc536.webservice.domain.model.entity.User;
@@ -98,8 +99,18 @@ public class UserResource {
         userService.unrateOffer(userId, offerId);
     }
 
+    @RequestMapping(value = "/unrate_all/{userId}", method = RequestMethod.GET)
+    public void unrateAllOffers(@PathVariable("userId") Integer userId) {
+        userService.unrateAllOffers(userId);
+    }
+
     @RequestMapping(value = "/ratings/{id}", method = RequestMethod.GET)
     public List<OfferRating> offerRatings(@PathVariable("id") Integer id) {
         return userService.offerRatings(id);
+    }
+
+    @RequestMapping(value = "/profile/{id}", method = RequestMethod.GET)
+    public Map<String, Double> userProfile(@PathVariable("id") Integer id) {
+        return userService.userProfile(id);
     }
 }

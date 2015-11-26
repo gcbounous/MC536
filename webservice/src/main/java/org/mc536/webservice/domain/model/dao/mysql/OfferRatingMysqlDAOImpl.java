@@ -37,4 +37,11 @@ public class OfferRatingMysqlDAOImpl implements OfferRatingDAO {
         offerRating.setOfferId(offerId);
         sessionFactory.getCurrentSession().delete(offerRating);
     }
+
+    @Override
+    public void clearUserRatings(Integer userId) {
+        OfferRating offerRating = new OfferRating();
+        offerRating.setUserId(userId);
+        sessionFactory.getCurrentSession().delete(offerRating);
+    }
 }

@@ -1,7 +1,10 @@
 package org.mc536.webservice.domain.model.service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.mc536.webservice.domain.model.dao.OfferDAO;
 import org.mc536.webservice.domain.model.dao.OfferRatingDAO;
 import org.mc536.webservice.domain.model.entity.OfferRating;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +22,9 @@ public class UserService {
 
     @Autowired
     private UserDAO userDAO;
+
+    @Autowired
+    private OfferDAO offerDAO;
 
     @Autowired
     private OfferRatingDAO offerRatingDAO;
@@ -97,7 +103,34 @@ public class UserService {
         offerRatingDAO.unrateOffer(userId, offerId);
     }
 
+    public void unrateAllOffers(Integer userId) {
+        offerRatingDAO.clearUserRatings(userId);
+    }
+
     public List<OfferRating> offerRatings(Integer userId) {
         return offerRatingDAO.findUserRatings(userId);
+    }
+
+    public Map<String, Double> userProfile(Integer userId) {
+        return userProfile(offerRatingDAO.findUserRatings(userId));
+    }
+
+    public Map<String, Double> userProfile(List<OfferRating> offerRatings) {
+        Map<String, Double> grades = new HashMap<>();
+
+        offerRatings.stream()
+                .forEach(r -> {
+                    offerDAO.findById(r.getOfferId())
+                            .getSkills()
+                            .stream()
+                            .forEach(s -> incGrade(grades, s.getName(), r.getGrade()));
+                });
+
+        return grades;
+    }
+
+    private void incGrade(Map<String, Double> grades, String skill, Integer value) {
+        Double grade = grades.get(skill);
+        grades.put(skill, value.doubleValue() + (grade != null ? grade : 0));
     }
 }

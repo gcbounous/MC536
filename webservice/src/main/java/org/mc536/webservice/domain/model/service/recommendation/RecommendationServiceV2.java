@@ -5,11 +5,11 @@ import org.mc536.webservice.domain.model.dao.OfferRatingDAO;
 import org.mc536.webservice.domain.model.entity.Offer;
 import org.mc536.webservice.domain.model.entity.OfferRating;
 import org.mc536.webservice.domain.model.entity.Skill;
+import org.mc536.webservice.domain.model.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -23,6 +23,9 @@ public class RecommendationServiceV2 {
 
     @Autowired
     private OfferRatingDAO offerRatingDAO;
+
+    @Autowired
+    private UserService userService;
 
     @Value("${recommendation.limit}")
     private int defaultLimit;
@@ -43,7 +46,7 @@ public class RecommendationServiceV2 {
             return new RecommendationResults<>(System.currentTimeMillis() - start, results);
         }
 
-        Map<String, Double> grades = gradesMap(offerRatings);
+        Map<String, Double> grades = userService.userProfile(offerRatings);
 
         Set<Integer> offersIds = offersIds(offerRatings);
 
@@ -59,20 +62,6 @@ public class RecommendationServiceV2 {
                 .collect(Collectors.toList());
 
         return new RecommendationResults<>(System.currentTimeMillis() - start, results);
-    }
-
-    private Map<String, Double> gradesMap(List<OfferRating> offerRatings) {
-        Map<String, Double> grades = new HashMap<>();
-
-        offerRatings.stream()
-                .forEach(r -> {
-                    offerDAO.findById(r.getOfferId())
-                            .getSkills()
-                            .stream()
-                            .forEach(s -> inc(grades, s.getName(), r.getGrade()));
-                });
-
-        return grades;
     }
 
     private Set<Integer> offersIds(List<OfferRating> offerRatings) {
@@ -106,11 +95,6 @@ public class RecommendationServiceV2 {
                 .collect(Collectors.summingDouble(s -> get(grades, s.getName())));
 
         return k * (g - minGrade) / (maxGrade - minGrade);
-    }
-
-    private void inc(Map<String, Double> grades, String skill, Integer value) {
-        Double grade = grades.get(skill);
-        grades.put(skill, value.doubleValue() + (grade != null ? grade : 0));
     }
 
     private Double get(Map<String, Double> grades, String skill) {

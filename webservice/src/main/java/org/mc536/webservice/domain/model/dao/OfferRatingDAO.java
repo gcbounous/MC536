@@ -11,4 +11,6 @@ public interface OfferRatingDAO {
     void rateOffer(OfferRating offerRating);
 
     void unrateOffer(Integer userId, Integer offerId);
+
+    void clearUserRatings(Integer userId);
 }
