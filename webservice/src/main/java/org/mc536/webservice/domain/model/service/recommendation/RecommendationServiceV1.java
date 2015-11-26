@@ -37,14 +37,17 @@ public class RecommendationServiceV1 {
     @Value("${recommendation.v1.weight.rankings_f}")
     private double rankingsFactorWeight;
 
-    public List<Recommendation<Offer>> recommendOffers(Integer userId, Integer limit) {
+    public RecommendationResults<Offer> recommendOffers(Integer userId, Integer limit) {
+        long start = System.currentTimeMillis();
 
         List<OfferRating> offerRatings = offerRatingDAO.findUserRatings(userId);
         if (offerRatings.isEmpty()) {
-            return offerDAO.findAll(limit != null ? limit : defaultLimit)
+            List<Recommendation<Offer>> results = offerDAO.findAll(limit != null ? limit : defaultLimit)
                     .stream()
                     .map(o -> new Recommendation<>(o, 0.0))
                     .collect(Collectors.toList());
+
+            return new RecommendationResults<>(System.currentTimeMillis() - start, results);
         }
 
         Set<Integer> offersIds = offerRatings.stream()
@@ -54,7 +57,8 @@ public class RecommendationServiceV1 {
         Map<Integer, Integer> ratingsMap = offerRatings.stream()
                 .collect(Collectors.toMap(OfferRating::getOfferId, OfferRating::getGrade));
 
-        return findSimilarOffers(offersIds, ratingsMap, limit);
+        List<Recommendation<Offer>> results = findSimilarOffers(offersIds, ratingsMap, limit);
+        return new RecommendationResults<>(System.currentTimeMillis() - start, results);
     }
 
     public List<Recommendation<Offer>> findSimilarOffers(Set<Integer> ids, Integer limit) {

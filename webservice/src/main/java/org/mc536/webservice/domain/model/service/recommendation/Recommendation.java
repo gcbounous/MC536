@@ -1,7 +1,5 @@
 package org.mc536.webservice.domain.model.service.recommendation;
 
-import org.mc536.webservice.domain.model.entity.Offer;
-
 public class Recommendation<T> {
 
     private T entity;

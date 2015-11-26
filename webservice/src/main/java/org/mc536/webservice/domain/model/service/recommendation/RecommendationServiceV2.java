@@ -30,9 +30,18 @@ public class RecommendationServiceV2 {
     @Value("${recommendation.v2.min_score}")
     private double minScore;
 
-    public List<Recommendation<Offer>> recommendOffers(Integer userId, Integer limit) {
+    public RecommendationResults<Offer> recommendOffers(Integer userId, Integer limit) {
+        long start = System.currentTimeMillis();
 
         List<OfferRating> offerRatings = offerRatingDAO.findUserRatings(userId);
+        if (offerRatings.isEmpty()) {
+            List<Recommendation<Offer>> results = offerDAO.findAll(limit != null ? limit : defaultLimit)
+                    .stream()
+                    .map(o -> new Recommendation<>(o, 0.0))
+                    .collect(Collectors.toList());
+
+            return new RecommendationResults<>(System.currentTimeMillis() - start, results);
+        }
 
         Map<String, Double> grades = gradesMap(offerRatings);
 
@@ -42,12 +51,14 @@ public class RecommendationServiceV2 {
 
         double maxGrade = maxGrade(grades);
 
-        return offerDAO.findAllExcept(offersIds).stream()
+        List<Recommendation<Offer>> results = offerDAO.findAllExcept(offersIds).stream()
                 .map(o -> new Recommendation<>(o, similarity(grades, minGrade, maxGrade, o)))
                 .filter(os -> os.getScore() >= minScore)
                 .sorted((o1, o2) -> Double.compare(o2.getScore(), o1.getScore()))
                 .limit(limit != null ? limit : defaultLimit)
                 .collect(Collectors.toList());
+
+        return new RecommendationResults<>(System.currentTimeMillis() - start, results);
     }
 
     private Map<String, Double> gradesMap(List<OfferRating> offerRatings) {
