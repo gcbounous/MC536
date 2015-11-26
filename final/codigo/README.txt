@@ -3,7 +3,7 @@
     webservice.jar: Binário executável da aplicação final
     webservice: Pasta contendo o código fonte da aplicação final
 
- - Para rodar a aplicação final, basta executar o seguinte comando no terminal:
+ - Para rodar a aplicação final, basta executar o seguinte comando no terminal (é necessário ter Java 8 instalado):
 java -jar webservice.jar \
     --http-server.port=8080 \
     --database-sql.username=<usuário do mysql> \
@@ -68,7 +68,75 @@ java -jar webservice.jar \
             http://localhost:8080/offers/search?limit=10&skills=java&skills=javascript&overall=true&compensationAndBenefits=true
 
     - Lista de ofertas postadas por determinada empresa:
-        /offeras/company/{id}
+        /offers/company/{id}
         Onde {id} é o Id da empresa
         Exemplo:
             http://localhost:8080/offers/company/1
+
+    - Avaliar positivamente uma oferta de emprego:
+        /users/like/{userId}?offerId={offerId}
+        Onde {userId} é o Id do usuário e {offerId} é o Id da oferta de emprego.
+        Exemplo:
+            http://localhost:8080/users/like/1?offerId=9000
+
+    - Avaliar negativamente uma oferta de emprego:
+        /users/dislike/{userId}?offerId={offerId}
+        Onde {userId} é o Id do usuário e {offerId} é o Id da oferta de emprego.
+        Exemplo:
+            http://localhost:8080/users/like/1?offerId=9002
+
+    - Zerar as avaliações de ofertas de emprego de um usuário:
+        /users/unrate_all/{userId}
+        Onde {userId} é o Id do usuário.
+        Exemplo:
+            http://localhost:8080/users/unrate_all/1
+
+    - Ver ofertas de empregos avaliadas pelo usuário:
+        /users/ratings/{id}
+        Onde {id} é o Id do usuário.
+        Exemplo:
+            http://localhost:8080/users/ratings/1
+
+    - Ver o perfil de escolhas do usuário construido a partir das ofertas de emprego avaliadas por ele:
+        /users/profile/{id}
+        Onde {id} é o Id do usuário.
+        Exemplo:
+            http://localhost:8080/users/profile/1
+
+    - Recomendação de ofertas com base nas avaliações do usuário (implementação 1):
+        /users/recommend/{id}/offers_by_ratings/v1
+        Onde {id} é o Id do usuário
+        Exemplo:
+            http://localhost:8080/recommend/1/offers_by_ratings/v1
+
+    - Recomendação de ofertas com base nas avaliações do usuário (implementação 2):
+        /users/recommend/{id}/offers_by_ratings/v2
+        Onde {id} é o Id do usuário
+        Exemplo:
+            http://localhost:8080/recommend/1/offers_by_ratings/v2
+
+Exemplo 1:
+==========
+http://localhost:8080/users/unrate_all/1
+http://localhost:8080/users/ratings/1
+http://localhost:8080/users/recommend/1/offers_by_ratings
+http://localhost:8080/users/like/1?offerId=4180
+http://localhost:8080/users/like/1?offerId=1477
+http://localhost:8080/users/like/1?offerId=3902
+http://localhost:8080/users/ratings/1
+http://localhost:8080/users/recommend/1/offers_by_ratings
+
+Exemplo 2:
+==========
+http://localhost:8080/users/unrate_all/1
+http://localhost:8080/users/ratings/1
+http://localhost:8080/users/recommend/1/offers_by_ratings/v1
+http://localhost:8080/users/recommend/1/offers_by_ratings/v2
+http://localhost:8080/users/like/1?offerId=9000
+http://localhost:8080/users/like/1?offerId=9001
+http://localhost:8080/users/dislike/1?offerId=9002
+http://localhost:8080/users/like/1?offerId=9003
+http://localhost:8080/users/ratings/1
+http://localhost:8080/users/recommend/1/offers_by_ratings/v1
+http://localhost:8080/users/recommend/1/offers_by_ratings/v2
+

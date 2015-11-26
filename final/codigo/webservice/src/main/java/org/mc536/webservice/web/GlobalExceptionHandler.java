@@ -41,7 +41,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
         ErrorMessage errorMessage = new ErrorMessage("", "Validation errors", dto);
 
-        return new ResponseEntity<Object>(errorMessage, HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(errorMessage, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
@@ -85,6 +85,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         String errorMessage = messageSource.getMessage("error.bad.url", null, "Not found", locale);
 
         ErrorMessage errorInfo = new ErrorMessage(ex.getRequestURL(), errorMessage);
-        return new ResponseEntity<Object>(errorInfo, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(errorInfo, HttpStatus.NOT_FOUND);
     }
 }

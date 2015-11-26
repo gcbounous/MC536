@@ -21,7 +21,7 @@ public class CompanyMysqlDAOImpl implements CompanyDAO {
             "SELECT c FROM Company AS c" +
             "    WHERE lower(c.name) LIKE :name OR :any_name IS TRUE" +
             "    ORDER BY (" +
-            "        c.overallRating * :overallRatingWeigth + " +
+            "        c.overallRating * :overallRatingWeight + " +
             "        c.cultureAndValuesRating * :cultureAndValuesRatingWeight +" +
             "        c.seniorLeadershipRating * :seniorLeadershipRatingWeight +" +
             "        c.compensationAndBenefitsRating * :compensationAndBenefitsRatingWeight +" +
@@ -64,7 +64,7 @@ public class CompanyMysqlDAOImpl implements CompanyDAO {
 
     @Override
     public List<Company> search(String name,
-                                Float overallRatingWeigth,
+                                Float overallRatingWeight,
                                 Float cultureAndValuesRatingWeight,
                                 Float seniorLeadershipRatingWeight,
                                 Float compensationAndBenefitsRatingWeight,
@@ -78,7 +78,7 @@ public class CompanyMysqlDAOImpl implements CompanyDAO {
         query.setMaxResults(limit);
         query.setString("name", name != null ? "%" + name.toLowerCase() + "%" : "");
         query.setBoolean("any_name", name == null || "".equals(name));
-        query.setFloat("overallRatingWeigth", overallRatingWeigth);
+        query.setFloat("overallRatingWeight", overallRatingWeight);
         query.setFloat("cultureAndValuesRatingWeight", cultureAndValuesRatingWeight);
         query.setFloat("seniorLeadershipRatingWeight", seniorLeadershipRatingWeight);
         query.setFloat("compensationAndBenefitsRatingWeight", compensationAndBenefitsRatingWeight);

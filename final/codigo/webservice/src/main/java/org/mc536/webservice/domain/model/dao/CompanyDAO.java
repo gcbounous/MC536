@@ -19,7 +19,7 @@ public interface CompanyDAO {
     void delete(Integer id);
 
     List<Company> search(String name,
-                         Float overallRatingWeigth,
+                         Float overallRatingWeight,
                          Float cultureAndValuesRatingWeight,
                          Float seniorLeadershipRatingWeight,
                          Float compensationAndBenefitsRatingWeight,

@@ -88,7 +88,7 @@ public class OfferService {
     }
 
     public List<Offer> search(Set<String> skills,
-                              Boolean overallRatingWeigth,
+                              Boolean overallRatingWeight,
                               Boolean cultureAndValuesRatingWeight,
                               Boolean seniorLeadershipRatingWeight,
                               Boolean compensationAndBenefitsRatingWeight,
@@ -98,7 +98,7 @@ public class OfferService {
                               Integer limit) {
 
         return offerDAO.search(skills,
-                Boolean.TRUE.equals(overallRatingWeigth) ? 1.0F : 0.0F,
+                Boolean.TRUE.equals(overallRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(cultureAndValuesRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(seniorLeadershipRatingWeight) ? 1.0F : 0.0F,
                 Boolean.TRUE.equals(compensationAndBenefitsRatingWeight) ? 1.0F : 0.0F,

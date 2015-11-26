@@ -22,3 +22,17 @@ database-sql:
     max-pool-size: 10
     min-pool-size: 3
     max-statements: 5
+
+recommendation:
+    grade:
+        like: 1
+        dislike: -1
+    limit: 10
+    v1:
+        min_score: 0.0
+        weight:
+            skills_cos: 17
+            rankings_cos: 2
+            rankings_f: 1
+    v2:
+        min_score: 0.0

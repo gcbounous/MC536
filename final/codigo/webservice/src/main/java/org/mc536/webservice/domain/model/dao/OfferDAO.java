@@ -14,7 +14,15 @@ public interface OfferDAO {
 
     List<Offer> findAll();
 
+    List<Offer> findAll(Integer limit);
+
+    List<Offer> findAllExcept(Integer id);
+
+    List<Offer> findAllExcept(Set<Integer> ids);
+
     Offer findById(Integer id);
+
+    List<Offer> findById(Set<Integer> ids);
 
     Offer findByUrl(String url);
 
@@ -23,7 +31,7 @@ public interface OfferDAO {
     List<Offer> findBySkill(String skill);
 
     List<Offer> search(Set<String> skills,
-                       Float overallRatingWeigth,
+                       Float overallRatingWeight,
                        Float cultureAndValuesRatingWeight,
                        Float seniorLeadershipRatingWeight,
                        Float compensationAndBenefitsRatingWeight,
