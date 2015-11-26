@@ -35,7 +35,7 @@ function Principal(){
 	self.searchOffers = function(callback){
 		var skills = self.skillsAtivos();
 		var ratings = self.ratingsAtivos();
-		if(skills.length>0 && ratings.length>0)
+		if(skills.length>0 || ratings.length>0)
 			offer.searchOffers(skills, ratings, callback);
 	}
 
@@ -57,7 +57,11 @@ function Principal(){
 
 	self.getCompanyOffers = function(companyId, callback){
 		offer.findByCompanyId(companyId,callback);
-	}
+	};
+
+	self.recommendedByOffer = function (offerId, callback){
+		offer.recommendedByOffer(offerId, callback);
+	};
 
 	self.fillSkillsCB = function(data){
 		var skill = "";
@@ -106,17 +110,16 @@ function Principal(){
 			var id = $(this).data('company-id')
 			self.toggleAtivo($(this).closest('#companies').find('.ativo'));
 			self.toggleAtivo($(this));
-			self.getCompanyOffers(id, self.searchResultCB);;
+			self.getCompanyOffers(id, self.searchResultCB);
+			//self.getCompanyRecomendations();
 		});
 	};
 
-
-//TODO!!!
 	self.fillOfferRecommendationsCB = function(data){
 		var rec ="";		
-		rec+= '				<p><strong><small> Recomendaçoes |';		
+		rec+= '				<p><strong><small> Recomendaçoes: | ';		
 		for (var i = 0; i < data.length; i++) {
-			data[i]
+			rec+= data[i].name+ ' |';
 		};
 		rec+= '				</small></strong></p>';
 	};
@@ -134,15 +137,11 @@ function Principal(){
 				offer+= '	  	<div class="panel-heading offerTitle" data-offer-id="'+data[i].id+'"><h3>'+data[i].title+'</h3></div>';
 				offer+= '	    <div class="panel-body offerItem" style="display:none;"></div>';
 				offer+= '	    <div class="panel-footer offerTags">';
-				offer+= '			<div class="row">';
 				offer+= '				<p><strong><small> TAGS: | ';
 				for(var j=0; j<data[i].skills.length; j++){
 					offer+= data[i].skills[j].name + ' | ';
 				}
 				offer+= '				</small></strong></p></div>';
-				offer+= '			<div class="row offerRecommendations">';
-				offer+= '			</div>';
-				offer+= '		</div>';
 				offer+= '	  </div>';
 				offer+= '	</div>';
 				$("#ofertas").append(offer);				
@@ -154,6 +153,23 @@ function Principal(){
 				$(this).next('.offerItem').toggle();
 			});
     	}
+	};
+
+	//tentativa de preencher todas as recomendacoes das ofertas das empresas 2
+	self.fillOfferRecommendationsCB = function(data){
+		alert();
+		$('#ofertas').find('.offerRecommendations').each(function () {
+			if($(this).html() === "")
+				$(this).append("<p>oi</p>");
+			alert($(this).html());
+			alert($(this).text());
+		});
+	};
+	//tentativa de preencher todas as recomendacoes das ofertas das empresas 1
+	self.getCompanyRecomendations = function(){
+		$('#ofertas').find('.offerTitle').each(function () {
+		    self.recommendedByOffer($(this).data('offer-id'), self.fillOfferRecommendationsCB);
+		});
 	};
 
 	self.abrirUserSpace = function(){

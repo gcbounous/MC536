@@ -23,4 +23,8 @@ function Offer() {
     	rest.get(self.path+'company/'+companyId, null , callback );
     };
 
+     self.recommendedByOffer = function(offerId, callback){
+    	rest.get(self.path+'recommended/'+offerId, null , callback );
+    };
+
   }

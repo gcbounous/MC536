@@ -45,7 +45,7 @@ footer {
 	margin: -5px;
 }
 
-.skillItem.ativo, .ratingItem.ativo .skillItem:hover, .ratingItem:hover{
+.skillItem.ativo, .ratingItem.ativo, .skillItem:hover, .ratingItem:hover{
 	background-color: #46A7EB ;
 	cursor: pointer;
 }
